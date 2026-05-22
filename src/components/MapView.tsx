@@ -21,9 +21,9 @@ interface Props {
 export function MapView({ markers, route }: Props) {
   const [filter, setFilter] = useState<Filter>('all')
 
-  const visible = filter === 'all'
-    ? markers
-    : markers.filter(m => m.type === filter)
+  const visible = markers
+    .filter(m => m.type !== 'city')
+    .filter(m => filter === 'all' || m.type === filter)
 
   const filters: { key: Filter; label: string }[] = [
     { key: 'all',     label: 'All' },
