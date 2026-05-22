@@ -23,14 +23,26 @@ it('shows plan view by default', () => {
 
 it('switches to map view when Map tab is clicked', () => {
   render(<App />)
-  fireEvent.click(screen.getByRole('button', { name: /Map/i }))
+  fireEvent.click(screen.getByRole('tab', { name: /Map/i }))
   expect(screen.getByTestId('map-view')).toBeInTheDocument()
   expect(screen.queryByTestId('plan-view')).not.toBeInTheDocument()
 })
 
 it('switches back to plan view when Plan tab is clicked', () => {
   render(<App />)
-  fireEvent.click(screen.getByRole('button', { name: /Map/i }))
-  fireEvent.click(screen.getByRole('button', { name: /Plan/i }))
+  fireEvent.click(screen.getByRole('tab', { name: /Map/i }))
+  fireEvent.click(screen.getByRole('tab', { name: /Plan/i }))
   expect(screen.getByTestId('plan-view')).toBeInTheDocument()
+})
+
+it('marks the active tab with aria-selected', () => {
+  render(<App />)
+  const planTab = screen.getByRole('tab', { name: /Plan/i })
+  const mapTab = screen.getByRole('tab', { name: /Map/i })
+  expect(planTab).toHaveAttribute('aria-selected', 'true')
+  expect(mapTab).toHaveAttribute('aria-selected', 'false')
+
+  fireEvent.click(mapTab)
+  expect(planTab).toHaveAttribute('aria-selected', 'false')
+  expect(mapTab).toHaveAttribute('aria-selected', 'true')
 })

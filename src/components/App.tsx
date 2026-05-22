@@ -17,12 +17,16 @@ export function App() {
         <span className="app-title">🚗 {data.title}</span>
         <nav className="tab-nav">
           <button
+            role="tab"
+            aria-selected={tab === 'plan'}
             className={`tab-btn${tab === 'plan' ? ' active' : ''}`}
             onClick={() => setTab('plan')}
           >
             Plan
           </button>
           <button
+            role="tab"
+            aria-selected={tab === 'map'}
             className={`tab-btn${tab === 'map' ? ' active' : ''}`}
             onClick={() => setTab('map')}
           >
