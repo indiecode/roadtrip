@@ -113,11 +113,12 @@ export function parseDayTable(block: string): Day[] {
       const [day, route, charge, sleep] = cells
       const cleanDay = day.replace(/\*\*/g, '').trim()
       if (!cleanDay || cleanDay === 'Day') return null
+      const cleanSleep = sleep.replace(/\*\*/g, '').trim()
       return {
         day: cleanDay,
         route: route.replace(/\*\*/g, '').trim(),
-        charge: charge.trim(),
-        sleep: sleep.trim(),
+        charge: charge.replace(/\*\*/g, '').trim(),
+        sleep: cleanSleep,
         sleep_type: sleep.includes('🏕') ? 'camp' : 'hotel',
       } satisfies Day
     })
@@ -127,11 +128,14 @@ export function parseDayTable(block: string): Day[] {
 export function parseStageBlock(block: string): Stage {
   const headerMatch = block.match(/^## Stage (\d+) — (.+)/m)
   if (!headerMatch) throw new Error(`No stage header found in block: ${block.slice(0, 50)}`)
-  const id = parseInt(headerMatch[1])
+  const id = parseInt(headerMatch[1], 10)
   const name = headerMatch[2].trim()
 
   // Match: *Days 1–8 · ~2,000 mi · ...*
   const summaryMatch = block.match(/^\*Days ([^·*]+)·\s*~([\d,]+)\s*mi/m)
+  if (!summaryMatch) {
+    console.warn(`[parse-trip] Could not parse summary line for Stage ${id} — days/miles will be empty`)
+  }
   const days = summaryMatch ? `Days ${summaryMatch[1].trim()}` : ''
   const miles = summaryMatch ? `~${summaryMatch[2]} mi` : ''
 

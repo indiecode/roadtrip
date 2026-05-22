@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { parseStageBlock, parseDayTable, parseStages } from './parse-trip'
+import { parseStageBlock, parseDayTable, parseStages, buildMarkers } from './parse-trip'
 
 const SAMPLE_STAGE = `## Stage 1 — Boston to the Black Hills
 *Days 1–8 · ~2,000 mi · Easy charging the whole way — dense Supercharger coverage on I-90/I-80. These are your warm-up miles.*
@@ -102,5 +102,35 @@ describe('parseStages', () => {
     const stages = parseStages(TWO_STAGES)
     expect(stages[0].days_list).toHaveLength(3)
     expect(stages[1].days_list).toHaveLength(1)
+  })
+})
+
+describe('buildMarkers', () => {
+  const stages = parseStages(TWO_STAGES)
+
+  it('returns markers for known locations found in day data', () => {
+    const markers = buildMarkers(stages)
+    expect(markers.length).toBeGreaterThan(0)
+  })
+
+  it('does not duplicate markers for the same location', () => {
+    const markers = buildMarkers(stages)
+    const ids = markers.map(m => m.id)
+    const unique = new Set(ids)
+    expect(unique.size).toBe(ids.length)
+  })
+
+  it('generates url-safe ids from location names', () => {
+    const markers = buildMarkers(stages)
+    for (const marker of markers) {
+      expect(marker.id).toMatch(/^[a-z0-9-]+$/)
+    }
+  })
+
+  it('correctly identifies camp nights', () => {
+    // Stage 1 in SAMPLE_STAGE has day 5 → "🏕 Sage Creek (free, bison)"
+    const markers = buildMarkers(stages)
+    const sageCreek = markers.find(m => m.name === 'Sage Creek')
+    expect(sageCreek?.type).toBe('camp')
   })
 })
