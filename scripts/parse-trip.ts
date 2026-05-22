@@ -131,13 +131,13 @@ export function parseStageBlock(block: string): Stage {
   const id = parseInt(headerMatch[1], 10)
   const name = headerMatch[2].trim()
 
-  // Match: *Days 1–8 · ~2,000 mi · ...*
-  const summaryMatch = block.match(/^\*Days ([^·*]+)·\s*~([\d,]+)\s*mi/m)
+  // Match: *Days 1–8 · ~2,000 mi · ...* or *Day 56+ · ...* (miles optional)
+  const summaryMatch = block.match(/^\*Days?\s+([^·\u00b7*]+?)\s*[·\u00b7](?:\s*~([\d,]+)\s*mi)?/m)
   if (!summaryMatch) {
     console.warn(`[parse-trip] Could not parse summary line for Stage ${id} — days/miles will be empty`)
   }
   const days = summaryMatch ? `Days ${summaryMatch[1].trim()}` : ''
-  const miles = summaryMatch ? `~${summaryMatch[2]} mi` : ''
+  const miles = summaryMatch && summaryMatch[2] ? `~${summaryMatch[2]} mi` : ''
 
   const notesMatch = block.match(/\*\*Notes:\*\*\s*(.+?)(?=\n\n|\n>|\n##|$)/s)
   const notes = notesMatch

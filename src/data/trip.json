@@ -75,7 +75,7 @@
     {
       "id": 2,
       "name": "Yellowstone & Grand Teton",
-      "days": "",
+      "days": "Days 9–16",
       "miles": "",
       "notes": "",
       "days_list": [
@@ -119,7 +119,7 @@
     {
       "id": 3,
       "name": "Colorado Rockies",
-      "days": "",
+      "days": "Days 17–22",
       "miles": "",
       "notes": "Trail Ridge Road and the San Juan passes are big climbs — leave town at 90–100% and let regen recover charge on the way down. This is your most flexible stretch: add or trim a San Juan day if you're running ahead or behind.",
       "days_list": [
@@ -156,7 +156,7 @@
     {
       "id": 4,
       "name": "Utah's Red Rock",
-      "days": "",
+      "days": "Days 23–30",
       "miles": "",
       "notes": "",
       "days_list": [
@@ -207,7 +207,7 @@
     {
       "id": 5,
       "name": "Zion to the Sierra (charging leg #1)",
-      "days": "",
+      "days": "Days 31–32",
       "miles": "",
       "notes": "",
       "days_list": [
@@ -230,7 +230,7 @@
     {
       "id": 6,
       "name": "Sequoia, Kings Canyon & Yosemite",
-      "days": "",
+      "days": "Days 33–39",
       "miles": "",
       "notes": "",
       "days_list": [
@@ -267,7 +267,7 @@
     {
       "id": 7,
       "name": "California Coast & Oregon",
-      "days": "",
+      "days": "Days 40–49",
       "miles": "",
       "notes": "Your easiest charging stretch — enjoy it before the long eastward haul. Use a buffer night here if you're behind; the coast and Bend both reward an extra day.",
       "days_list": [
@@ -318,7 +318,7 @@
     {
       "id": 8,
       "name": "Oregon to Glacier (charging leg #2)",
-      "days": "",
+      "days": "Days 50–55",
       "miles": "",
       "notes": "",
       "days_list": [
@@ -362,7 +362,7 @@
     {
       "id": 9,
       "name": "The Long Haul Home",
-      "days": "",
+      "days": "Days 56+",
       "miles": "",
       "notes": "",
       "days_list": [
