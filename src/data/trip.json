@@ -401,7 +401,7 @@
       "name": "Cleveland",
       "lat": 41.4993,
       "lng": -81.6944,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 1",
       "notes": "Boston → Cleveland, OH — long highway day, pure transit",
       "tags": [
@@ -413,7 +413,7 @@
       "name": "Chicago",
       "lat": 41.8781,
       "lng": -87.6298,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 3",
       "notes": "Cleveland → Chicago area — transit day",
       "tags": [
@@ -425,7 +425,7 @@
       "name": "Sioux Falls",
       "lat": 43.5446,
       "lng": -96.7311,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 4",
       "notes": "Chicago → Sioux Falls, SD — big drive, break the plains",
       "tags": [
@@ -461,7 +461,7 @@
       "name": "Rapid City",
       "lat": 44.0805,
       "lng": -103.231,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 6",
       "notes": "Badlands hiking — Notch, Castle, Door & Window trails",
       "tags": [
@@ -473,7 +473,7 @@
       "name": "Custer",
       "lat": 43.7666,
       "lng": -103.5991,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 6",
       "notes": "Badlands hiking — Notch, Castle, Door & Window trails",
       "tags": [
@@ -485,7 +485,7 @@
       "name": "West Yellowstone",
       "lat": 44.6602,
       "lng": -111.0983,
-      "type": "charger",
+      "type": "hotel",
       "day": "Day 9",
       "notes": "Black Hills → West Yellowstone — long scenic drive west",
       "tags": [
@@ -521,7 +521,7 @@
       "name": "Salt Lake City",
       "lat": 40.7608,
       "lng": -111.891,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 16",
       "notes": "Reposition south — toward Salt Lake City; resupply, laundry",
       "tags": [
@@ -533,7 +533,7 @@
       "name": "Estes Park",
       "lat": 40.3772,
       "lng": -105.5217,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 17",
       "notes": "SLC → Rocky Mountain NP — drive to Estes Park gateway",
       "tags": [
@@ -557,7 +557,7 @@
       "name": "Durango",
       "lat": 37.2753,
       "lng": -107.8801,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 20",
       "notes": "South to the San Juans — drive toward Durango/Ouray",
       "tags": [
@@ -569,7 +569,7 @@
       "name": "Ouray",
       "lat": 38.0228,
       "lng": -107.6713,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 20",
       "notes": "South to the San Juans — drive toward Durango/Ouray",
       "tags": [
@@ -593,7 +593,7 @@
       "name": "Springdale",
       "lat": 37.1886,
       "lng": -112.998,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 29–30",
       "notes": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
       "tags": [
@@ -605,7 +605,7 @@
       "name": "Las Vegas",
       "lat": 36.1699,
       "lng": -115.1398,
-      "type": "charger",
+      "type": "hotel",
       "day": "Day 31",
       "notes": "Zion → Las Vegas → Nevada interior — I-15 to Vegas (last dense hub), then US-95 north",
       "tags": [
@@ -617,7 +617,7 @@
       "name": "Beatty",
       "lat": 36.9077,
       "lng": -116.7594,
-      "type": "charger",
+      "type": "hotel",
       "day": "Day 31",
       "notes": "Zion → Las Vegas → Nevada interior — I-15 to Vegas (last dense hub), then US-95 north",
       "tags": [
@@ -653,7 +653,7 @@
       "name": "Fresno",
       "lat": 36.7378,
       "lng": -119.7871,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 33",
       "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
       "tags": [
@@ -665,7 +665,7 @@
       "name": "Mariposa",
       "lat": 37.4852,
       "lng": -119.9663,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 36",
       "notes": "→ Yosemite — north; plan to arrive before 8 am tomorrow",
       "tags": [
@@ -713,7 +713,7 @@
       "name": "Bend",
       "lat": 44.0582,
       "lng": -121.3153,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 45–46",
       "notes": "Bend, OR (Cascades base) — Smith Rock, Three Sisters, lava country",
       "tags": [
@@ -737,7 +737,7 @@
       "name": "Portland",
       "lat": 45.5051,
       "lng": -122.675,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 47–48",
       "notes": "Columbia Gorge & Mt. Hood — Multnomah Falls, gorge waterfalls",
       "tags": [
@@ -749,7 +749,7 @@
       "name": "Coeur d'Alene",
       "lat": 47.6777,
       "lng": -116.7805,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 50",
       "notes": "Eastern OR → I-90 (Coeur d'Alene, ID) — cross the remote part, then hit the interstate spine",
       "tags": [
@@ -761,7 +761,7 @@
       "name": "Missoula",
       "lat": 46.8721,
       "lng": -113.994,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 51",
       "notes": "→ Missoula, MT — comfortable interstate driving",
       "tags": [
@@ -773,7 +773,7 @@
       "name": "Kalispell",
       "lat": 48.196,
       "lng": -114.3115,
-      "type": "charger",
+      "type": "hotel",
       "day": "Day 52",
       "notes": "Missoula → Kalispell — ~114 mi, one easy hop",
       "tags": [
@@ -797,7 +797,7 @@
       "name": "Billings",
       "lat": 45.7833,
       "lng": -108.5007,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 56",
       "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND (uncrowded)",
       "tags": [
@@ -809,7 +809,7 @@
       "name": "Bismarck",
       "lat": 46.8083,
       "lng": -100.7837,
-      "type": "city",
+      "type": "hotel",
       "day": "Day 56",
       "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND (uncrowded)",
       "tags": [

@@ -20,7 +20,7 @@ export interface MapMarker {
   name: string          // e.g. "Badlands NP"
   lat: number
   lng: number
-  type: 'park' | 'charger' | 'camp' | 'city'
+  type: 'park' | 'charger' | 'camp' | 'city' | 'hotel'
   day?: string          // e.g. "Day 5"
   notes?: string
   tags?: string[]

@@ -4,12 +4,13 @@ import 'leaflet/dist/leaflet.css'
 import { MarkerPopup } from './MarkerPopup'
 import type { MapMarker } from '../types'
 
-type Filter = 'all' | 'park' | 'charger' | 'camp'
+type Filter = 'all' | 'park' | 'charger' | 'camp' | 'hotel'
 
 const MARKER_COLOR: Record<MapMarker['type'], string> = {
   park:    '#ff6b6b',
   charger: '#4a9eff',
   camp:    '#51cf66',
+  hotel:   '#c084fc',
   city:    '#aaaaaa',
 }
 
@@ -30,6 +31,7 @@ export function MapView({ markers, route }: Props) {
     { key: 'park',    label: '🏔 Parks' },
     { key: 'charger', label: '⚡ Chargers' },
     { key: 'camp',    label: '🏕 Camps' },
+    { key: 'hotel',   label: '🏨 Hotels' },
   ]
 
   return (

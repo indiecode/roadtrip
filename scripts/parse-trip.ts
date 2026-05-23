@@ -166,14 +166,17 @@ export function buildMarkers(stages: Stage[]): MapMarker[] {
         if (seen.has(name)) continue
         if (!searchText.includes(name.toLowerCase())) continue
         seen.add(name)
-        // Override type to 'camp' if this is a camp night mentioning the location
-        const isCampNight = day.sleep_type === 'camp' && day.sleep.toLowerCase().includes(name.toLowerCase())
+        // Override type based on the night's sleep category
+        const sleepText = day.sleep.toLowerCase()
+        const nameMatch = sleepText.includes(name.toLowerCase())
+        const isCampNight = day.sleep_type === 'camp' && nameMatch
+        const isHotelNight = day.sleep_type === 'hotel' && nameMatch
         markers.push({
           id: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
           name,
           lat: coords[0],
           lng: coords[1],
-          type: isCampNight ? 'camp' : type,
+          type: isCampNight ? 'camp' : isHotelNight ? 'hotel' : type,
           day: `Day ${day.day}`,
           notes: day.route.replace(/\*\*/g, ''),
           tags: [stage.name],
