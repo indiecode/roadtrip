@@ -51,7 +51,7 @@ export const COORDS: Record<string, { coords: [number, number]; type: MapMarker[
   'Redwood NP':          { coords: [41.2132, -124.0046],  type: 'park' },
   'Crater Lake NP':      { coords: [42.9446, -122.1090],  type: 'park' },
   'Bend':                { coords: [44.0582, -121.3153],  type: 'city' },
-  'Columbia Gorge':      { coords: [45.7054, -121.5218],  type: 'park' },
+  'Columbia Gorge':      { coords: [45.6996, -121.4000],  type: 'park' },
   'Hood River':          { coords: [45.7054, -121.5218],  type: 'city' },
   'Portland':            { coords: [45.5051, -122.6750],  type: 'city' },
   "Coeur d'Alene":       { coords: [47.6777, -116.7805],  type: 'city' },
@@ -174,11 +174,12 @@ function matchesName(searchText: string, name: string): boolean {
 export function buildMarkers(stages: Stage[]): MapMarker[] {
   const markers: MapMarker[] = []
   const seen = new Set<string>()
+  const coordEntries = Object.entries(COORDS)
 
   for (const stage of stages) {
     for (const day of stage.days_list) {
       const searchText = `${day.route} ${day.charge} ${day.sleep}`.toLowerCase()
-      for (const [name, { coords, type }] of Object.entries(COORDS)) {
+      for (const [name, { coords, type }] of coordEntries) {
         if (seen.has(name)) continue
         if (!matchesName(searchText, name)) continue
         seen.add(name)
@@ -216,13 +217,24 @@ if (isEntryPoint) {
   const stages = parseStages(md)
   const markers = buildMarkers(stages)
 
+  // Use detailed OSRM geometry if available, fall back to straight-line waypoints
+  const geoPath = resolve(__dirname, '../src/data/route-geometry.json')
+  let route: [number, number][] = ROUTE
+  try {
+    route = JSON.parse(readFileSync(geoPath, 'utf-8'))
+    console.log(`  Using detailed route geometry (${route.length} points)`)
+  } catch (e) {
+    if ((e as NodeJS.ErrnoException).code !== 'ENOENT') throw e
+    console.log(`  No route-geometry.json found — using straight-line waypoints. Run: npx tsx scripts/fetch-route.ts`)
+  }
+
   const tripData: TripData = {
     title: 'Boston → The West → Boston',
     subtitle: 'A Tesla Model Y National-Parks Field Guide',
     stats: { days: 56, miles: 7800, people: 2 },
     stages,
     markers,
-    route: ROUTE,
+    route,
   }
 
   mkdirSync(resolve(__dirname, '../src/data'), { recursive: true })
