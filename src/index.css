@@ -160,6 +160,7 @@ html, body, #root {
 
 .map-filters {
   display: flex;
+  align-items: center;
   gap: 6px;
   padding: 10px 16px;
   background: var(--bg-strip);
@@ -168,6 +169,12 @@ html, body, #root {
   scrollbar-width: none;
 }
 .map-filters::-webkit-scrollbar { display: none; }
+
+.route-legend { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-muted); white-space: nowrap; }
+.route-legend-line { display: inline-block; width: 18px; height: 3px; border-radius: 2px; }
+.route-legend-out { background: #e2b96f; }
+.route-legend-back { background: #4a9eff; }
+.filter-divider { width: 1px; height: 16px; background: var(--border); flex-shrink: 0; }
 
 .filter-pill {
   padding: 3px 10px;

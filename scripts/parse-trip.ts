@@ -228,6 +228,16 @@ if (isEntryPoint) {
     console.log(`  No route-geometry.json found — using straight-line waypoints. Run: npx tsx scripts/fetch-route.ts`)
   }
 
+  // Find the split point: Columbia Gorge is the turnaround (westernmost before heading east)
+  const TURNAROUND: [number, number] = [45.7054, -121.5218] // Columbia Gorge
+  let routeSplitIndex = Math.floor(route.length / 2) // fallback: midpoint
+  let minDist = Infinity
+  for (let i = 0; i < route.length; i++) {
+    const d = (route[i][0] - TURNAROUND[0]) ** 2 + (route[i][1] - TURNAROUND[1]) ** 2
+    if (d < minDist) { minDist = d; routeSplitIndex = i }
+  }
+  console.log(`  Route split at index ${routeSplitIndex} of ${route.length}`)
+
   const tripData: TripData = {
     title: 'Boston → The West → Boston',
     subtitle: 'A Tesla Model Y National-Parks Field Guide',
@@ -235,6 +245,7 @@ if (isEntryPoint) {
     stages,
     markers,
     route,
+    routeSplitIndex,
   }
 
   mkdirSync(resolve(__dirname, '../src/data'), { recursive: true })

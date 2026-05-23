@@ -36,5 +36,6 @@ export interface TripData {
   }
   stages: Stage[]
   markers: MapMarker[]
-  route: [number, number][]   // [lat, lng] pairs for the polyline
+  route: [number, number][]        // [lat, lng] pairs for the polyline
+  routeSplitIndex: number          // index where outbound ends and return begins
 }

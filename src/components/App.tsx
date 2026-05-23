@@ -37,7 +37,7 @@ export function App() {
       {tab === 'plan' ? (
         <PlanView stages={data.stages} />
       ) : (
-        <MapView markers={data.markers} route={data.route} />
+        <MapView markers={data.markers} route={data.route} routeSplitIndex={data.routeSplitIndex} />
       )}
     </div>
   )

@@ -17,9 +17,10 @@ const MARKER_COLOR: Record<MapMarker['type'], string> = {
 interface Props {
   markers: MapMarker[]
   route: [number, number][]
+  routeSplitIndex: number
 }
 
-export function MapView({ markers, route }: Props) {
+export function MapView({ markers, route, routeSplitIndex }: Props) {
   const [filter, setFilter] = useState<Filter>('all')
 
   const visible = markers
@@ -46,10 +47,16 @@ export function MapView({ markers, route }: Props) {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         {route.length > 1 && (
-          <Polyline
-            positions={route}
-            pathOptions={{ color: '#e2b96f', weight: 2.5, dashArray: '6 3', opacity: 0.8 }}
-          />
+          <>
+            <Polyline
+              positions={route.slice(0, routeSplitIndex + 1)}
+              pathOptions={{ color: '#e2b96f', weight: 2.5, dashArray: '6 3', opacity: 0.8 }}
+            />
+            <Polyline
+              positions={route.slice(routeSplitIndex)}
+              pathOptions={{ color: '#4a9eff', weight: 2.5, dashArray: '6 3', opacity: 0.8 }}
+            />
+          </>
         )}
         {visible.map(marker => (
           <CircleMarker
@@ -71,6 +78,11 @@ export function MapView({ markers, route }: Props) {
       </MapContainer>
 
       <div className="map-filters">
+        <span className="route-legend">
+          <span className="route-legend-line route-legend-out" /> Outbound
+          <span className="route-legend-line route-legend-back" /> Return
+        </span>
+        <span className="filter-divider" />
         {filters.map(({ key, label }) => (
           <button
             key={key}
