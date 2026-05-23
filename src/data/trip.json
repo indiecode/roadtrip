@@ -409,6 +409,18 @@
       ]
     },
     {
+      "id": "cuyahoga-valley-np",
+      "name": "Cuyahoga Valley NP",
+      "lat": 41.2431,
+      "lng": -81.5488,
+      "type": "park",
+      "day": "Day 2",
+      "notes": "Cuyahoga Valley NP — free park; Brandywine Falls, Ledges Trail",
+      "tags": [
+        "Boston to the Black Hills"
+      ]
+    },
+    {
       "id": "chicago",
       "name": "Chicago",
       "lat": 41.8781,
@@ -445,11 +457,11 @@
       ]
     },
     {
-      "id": "sage-creek",
-      "name": "Sage Creek",
-      "lat": 43.9554,
-      "lng": -102.5397,
-      "type": "camp",
+      "id": "rapid-city",
+      "name": "Rapid City",
+      "lat": 44.0805,
+      "lng": -103.231,
+      "type": "city",
       "day": "Day 5",
       "notes": "Sioux Falls → Badlands NP — arrive afternoon, sunset over spires",
       "tags": [
@@ -457,13 +469,13 @@
       ]
     },
     {
-      "id": "rapid-city",
-      "name": "Rapid City",
-      "lat": 44.0805,
-      "lng": -103.231,
-      "type": "hotel",
-      "day": "Day 6",
-      "notes": "Badlands hiking — Notch, Castle, Door & Window trails",
+      "id": "sage-creek",
+      "name": "Sage Creek",
+      "lat": 43.9554,
+      "lng": -102.5397,
+      "type": "camp",
+      "day": "Day 5",
+      "notes": "Sioux Falls → Badlands NP — arrive afternoon, sunset over spires",
       "tags": [
         "Boston to the Black Hills"
       ]
@@ -481,13 +493,61 @@
       ]
     },
     {
+      "id": "wind-cave-np",
+      "name": "Wind Cave NP",
+      "lat": 43.5561,
+      "lng": -103.4789,
+      "type": "park",
+      "day": "Day 7",
+      "notes": "Black Hills — Mt. Rushmore, Wind Cave NP (free), Black Elk Peak",
+      "tags": [
+        "Boston to the Black Hills"
+      ]
+    },
+    {
       "id": "west-yellowstone",
       "name": "West Yellowstone",
       "lat": 44.6602,
       "lng": -111.0983,
-      "type": "hotel",
+      "type": "charger",
       "day": "Day 9",
       "notes": "Black Hills → West Yellowstone — long scenic drive west",
+      "tags": [
+        "Yellowstone & Grand Teton"
+      ]
+    },
+    {
+      "id": "yellowstone-np",
+      "name": "Yellowstone NP",
+      "lat": 44.428,
+      "lng": -110.5885,
+      "type": "park",
+      "day": "Day 9",
+      "notes": "Black Hills → West Yellowstone — long scenic drive west",
+      "tags": [
+        "Yellowstone & Grand Teton"
+      ]
+    },
+    {
+      "id": "grand-teton-np",
+      "name": "Grand Teton NP",
+      "lat": 43.7904,
+      "lng": -110.6818,
+      "type": "park",
+      "day": "Day 13",
+      "notes": "Yellowstone → Grand Teton — short drive south",
+      "tags": [
+        "Yellowstone & Grand Teton"
+      ]
+    },
+    {
+      "id": "jackson",
+      "name": "Jackson",
+      "lat": 43.4799,
+      "lng": -110.7624,
+      "type": "charger",
+      "day": "Day 13",
+      "notes": "Yellowstone → Grand Teton — short drive south",
       "tags": [
         "Yellowstone & Grand Teton"
       ]
@@ -500,18 +560,6 @@
       "type": "camp",
       "day": "Day 13",
       "notes": "Yellowstone → Grand Teton — short drive south",
-      "tags": [
-        "Yellowstone & Grand Teton"
-      ]
-    },
-    {
-      "id": "jackson",
-      "name": "Jackson",
-      "lat": 43.4799,
-      "lng": -110.7624,
-      "type": "camp",
-      "day": "Day 14–15",
-      "notes": "Grand Teton (2 days) — Cascade Canyon, Jenny Lake, Delta Lake",
       "tags": [
         "Yellowstone & Grand Teton"
       ]
@@ -589,6 +637,78 @@
       ]
     },
     {
+      "id": "arches-np",
+      "name": "Arches NP",
+      "lat": 38.7331,
+      "lng": -109.5925,
+      "type": "park",
+      "day": "Day 24–25",
+      "notes": "Arches & Canyonlands — Delicate Arch (sunrise), Devils Garden, Mesa Arch, Island in the Sky",
+      "tags": [
+        "Utah's Red Rock"
+      ]
+    },
+    {
+      "id": "canyonlands-np",
+      "name": "Canyonlands NP",
+      "lat": 38.3269,
+      "lng": -109.8783,
+      "type": "park",
+      "day": "Day 24–25",
+      "notes": "Arches & Canyonlands — Delicate Arch (sunrise), Devils Garden, Mesa Arch, Island in the Sky",
+      "tags": [
+        "Utah's Red Rock"
+      ]
+    },
+    {
+      "id": "capitol-reef-np",
+      "name": "Capitol Reef NP",
+      "lat": 38.0877,
+      "lng": -111.1478,
+      "type": "park",
+      "day": "Day 26",
+      "notes": "Moab → Capitol Reef — scenic Hwy 24 west",
+      "tags": [
+        "Utah's Red Rock"
+      ]
+    },
+    {
+      "id": "hurricane",
+      "name": "Hurricane",
+      "lat": 37.1753,
+      "lng": -113.2899,
+      "type": "charger",
+      "day": "Day 27",
+      "notes": "Capitol Reef → Bryce — uncrowded gem, then Bryce",
+      "tags": [
+        "Utah's Red Rock"
+      ]
+    },
+    {
+      "id": "bryce-canyon-np",
+      "name": "Bryce Canyon NP",
+      "lat": 37.593,
+      "lng": -112.1871,
+      "type": "park",
+      "day": "Day 28",
+      "notes": "Bryce Canyon — Navajo / Queens Garden combo loop",
+      "tags": [
+        "Utah's Red Rock"
+      ]
+    },
+    {
+      "id": "zion-np",
+      "name": "Zion NP",
+      "lat": 37.2982,
+      "lng": -113.0263,
+      "type": "park",
+      "day": "Day 29–30",
+      "notes": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
+      "tags": [
+        "Utah's Red Rock"
+      ]
+    },
+    {
       "id": "springdale",
       "name": "Springdale",
       "lat": 37.1886,
@@ -605,7 +725,7 @@
       "name": "Las Vegas",
       "lat": 36.1699,
       "lng": -115.1398,
-      "type": "hotel",
+      "type": "charger",
       "day": "Day 31",
       "notes": "Zion → Las Vegas → Nevada interior — I-15 to Vegas (last dense hub), then US-95 north",
       "tags": [
@@ -617,7 +737,7 @@
       "name": "Beatty",
       "lat": 36.9077,
       "lng": -116.7594,
-      "type": "hotel",
+      "type": "charger",
       "day": "Day 31",
       "notes": "Zion → Las Vegas → Nevada interior — I-15 to Vegas (last dense hub), then US-95 north",
       "tags": [
@@ -641,11 +761,59 @@
       "name": "Bishop",
       "lat": 37.3635,
       "lng": -118.3953,
-      "type": "camp",
+      "type": "charger",
       "day": "Day 32",
       "notes": "Nevada → Eastern Sierra (US-395) — up through Tonopah, cut to 395 toward Bishop/Mammoth",
       "tags": [
         "Zion to the Sierra (charging leg #1)"
+      ]
+    },
+    {
+      "id": "mammoth-lakes",
+      "name": "Mammoth Lakes",
+      "lat": 37.6485,
+      "lng": -118.9721,
+      "type": "charger",
+      "day": "Day 32",
+      "notes": "Nevada → Eastern Sierra (US-395) — up through Tonopah, cut to 395 toward Bishop/Mammoth",
+      "tags": [
+        "Zion to the Sierra (charging leg #1)"
+      ]
+    },
+    {
+      "id": "visalia",
+      "name": "Visalia",
+      "lat": 36.3302,
+      "lng": -119.2921,
+      "type": "charger",
+      "day": "Day 33",
+      "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
+      "tags": [
+        "Sequoia, Kings Canyon & Yosemite"
+      ]
+    },
+    {
+      "id": "sequoia-np",
+      "name": "Sequoia NP",
+      "lat": 36.4864,
+      "lng": -118.5658,
+      "type": "park",
+      "day": "Day 33",
+      "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
+      "tags": [
+        "Sequoia, Kings Canyon & Yosemite"
+      ]
+    },
+    {
+      "id": "kings-canyon-np",
+      "name": "Kings Canyon NP",
+      "lat": 36.8879,
+      "lng": -118.5551,
+      "type": "park",
+      "day": "Day 33",
+      "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
+      "tags": [
+        "Sequoia, Kings Canyon & Yosemite"
       ]
     },
     {
@@ -673,6 +841,30 @@
       ]
     },
     {
+      "id": "groveland",
+      "name": "Groveland",
+      "lat": 37.8494,
+      "lng": -120.2313,
+      "type": "hotel",
+      "day": "Day 36",
+      "notes": "→ Yosemite — north; plan to arrive before 8 am tomorrow",
+      "tags": [
+        "Sequoia, Kings Canyon & Yosemite"
+      ]
+    },
+    {
+      "id": "yosemite-np",
+      "name": "Yosemite NP",
+      "lat": 37.8651,
+      "lng": -119.5383,
+      "type": "park",
+      "day": "Day 36",
+      "notes": "→ Yosemite — north; plan to arrive before 8 am tomorrow",
+      "tags": [
+        "Sequoia, Kings Canyon & Yosemite"
+      ]
+    },
+    {
       "id": "big-sur",
       "name": "Big Sur",
       "lat": 36.2704,
@@ -690,8 +882,8 @@
       "lat": 41.2132,
       "lng": -124.0046,
       "type": "park",
-      "day": "Day 42–43",
-      "notes": "North to Redwood NP — coast redwoods, tide pools, sea stacks",
+      "day": "Day 40–41",
+      "notes": "Yosemite → SF → Big Sur — Hwy 1, the coast, redwoods begin",
       "tags": [
         "California Coast & Oregon"
       ]
@@ -726,6 +918,18 @@
       "lat": 45.7054,
       "lng": -121.5218,
       "type": "park",
+      "day": "Day 47–48",
+      "notes": "Columbia Gorge & Mt. Hood — Multnomah Falls, gorge waterfalls",
+      "tags": [
+        "California Coast & Oregon"
+      ]
+    },
+    {
+      "id": "hood-river",
+      "name": "Hood River",
+      "lat": 45.7054,
+      "lng": -121.5218,
+      "type": "hotel",
       "day": "Day 47–48",
       "notes": "Columbia Gorge & Mt. Hood — Multnomah Falls, gorge waterfalls",
       "tags": [
@@ -773,7 +977,7 @@
       "name": "Kalispell",
       "lat": 48.196,
       "lng": -114.3115,
-      "type": "hotel",
+      "type": "charger",
       "day": "Day 52",
       "notes": "Missoula → Kalispell — ~114 mi, one easy hop",
       "tags": [
@@ -790,6 +994,18 @@
       "notes": "Glacier NP (2 days) — Going-to-the-Sun Rd, Highline, Grinnell Glacier, Avalanche Lake",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
+      ]
+    },
+    {
+      "id": "theodore-roosevelt-np",
+      "name": "Theodore Roosevelt NP",
+      "lat": 46.979,
+      "lng": -103.5387,
+      "type": "park",
+      "day": "Day 56",
+      "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND (uncrowded)",
+      "tags": [
+        "The Long Haul Home"
       ]
     },
     {
