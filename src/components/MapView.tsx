@@ -50,7 +50,7 @@ export function MapView({ markers, route, routeSplitIndex }: Props) {
           <>
             <Polyline
               positions={route.slice(0, routeSplitIndex + 1)}
-              pathOptions={{ color: '#e2b96f', weight: 2.5, dashArray: '6 3', opacity: 0.8 }}
+              pathOptions={{ color: '#e05555', weight: 2.5, dashArray: '6 3', opacity: 0.8 }}
             />
             <Polyline
               positions={route.slice(routeSplitIndex)}
