@@ -65,7 +65,7 @@ export default defineConfig({
   /*
    * webServer is used only for local runs; CI uses actual deployed preview URL
    */
-  webServer: {
+  webServer: process.env.CI ? undefined : {
     command: 'npm run preview',
     url: 'http://localhost:8787',
     reuseExistingServer: !process.env.CI,
