@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { TileLayer, Polyline, CircleMarker, Popup } from 'react-leaflet'
 import { MarkerPopup } from './MarkerPopup'
 import type { MapMarker } from '../types'

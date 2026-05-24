@@ -62,7 +62,7 @@ describe('JourneyView', () => {
       ),
     }))
 
-    const { rerender } = render(
+    render(
       <JourneyView
         stages={[stage1, stage2]}
         markers={markers}
@@ -89,7 +89,7 @@ describe('JourneyView', () => {
       ),
     }))
 
-    const { rerender } = render(
+    render(
       <JourneyView
         stages={[stage1, stage2]}
         markers={markers}

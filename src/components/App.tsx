@@ -18,6 +18,7 @@ export function App() {
         <span className="app-title">🚗 {data.title}</span>
         <nav className="tab-nav">
           <button
+            data-testid="tab-plan"
             role="tab"
             aria-selected={tab === 'plan'}
             className={`tab-btn${tab === 'plan' ? ' active' : ''}`}
@@ -26,6 +27,7 @@ export function App() {
             Plan
           </button>
           <button
+            data-testid="tab-map"
             role="tab"
             aria-selected={tab === 'map'}
             className={`tab-btn${tab === 'map' ? ' active' : ''}`}
@@ -34,6 +36,7 @@ export function App() {
             Map
           </button>
           <button
+            data-testid="tab-journey"
             role="tab"
             aria-selected={tab === 'journey'}
             className={`tab-btn${tab === 'journey' ? ' active' : ''}`}
@@ -44,11 +47,11 @@ export function App() {
         </nav>
       </header>
       {tab === 'plan' ? (
-        <PlanView stages={data.stages} />
+        <div data-testid="view-plan" className="view plan-view"><PlanView stages={data.stages} /></div>
       ) : tab === 'map' ? (
-        <MapView markers={data.markers} route={data.route} routeSplitIndex={data.routeSplitIndex} />
+        <div data-testid="view-map" className="view map-view"><MapView markers={data.markers} route={data.route} routeSplitIndex={data.routeSplitIndex} /></div>
       ) : (
-        <JourneyView stages={data.stages} markers={data.markers} route={data.route} routeSplitIndex={data.routeSplitIndex} />
+        <div data-testid="view-journey" className="view journey-view"><JourneyView stages={data.stages} markers={data.markers} route={data.route} routeSplitIndex={data.routeSplitIndex} /></div>
       )}
     </div>
   )

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { MapContainer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import { MapLayers, MARKER_COLOR } from './MapLayers'
+import { MapLayers } from './MapLayers'
 import type { MapMarker } from '../types'
 
 type Filter = 'all' | 'park' | 'charger' | 'camp' | 'hotel'

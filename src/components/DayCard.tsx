@@ -8,7 +8,7 @@ export function DayCard({ day }: Props) {
   const isCamp = day.sleep_type === 'camp'
 
   return (
-    <div className={`day-card day-card--${isCamp ? 'camp' : 'hotel'}`}>
+    <div data-testid="day-card" className={`day-card day-card--${isCamp ? 'camp' : 'hotel'}`}>
       <div className="day-card-main">
         <span className="day-number">DAY {day.day}</span>
         <p className="day-route">{day.route}</p>

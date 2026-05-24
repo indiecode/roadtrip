@@ -21,6 +21,7 @@ export function JourneySlider({ count, value, onChange, label }: Props) {
           ‹
         </button>
         <input
+          data-testid="journey-slider"
           type="range"
           min={0}
           max={count - 1}
@@ -38,7 +39,7 @@ export function JourneySlider({ count, value, onChange, label }: Props) {
           ›
         </button>
       </div>
-      <div className="journey-day-label">{label}</div>
+      <div data-testid="journey-active-day" className="journey-day-label">{label}</div>
     </>
   )
 }

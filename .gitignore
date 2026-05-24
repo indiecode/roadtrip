@@ -40,3 +40,8 @@ README.md
 .dolt/
 *.db
 .beads-credential-key
+
+# Playwright test results and reports
+test-results/
+playwright-report/
+playwright/.cache/

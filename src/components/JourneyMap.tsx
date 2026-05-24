@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { MapContainer, useMap } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import { MapLayers } from './MapLayers'
@@ -6,9 +6,13 @@ import type { MapMarker } from '../types'
 
 function MapFlyTo({ center, zoom }: { center: [number, number]; zoom: number }) {
   const map = useMap()
+  const mapRef = useRef(map)
   useEffect(() => {
-    map.flyTo(center, zoom, { duration: 0.6 })
-  }, [center[0], center[1], zoom, map])
+    mapRef.current = map
+  }, [map])
+  useEffect(() => {
+    mapRef.current.flyTo(center, zoom, { duration: 0.6 })
+  }, [center, zoom])
   return null
 }
 

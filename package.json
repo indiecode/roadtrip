@@ -10,7 +10,9 @@
     "preview": "npm run build && wrangler dev",
     "test": "vitest",
     "test:run": "vitest run",
-    "deploy": "npm run build && wrangler deploy"
+    "test:e2e": "playwright test",
+    "test:e2e:update": "playwright test --update",
+    "deploy": "npm run build && wrangler deploy # DEPRECATED: Use CI to deploy for production gate (auto-promote on main + green)"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
@@ -21,6 +23,7 @@
   "devDependencies": {
     "@cloudflare/vite-plugin": "^1.38.0",
     "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.60.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",

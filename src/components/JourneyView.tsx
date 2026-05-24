@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import type { Stage, MapMarker, Day } from '../types'
+import type { Stage, MapMarker } from '../types'
 import { DayCard } from './DayCard'
 import JourneyMap from './JourneyMap'
 import { JourneySlider } from './JourneySlider'

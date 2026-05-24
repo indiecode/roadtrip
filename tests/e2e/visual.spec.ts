@@ -1,0 +1,55 @@
+import { test, expect } from '@playwright/test'
+import { readFileSync } from 'fs'
+import { join } from 'path'
+
+// Import trip data with JSON module type
+import tripData from '../../src/data/trip.json' with { type: 'json' }
+import type { TripData } from '../../src/types'
+
+const data = tripData as TripData
+
+test.beforeEach(async ({ page }) => {
+  // 1. Block tile images to neutralize async tile loading
+  await page.route('**/*.{png,jpg,jpeg,webp}', async (route, request) => {
+    const url = request.url()
+    if (url.includes('tile')) {
+      await route.abort()
+    } else {
+      await route.continue()
+    }
+  })
+
+  // 2. Inject CSS to color the tile area
+  await page.addStyleTag({
+    content: '.leaflet-tile-pane { background: #ddeeff !important; }',
+  })
+})
+
+const screenshots = [
+  { name: 'map-tab', tab: 'Map' },
+  { name: 'plan-tab', tab: 'Plan' },
+  { name: 'journey-tab', tab: 'Journey' },
+]
+
+for (const { name, tab } of screenshots) {
+  test(`matches ${name} snapshot`, async ({ page }) => {
+    await page.goto('/')
+    await page.getByRole('tab', { name: new RegExp(`^${tab}$`) }).click()
+
+    // Wait for tab-specific content
+    if (name === 'map-tab') {
+      await expect(page.locator('.leaflet-marker-icon')).toBeVisible()
+    } else if (name === 'plan-tab') {
+      await expect(page.locator('[data-testid="day-card"]')).toBeVisible()
+    } else if (name === 'journey-tab') {
+      await expect(page.locator('[data-testid="journey-active-day"]')).toBeVisible()
+    }
+
+    // Wait for network idle before screenshot
+    await page.waitForLoadState('networkidle')
+
+    await expect(page).toHaveScreenshot(`visual-${name}.png`, {
+      maxDiffPixelRatio: 0.01,
+    })
+  })
+}
