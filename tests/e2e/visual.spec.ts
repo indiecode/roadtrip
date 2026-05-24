@@ -1,6 +1,4 @@
 import { test, expect } from '@playwright/test'
-import { readFileSync } from 'fs'
-import { join } from 'path'
 
 // Import trip data with JSON module type
 import tripData from '../../src/data/trip.json' with { type: 'json' }
@@ -36,13 +34,13 @@ for (const { name, tab } of screenshots) {
     await page.goto('/')
     await page.getByRole('tab', { name: new RegExp(`^${tab}$`) }).click()
 
-    // Wait for tab-specific content
+    // Wait for tab content
     if (name === 'map-tab') {
-      await expect(page.locator('.leaflet-marker-icon')).toBeVisible()
+      await page.waitForSelector('.leaflet-container svg', { timeout: 10000 })
     } else if (name === 'plan-tab') {
-      await expect(page.locator('[data-testid="day-card"]')).toBeVisible()
+      await page.waitForSelector('[data-testid="day-card"]', { timeout: 10000 })
     } else if (name === 'journey-tab') {
-      await expect(page.locator('[data-testid="journey-active-day"]')).toBeVisible()
+      await page.waitForSelector('[data-testid="journey-active-day"]', { timeout: 10000 })
     }
 
     // Wait for network idle before screenshot

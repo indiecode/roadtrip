@@ -13,7 +13,7 @@ export function App() {
   const [tab, setTab] = useState<Tab>('plan')
 
   return (
-    <div className="app">
+    <div className="app" role="main">
       <header className="app-header">
         <span className="app-title">🚗 {data.title}</span>
         <nav className="tab-nav">
