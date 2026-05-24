@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest'
-import { parseStageBlock, parseDayTable, parseStages, buildMarkers } from './parse-trip'
+import { parseStageBlock, parseDayTable, parseStages } from './lib/parse-markdown.js'
+import { buildMarkers } from './lib/markers.js'
 
 const SAMPLE_STAGE = `## Stage 1 — Boston to the Black Hills
 *Days 1–8 · ~2,000 mi · Easy charging the whole way — dense Supercharger coverage on I-90/I-80. These are your warm-up miles.*
