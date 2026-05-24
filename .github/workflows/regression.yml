@@ -10,7 +10,7 @@ jobs:
       version_id: ${{ steps.deploy.outputs.version_id }}
       preview_url: ${{ steps.deploy.outputs.preview_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-node@v4
         with: { node-version: '22', cache: 'npm' }
       - run: npm ci
@@ -43,7 +43,7 @@ jobs:
     if: github.ref == 'refs/heads/main' && success()
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-node@v4
         with: { node-version: '22', cache: 'npm' }
       - run: npm ci
