@@ -19,56 +19,96 @@
           "route": "Boston → Cleveland, OH — long highway day, pure transit",
           "charge": "I-90 Superchargers all along",
           "sleep": "Cleveland hotel (cheap, easy)",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            41.9297,
+            -76.37665
+          ],
+          "mapZoom": 5
         },
         {
           "day": "2",
           "route": "Cuyahoga Valley NP — free park; Brandywine Falls, Ledges Trail",
           "charge": "Cleveland metro — top off",
           "sleep": "Cleveland, or push toward Toledo",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            41.2431,
+            -81.5488
+          ],
+          "mapZoom": 6
         },
         {
           "day": "3",
           "route": "Cleveland → Chicago area — transit day",
           "charge": "Frequent along I-90",
           "sleep": "Chicago-area hotel (easy)",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            41.8781,
+            -87.6298
+          ],
+          "mapZoom": 6
         },
         {
           "day": "4",
           "route": "Chicago → Sioux Falls, SD — big drive, break the plains",
           "charge": "Dense along I-90",
           "sleep": "Sioux Falls hotel (cheap, easy)",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            43.5446,
+            -96.7311
+          ],
+          "mapZoom": 6
         },
         {
           "day": "5",
           "route": "Sioux Falls → Badlands NP — arrive afternoon, sunset over spires",
           "charge": "Rapid City / Wall area",
           "sleep": "🏕 Sage Creek (free, bison)",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            43.963766666666665,
+            -102.70346666666666
+          ],
+          "mapZoom": 6
         },
         {
           "day": "6",
           "route": "Badlands hiking — Notch, Castle, Door & Window trails",
           "charge": "Wall / Rapid City",
           "sleep": "Rapid City or Custer hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            43.7666,
+            -103.5991
+          ],
+          "mapZoom": 6
         },
         {
           "day": "7",
           "route": "Black Hills — Mt. Rushmore, Wind Cave NP (free), Black Elk Peak",
           "charge": "Rapid City / Custer",
           "sleep": "Custer or Rapid City hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            43.5561,
+            -103.4789
+          ],
+          "mapZoom": 6
         },
         {
           "day": "8",
           "route": "Buffer / explore — Custer State Park wildlife loop, Needles Hwy",
           "charge": "Rapid City / Custer",
           "sleep": "Hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            44.0805,
+            -103.231
+          ],
+          "mapZoom": 6
         }
       ]
     },
@@ -84,35 +124,60 @@
           "route": "Black Hills → West Yellowstone — long scenic drive west",
           "charge": "Sheridan / Cody corridor",
           "sleep": "West Yellowstone hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            44.5441,
+            -110.8434
+          ],
+          "mapZoom": 5
         },
         {
           "day": "10–12",
           "route": "Yellowstone (3 days) — Mt. Washburn, Fairy Falls, Lamar Valley, geyser basins",
           "charge": "Supercharger in West Yellowstone overnight; Level 2 at Canyon/Old Faithful while hiking",
           "sleep": "West Yellowstone hotel (or grab an in-park site early for 1 camp night)",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            44.428,
+            -110.5885
+          ],
+          "mapZoom": 8
         },
         {
           "day": "13",
           "route": "Yellowstone → Grand Teton — short drive south",
           "charge": "Jackson Supercharger",
           "sleep": "🏕 Bridger-Teton NF dispersed",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            43.5901,
+            -110.64806666666668
+          ],
+          "mapZoom": 6
         },
         {
           "day": "14–15",
           "route": "Grand Teton (2 days) — Cascade Canyon, Jenny Lake, Delta Lake",
           "charge": "Jackson Supercharger; Level 2 at Signal Mtn / Colter Bay",
           "sleep": "🏕 Bridger-Teton dispersed + 1 Jackson hotel",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            43.7904,
+            -110.6818
+          ],
+          "mapZoom": 8
         },
         {
           "day": "16",
           "route": "Reposition south — toward Salt Lake City; resupply, laundry",
           "charge": "I-15 corridor / SLC",
           "sleep": "Salt Lake City hotel (cheap, easy)",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            40.7608,
+            -111.891
+          ],
+          "mapZoom": 6
         }
       ]
     },
@@ -128,28 +193,48 @@
           "route": "SLC → Rocky Mountain NP — drive to Estes Park gateway",
           "charge": "Front Range / Estes Park",
           "sleep": "Estes Park hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            40.36,
+            -105.60265
+          ],
+          "mapZoom": 6
         },
         {
           "day": "18–19",
           "route": "Rocky Mountain NP (2 days) — Bear Lake, Emerald Lake, Sky Pond, Trail Ridge Rd (>12,000 ft)",
           "charge": "Estes Park — full before Trail Ridge climb",
           "sleep": "Estes Park hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            40.3428,
+            -105.6836
+          ],
+          "mapZoom": 8
         },
         {
           "day": "20",
           "route": "South to the San Juans — drive toward Durango/Ouray",
           "charge": "Denver metro / I-70 / US-50",
           "sleep": "Durango or Ouray hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            37.64905,
+            -107.7757
+          ],
+          "mapZoom": 6
         },
         {
           "day": "21–22",
           "route": "San Juans (2 days) — Ouray, Silverton, alpine hikes (\"Switzerland of America\")",
           "charge": "Durango / Montrose",
           "sleep": "Mountain-town hotel + 1 🏕 NF camp",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            38.0228,
+            -107.6713
+          ],
+          "mapZoom": 8
         }
       ]
     },
@@ -165,42 +250,72 @@
           "route": "Colorado → Moab — drive to red-rock country",
           "charge": "Moab Supercharger",
           "sleep": "🏕 BLM along Hwy 128 / 313",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            38.5733,
+            -109.5498
+          ],
+          "mapZoom": 6
         },
         {
           "day": "24–25",
           "route": "Arches & Canyonlands — Delicate Arch (sunrise), Devils Garden, Mesa Arch, Island in the Sky",
           "charge": "Moab Supercharger",
           "sleep": "🏕 Moab BLM + 1 Moab hotel",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            38.53,
+            -109.7354
+          ],
+          "mapZoom": 8
         },
         {
           "day": "26",
           "route": "Moab → Capitol Reef — scenic Hwy 24 west",
           "charge": "Top off in Moab; plan the gap",
           "sleep": "Torrey hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            38.0877,
+            -111.1478
+          ],
+          "mapZoom": 6
         },
         {
           "day": "27",
           "route": "Capitol Reef → Bryce — uncrowded gem, then Bryce",
           "charge": "Hurricane / Beaver area",
           "sleep": "🏕 Dixie NF dispersed near Bryce",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            37.1753,
+            -113.2899
+          ],
+          "mapZoom": 6
         },
         {
           "day": "28",
           "route": "Bryce Canyon — Navajo / Queens Garden combo loop",
           "charge": "Beaver / Hurricane",
           "sleep": "🏕 Dixie NF dispersed",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            37.593,
+            -112.1871
+          ],
+          "mapZoom": 6
         },
         {
           "day": "29–30",
           "route": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
           "charge": "Hurricane Supercharger; Level 2 in Springdale",
           "sleep": "Springdale hotel (or 1 NF camp)",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            37.2434,
+            -113.01215
+          ],
+          "mapZoom": 8
         }
       ]
     },
@@ -216,14 +331,24 @@
           "route": "Zion → Las Vegas → Nevada interior — I-15 to Vegas (last dense hub), then US-95 north",
           "charge": "Hurricane (full) → Las Vegas → Beatty (8 stalls)",
           "sleep": "Las Vegas or Beatty hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            36.538799999999995,
+            -115.9496
+          ],
+          "mapZoom": 6
         },
         {
           "day": "32",
           "route": "Nevada → Eastern Sierra (US-395) — up through Tonopah, cut to 395 toward Bishop/Mammoth",
           "charge": "Tonopah (8 stalls) → Bishop → Mammoth Lakes",
           "sleep": "Bishop or Mammoth hotel (or 🏕 NF camp)",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            37.6931,
+            -118.19933333333334
+          ],
+          "mapZoom": 6
         }
       ]
     },
@@ -239,28 +364,48 @@
           "route": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
           "charge": "Visalia / Fresno",
           "sleep": "Three Rivers or Fresno hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            36.610575,
+            -119.050025
+          ],
+          "mapZoom": 6
         },
         {
           "day": "34–35",
           "route": "Sequoia & Kings Canyon (2 days) — General Sherman, Moro Rock, Cedar Grove",
           "charge": "Visalia / Fresno",
           "sleep": "Hotel + 1 🏕 NF camp",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            36.4864,
+            -118.5658
+          ],
+          "mapZoom": 8
         },
         {
           "day": "36",
           "route": "→ Yosemite — north; plan to arrive before 8 am tomorrow",
           "charge": "Fresno / Mariposa / Groveland",
           "sleep": "Mariposa or Groveland hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            37.73323333333333,
+            -119.91196666666667
+          ],
+          "mapZoom": 6
         },
         {
           "day": "37–39",
           "route": "Yosemite (3 days) — Mist Trail, Yosemite Falls, Cathedral Lakes; Half Dome if lottery hits",
           "charge": "Mariposa / Groveland — charge in gateway, day-trip in",
           "sleep": "Gateway-town hotel (skip pricey in-Valley lodging)",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            37.8651,
+            -119.5383
+          ],
+          "mapZoom": 8
         }
       ]
     },
@@ -276,42 +421,72 @@
           "route": "Yosemite → SF → Big Sur — Hwy 1, the coast, redwoods begin",
           "charge": "Dense all along the coast",
           "sleep": "Bay Area / coast hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            38.7418,
+            -122.90635
+          ],
+          "mapZoom": 8
         },
         {
           "day": "42–43",
           "route": "North to Redwood NP — coast redwoods, tide pools, sea stacks",
           "charge": "US-101 corridor",
           "sleep": "Coastal hotel + 1 🏕 redwoods camp",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            41.2132,
+            -124.0046
+          ],
+          "mapZoom": 8
         },
         {
           "day": "44",
           "route": "→ Crater Lake NP, OR — deep-blue caldera, rim drive",
           "charge": "Medford / Roseburg area",
           "sleep": "Nearby hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            42.9446,
+            -122.109
+          ],
+          "mapZoom": 6
         },
         {
           "day": "45–46",
           "route": "Bend, OR (Cascades base) — Smith Rock, Three Sisters, lava country",
           "charge": "Bend Supercharger",
           "sleep": "Bend hotel (easy, often under budget)",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            44.0582,
+            -121.3153
+          ],
+          "mapZoom": 8
         },
         {
           "day": "47–48",
           "route": "Columbia Gorge & Mt. Hood — Multnomah Falls, gorge waterfalls",
           "charge": "Portland metro / Hood River",
           "sleep": "Hood River or Portland hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            45.6367,
+            -121.86560000000001
+          ],
+          "mapZoom": 8
         },
         {
           "day": "49",
           "route": "Stage into eastern Oregon — begin the long haul east; charge full",
           "charge": "Bend / Ontario — fill before the gap",
           "sleep": "🏕 Eastern OR hotel or camp",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            44.0582,
+            -121.3153
+          ],
+          "mapZoom": 5
         }
       ]
     },
@@ -327,35 +502,60 @@
           "route": "Eastern OR → I-90 (Coeur d'Alene, ID) — cross the remote part, then hit the interstate spine",
           "charge": "Plan the eastern-OR gap in ABRP → Coeur d'Alene",
           "sleep": "Coeur d'Alene hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            47.6777,
+            -116.7805
+          ],
+          "mapZoom": 5
         },
         {
           "day": "51",
           "route": "→ Missoula, MT — comfortable interstate driving",
           "charge": "Missoula Supercharger",
           "sleep": "Missoula hotel (easy)",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            46.8721,
+            -113.994
+          ],
+          "mapZoom": 5
         },
         {
           "day": "52",
           "route": "Missoula → Kalispell — ~114 mi, one easy hop",
           "charge": "Kalispell Supercharger (8 V4 stalls)",
           "sleep": "Kalispell or Whitefish hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            48.196,
+            -114.3115
+          ],
+          "mapZoom": 6
         },
         {
           "day": "53–54",
           "route": "Glacier NP (2 days) — Going-to-the-Sun Rd, Highline, Grinnell Glacier, Avalanche Lake",
           "charge": "Charge FULL in Kalispell; day-trip in — no fast charging in park",
           "sleep": "Kalispell hotel; or 🏕 east-side camp",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            48.6961,
+            -113.7178
+          ],
+          "mapZoom": 8
         },
         {
           "day": "55",
           "route": "Buffer / Two Medicine / Many Glacier — hold loose for weather or a place you love",
           "charge": "Kalispell",
           "sleep": "🏕 Hotel or camp",
-          "sleep_type": "camp"
+          "sleep_type": "camp",
+          "mapCenter": [
+            48.6961,
+            -113.7178
+          ],
+          "mapZoom": 6
         }
       ]
     },
@@ -371,14 +571,24 @@
           "route": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND (uncrowded)",
           "charge": "I-90/I-94 — dense, easy",
           "sleep": "Billings / Bismarck hotel",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            46.52353333333334,
+            -104.27436666666667
+          ],
+          "mapZoom": 6
         },
         {
           "day": "57+",
           "route": "ND → MN → … → Boston — multi-day interstate run home",
           "charge": "Frequent along I-90/I-94",
           "sleep": "Interstate hotels (cheap, easy same-day)",
-          "sleep_type": "hotel"
+          "sleep_type": "hotel",
+          "mapCenter": [
+            42.3601,
+            -71.0589
+          ],
+          "mapZoom": 5
         }
       ]
     }

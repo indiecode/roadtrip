@@ -9,6 +9,9 @@ vi.mock('./PlanView', () => ({
 vi.mock('./MapView', () => ({
   MapView: () => <div data-testid="map-view">Map</div>,
 }))
+vi.mock('./JourneyView', () => ({
+  JourneyView: () => <div data-testid="journey-view" className="journey-stage-label">Stage 1 — Boston to the Black Hills</div>,
+}))
 
 it('renders the app title', () => {
   render(<App />)
@@ -45,4 +48,12 @@ it('marks the active tab with aria-selected', () => {
   fireEvent.click(mapTab)
   expect(planTab).toHaveAttribute('aria-selected', 'false')
   expect(mapTab).toHaveAttribute('aria-selected', 'true')
+})
+
+it('switches to journey view when Journey tab is clicked', () => {
+  render(<App />)
+  fireEvent.click(screen.getByRole('tab', { name: /Journey/i }))
+  expect(screen.getByTestId('journey-view')).toBeInTheDocument()
+  expect(screen.queryByTestId('plan-view')).not.toBeInTheDocument()
+  expect(screen.queryByTestId('map-view')).not.toBeInTheDocument()
 })

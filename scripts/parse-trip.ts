@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url'
 import type { TripData } from '../src/types.js'
 import { parseStages } from './lib/parse-markdown.js'
 import { buildMarkers } from './lib/markers.js'
+import { computeDayGeometry } from './lib/day-geometry.js'
 import { ROUTE } from './lib/coords.js'
 
 const __filename = fileURLToPath(import.meta.url)
@@ -17,6 +18,7 @@ if (isEntryPoint) {
   const md = readFileSync(mdPath, 'utf-8')
   const stages = parseStages(md)
   const markers = buildMarkers(stages)
+  computeDayGeometry(stages, markers)
 
   const geoPath = resolve(__dirname, '../src/data/route-geometry.json')
   let route: [number, number][] = ROUTE

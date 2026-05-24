@@ -4,6 +4,8 @@ export interface Day {
   charge: string        // e.g. "I-90 Superchargers all along"
   sleep: string         // e.g. "Cleveland hotel" or "🏕 Sage Creek (free, bison)"
   sleep_type: 'hotel' | 'camp'
+  mapCenter: [number, number]
+  mapZoom: number
 }
 
 export interface Stage {
