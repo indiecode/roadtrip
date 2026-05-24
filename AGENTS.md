@@ -14,9 +14,10 @@ You execute. Tasks are planned in beads (`bd`) by a separate agent. Implement wh
 2. `bd show <id> --json` → read acceptance criteria
 3. `bd update <id> --claim --json`
 4. Implement per the task. Run verification steps.
-5. `bd close <id> --reason "Done: summary" --json`
-6. Commit code + `.beads/issues.jsonl` together, push.
-7. Repeat.
+5. If the task modifies UI components, run `npm run test:e2e` to validate e2e tests pass.
+6. `bd close <id> --reason "Done: summary" --json`
+7. Commit code + `.beads/issues.jsonl` together, push.
+8. Repeat.
 
 If blocked: `bd dep add <blocked> <blocker> --type blocks --json`
 
