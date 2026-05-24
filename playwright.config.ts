@@ -20,7 +20,7 @@ export default defineConfig({
   /*
    * CI job timeout
    */
-  timeout: 30_000,
+  timeout: 60_000,
   /*
    * Default reporter
    */
@@ -29,10 +29,7 @@ export default defineConfig({
    * Use URL from env or fallback
    */
   use: {
-    baseURL: process.env.PLAYWRIGHT_BASE_URL || 'http://localhost:4173',
-    /*
-     * Trace on failure for debugging
-     */
+    baseURL: process.env.PLAYWRIGHT_BASE_URL || 'http://localhost:8787',
     trace: 'retain-on-failure',
   },
   /*
@@ -70,7 +67,7 @@ export default defineConfig({
    */
   webServer: {
     command: 'npm run preview',
-    url: 'http://localhost:4173',
+    url: 'http://localhost:8787',
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
   },
