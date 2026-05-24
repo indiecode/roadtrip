@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "roadtrip",
+  "project_id": "12a626dd-4b04-4e28-accb-cc2c326628e6"
+}
