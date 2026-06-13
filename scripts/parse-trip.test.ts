@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest'
+import { COORDS, ROUTE } from './lib/coords.js'
 import { parseStageBlock, parseDayTable, parseStages } from './lib/parse-markdown.js'
 import { buildMarkers } from './lib/markers.js'
 
@@ -133,5 +134,97 @@ describe('buildMarkers', () => {
     const markers = buildMarkers(stages)
     const sageCreek = markers.find(m => m.name === 'Sage Creek')
     expect(sageCreek?.type).toBe('camp')
+  })
+})
+
+const SPLIT_STAGE = `## Stage 1 — Boston to the Black Hills
+*Days 1–8 · ~2,000 mi · warm-up miles.*
+
+| Day | Route & drive | Charge | Sleep |
+|---|---|---|---|
+| 1a | **Boston → Watkins Glen, NY** | Geneva, OH | Watkins Glen hotel |
+| 1b | **Watkins Glen → Cleveland, OH** | I-90 | Cleveland hotel |
+| 4a | **Chicago → Madison, WI** | Madison | Madison hotel |
+| 9a | **Black Hills → Cody, WY** | Cody | Cody hotel |
+| 50a | **Bend → Pendleton, OR** | Pendleton | Pendleton hotel |
+
+**Notes:** split-day fixture.`
+
+describe('new split-stop markers', () => {
+  it('buildMarkers contains marker for Watkins Glen tagged "Day 1a"', () => {
+    const markers = buildMarkers(parseStages(SPLIT_STAGE))
+    const WatkinsGlenMarker = markers.find(m => m.name === 'Watkins Glen')
+    expect(WatkinsGlenMarker).toBeDefined()
+    expect(WatkinsGlenMarker?.day).toBe('Day 1a')
+    expect(WatkinsGlenMarker?.lng).toBeCloseTo(-76.8744)
+  })
+
+  it('buildMarkers contains marker for Madison tagged "Day 4a"', () => {
+    const markers = buildMarkers(parseStages(SPLIT_STAGE))
+    const MadisonMarker = markers.find(m => m.name === 'Madison')
+    expect(MadisonMarker).toBeDefined()
+    expect(MadisonMarker?.day).toBe('Day 4a')
+  })
+
+  it('buildMarkers contains marker for Cody tagged "Day 9a"', () => {
+    const markers = buildMarkers(parseStages(SPLIT_STAGE))
+    const CodyMarker = markers.find(m => m.name === 'Cody')
+    expect(CodyMarker).toBeDefined()
+    expect(CodyMarker?.day).toBe('Day 9a')
+  })
+
+  it('buildMarkers contains marker for Pendleton tagged "Day 50a"', () => {
+    const markers = buildMarkers(parseStages(SPLIT_STAGE))
+    const PendletonMarker = markers.find(m => m.name === 'Pendleton')
+    expect(PendletonMarker).toBeDefined()
+    expect(PendletonMarker?.day).toBe('Day 50a')
+  })
+
+  it('COORDS["Watkins Glen"].coords toEqual [42.3812, -76.8744]', () => {
+    expect(COORDS['Watkins Glen'].coords).toEqual([42.3812, -76.8744])
+  })
+
+  it('COORDS["Madison"].coords toEqual [43.0731, -89.4012]', () => {
+    expect(COORDS['Madison'].coords).toEqual([43.0731, -89.4012])
+  })
+
+  it('COORDS["Cody"].coords toEqual [44.5263, -109.0565]', () => {
+    expect(COORDS['Cody'].coords).toEqual([44.5263, -109.0565])
+  })
+
+  it('COORDS["Pendleton"].coords toEqual [45.6721, -118.7886]', () => {
+    expect(COORDS['Pendleton'].coords).toEqual([45.6721, -118.7886])
+  })
+
+  it('ROUTE ordering: Watkins Glen is between Boston and Cleveland', () => {
+    const bostonIdx = ROUTE.findIndex(p => p[0] === 42.3601 && p[1] === -71.0589)
+    const WatkinsGlenIdx = ROUTE.findIndex(p => p[0] === 42.3812 && p[1] === -76.8744)
+    const clevelandIdx = ROUTE.findIndex(p => p[0] === 41.4993 && p[1] === -81.6944)
+    expect(WatkinsGlenIdx).toBeGreaterThan(bostonIdx)
+    expect(WatkinsGlenIdx).toBeLessThan(clevelandIdx)
+  })
+
+  it('ROUTE ordering: Madison is between Chicago and Sioux Falls', () => {
+    const chicagoIdx = ROUTE.findIndex(p => p[0] === 41.8781 && p[1] === -87.6298)
+    const MadisonIdx = ROUTE.findIndex(p => p[0] === 43.0731 && p[1] === -89.4012)
+    const siouxFallsIdx = ROUTE.findIndex(p => p[0] === 43.5446 && p[1] === -96.7311)
+    expect(MadisonIdx).toBeGreaterThan(chicagoIdx)
+    expect(MadisonIdx).toBeLessThan(siouxFallsIdx)
+  })
+
+  it('ROUTE ordering: Cody is between Rapid City and West Yellowstone', () => {
+    const rapidCityIdx = ROUTE.findIndex(p => p[0] === 44.0805 && p[1] === -103.2310)
+    const CodyIdx = ROUTE.findIndex(p => p[0] === 44.5263 && p[1] === -109.0565)
+    const westYellowstoneIdx = ROUTE.findIndex(p => p[0] === 44.6602 && p[1] === -111.0983)
+    expect(CodyIdx).toBeGreaterThan(rapidCityIdx)
+    expect(CodyIdx).toBeLessThan(westYellowstoneIdx)
+  })
+
+  it('ROUTE ordering: Pendleton is between Bend and Coeur d\'Alene', () => {
+    const bendIdx = ROUTE.findIndex(p => p[0] === 44.0582 && p[1] === -121.3153)
+    const PendletonIdx = ROUTE.findIndex(p => p[0] === 45.6721 && p[1] === -118.7886)
+    const coeursdAleneIdx = ROUTE.findIndex(p => p[0] === 47.6777 && p[1] === -116.7805)
+    expect(PendletonIdx).toBeGreaterThan(bendIdx)
+    expect(PendletonIdx).toBeLessThan(coeursdAleneIdx)
   })
 })

@@ -56,16 +56,23 @@ export const COORDS: Record<string, { coords: [number, number]; type: MapMarker[
   'Bismarck':            { coords: [46.8083, -100.7837],  type: 'city' },
   'Sage Creek':          { coords: [43.9554, -102.5397],  type: 'camp' },
   'Bridger-Teton':       { coords: [43.5000, -110.5000],  type: 'camp' },
+  'Watkins Glen':        { coords: [42.3812, -76.8744],   type: 'city' },
+  'Madison':             { coords: [43.0731, -89.4012],   type: 'city' },
+  'Cody':                { coords: [44.5263, -109.0565],  type: 'city' },
+  'Pendleton':           { coords: [45.6721, -118.7886],  type: 'city' },
 }
 
 export const ROUTE: [number, number][] = [
-  [42.3601, -71.0589],   // Boston
-  [41.4993, -81.6944],   // Cleveland
-  [41.8781, -87.6298],   // Chicago
-  [43.5446, -96.7311],   // Sioux Falls
+   [42.3601, -71.0589],   // Boston
+   [42.3812, -76.8744],   // Watkins Glen
+   [41.4993, -81.6944],   // Cleveland
+   [41.8781, -87.6298],   // Chicago
+   [43.0731, -89.4012],   // Madison
+   [43.5446, -96.7311],   // Sioux Falls
   [43.8554, -102.3397],  // Badlands
-  [44.0805, -103.2310],  // Rapid City
-  [44.6602, -111.0983],  // West Yellowstone
+   [44.0805, -103.2310],  // Rapid City
+   [44.5263, -109.0565],  // Cody
+   [44.6602, -111.0983],  // West Yellowstone
   [43.7904, -110.6818],  // Grand Teton
   [40.7608, -111.8910],  // Salt Lake City
   [40.3772, -105.5217],  // Estes Park
@@ -86,8 +93,9 @@ export const ROUTE: [number, number][] = [
   [36.2704, -121.8081],  // Big Sur
   [41.2132, -124.0046],  // Redwood NP
   [42.9446, -122.1090],  // Crater Lake
-  [44.0582, -121.3153],  // Bend
-  [45.7054, -121.5218],  // Columbia Gorge
+   [44.0582, -121.3153],  // Bend
+   [45.6721, -118.7886],  // Pendleton
+   [45.7054, -121.5218],  // Columbia Gorge
   [47.6777, -116.7805],  // Coeur d'Alene
   [46.8721, -113.9940],  // Missoula
   [48.1960, -114.3115],  // Kalispell
