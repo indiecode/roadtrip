@@ -1,11 +1,5 @@
 import { test, expect } from '@playwright/test'
 
-// Import trip data with JSON module type
-import tripData from '../../src/data/trip.json' with { type: 'json' }
-import type { TripData } from '../../src/types'
-
-const data = tripData as TripData
-
 test.beforeEach(async ({ page }) => {
   // 1. Block tile images to neutralize async tile loading
   await page.route('**/*.{png,jpg,jpeg,webp}', async (route, request) => {

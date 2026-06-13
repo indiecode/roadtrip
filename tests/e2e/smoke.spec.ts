@@ -1,12 +1,5 @@
 import { test, expect } from '@playwright/test'
 
-// Import trip data with JSON module type
-import tripData from '../../src/data/trip.json' with { type: 'json' }
-import type { TripData } from '../../src/types'
-
-const data = tripData as TripData
-const dayCount = data.stages.reduce((acc, s) => acc + s.days_list.length, 0)
-
 test('loads the homepage', async ({ page }) => {
   await page.goto('/')
   await expect(page).toHaveTitle('🚗 Boston → The West → Boston')
