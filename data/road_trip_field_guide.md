@@ -44,7 +44,8 @@ Each day shows the **drive**, where to **charge**, and the **hotel-or-camp** cal
 
 | Day | Route & drive | Charge | Sleep |
 |---|---|---|---|
-| 1 | **Boston → Cleveland, OH** — long highway day, pure transit | I-90 Superchargers all along | Cleveland hotel (cheap, easy) |
+| 1a | **Boston → Watkins Glen, NY** (~5.5–6 hr; I-90 W to Albany, Thruway, then south to Seneca Lake) | Geneva, NY or Horseheads/Big Flats (no Supercharger in Watkins Glen) | Watkins Glen village or Corning, NY hotel |
+| 1b | **Watkins Glen → Cleveland, OH** (~5–5.5 hr; back to I-90 via Geneva/Waterloo, west through Buffalo & Erie) | Dense I-90 Superchargers | Cleveland hotel (cheap, easy) |
 | 2 | **Cuyahoga Valley NP** — free park; Brandywine Falls, Ledges Trail | Cleveland metro — top off | Cleveland, or push toward Toledo |
 | 3 | **Cleveland → Chicago area** — transit day | Frequent along I-90 | Chicago-area hotel (easy) |
 | 4 | **Chicago → Sioux Falls, SD** — big drive, break the plains | Dense along I-90 | Sioux Falls hotel (cheap, easy) |
@@ -53,7 +54,9 @@ Each day shows the **drive**, where to **charge**, and the **hotel-or-camp** cal
 | 7 | **Black Hills** — Mt. Rushmore, Wind Cave NP (free), Black Elk Peak | Rapid City / Custer | Custer or Rapid City hotel |
 | 8 | **Buffer / explore** — Custer State Park wildlife loop, Needles Hwy | Rapid City / Custer | Hotel |
 
-**Notes:** Charging here is effortless — just top off in any I-90 town. Sage Creek Campground is free, first-come, and bison wander through; worth the camp night.
+**Notes:** The short 1b arrival (~5–5.5 hr) gives you extra time in Cuyahoga Valley this year — fold the afternoon into Day 2 if you like. Charging here is effortless — just top off in any I-90 town. Sage Creek Campground is free, first-come, and bison wander through; worth the camp night.
+
+**Afternoon on 1a:** Watkins Glen State Park **Gorge Trail** (~1.5 mi, 19 waterfalls, ~800 steps). Seasonal note: typically open mid-May–early Nov (open in the mid-June trip window); Indian Trail/South Rim is the workaround if closed. Fee note: NY state park, NOT covered by America the Beautiful pass — ~$10 vehicle entry.
 
 ---
 
