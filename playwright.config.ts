@@ -6,6 +6,13 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests/e2e',
   /*
+   * Visual snapshot specs are a local-only tool: screenshot baselines are
+   * environment-specific (fonts/antialiasing differ across machines and the
+   * CI runner) and the map tab loads non-deterministic network tiles. CI runs
+   * the behavioral smoke tests only; run `npm run test:e2e` locally for visuals.
+   */
+  testIgnore: process.env.CI ? ['**/visual.spec.ts'] : [],
+  /*
    * Run tests in files in parallel
    */
   fullyParallel: true,
