@@ -63,9 +63,10 @@ export default defineConfig({
     },
   ],
   /*
-   * webServer is used only for local runs; CI uses actual deployed preview URL
+   * Serve the app locally via `wrangler dev` (needs no Cloudflare creds).
+   * Used in CI too, unless PLAYWRIGHT_BASE_URL points at an external target.
    */
-  webServer: process.env.CI ? undefined : {
+  webServer: process.env.PLAYWRIGHT_BASE_URL ? undefined : {
     command: 'npm run preview',
     url: 'http://localhost:8787',
     reuseExistingServer: !process.env.CI,
