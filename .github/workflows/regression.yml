@@ -12,7 +12,9 @@ jobs:
         with: { node-version: '22', cache: 'npm' }
       - run: npm ci
       - run: npm run build
-      - run: npx playwright install --with-deps chromium
+      # install all engines: the chromium-mobile project uses an iPhone device
+      # descriptor whose default engine is webkit
+      - run: npx playwright install --with-deps
       # Playwright boots a local `wrangler dev` server (no Cloudflare creds needed)
       - run: npx playwright test
       - if: failure()
