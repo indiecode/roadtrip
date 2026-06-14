@@ -22,14 +22,14 @@ describe('computeDayGeometry', () => {
     expect(day.mapCenter[1]).toBeCloseTo(-81.65)
   })
 
-  it('gap-lookup path: Day with day=10–12 and no markers → mapCenter = Yellowstone coords', () => {
-    const day: Day = { day: '10–12', route: 'Yellowstone', charge: '', sleep: '', sleep_type: 'hotel', mapCenter: [0, 0], mapZoom: 6 }
-    const stage: Stage = { id: 1, name: 'Test', days: 'Days 10–12', miles: '500', notes: '', days_list: [day] }
-    const markers: MapMarker[] = [{ id: 'other', name: 'Other', lat: 40, lng: -100, type: 'park', day: 'Day 10' }]
+  it('gap-lookup path: Day with day=13–15 and no markers → mapCenter = Yellowstone coords', () => {
+    const day: Day = { day: '13–15', route: 'Yellowstone', charge: '', sleep: '', sleep_type: 'hotel', mapCenter: [0, 0], mapZoom: 6 }
+    const stage: Stage = { id: 1, name: 'Test', days: 'Days 13–15', miles: '500', notes: '', days_list: [day] }
+    const markers: MapMarker[] = [{ id: 'other', name: 'Other', lat: 40, lng: -100, type: 'park', day: 'Day 13' }]
 
     computeDayGeometry([stage], markers)
 
-    const expected = COORDS[GAP_DAY_LOCATIONS['10–12']].coords
+    const expected = COORDS[GAP_DAY_LOCATIONS['13–15']].coords
     expect(day.mapCenter).toEqual(expected)
     expect(day.mapZoom).toBe(8)
   })

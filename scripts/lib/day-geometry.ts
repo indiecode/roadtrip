@@ -2,17 +2,17 @@ import { COORDS } from './coords.js'
 import type { Day, Stage, MapMarker } from '../../src/types.js'
 
 export const GAP_DAY_LOCATIONS: Record<string, string> = {
-  '8':     'Rapid City',
-  '10–12': 'Yellowstone NP',
-  '14–15': 'Grand Teton NP',
-  '18–19': 'Rocky Mountain NP',
-  '21–22': 'Ouray',
-  '34–35': 'Sequoia NP',
-  '37–39': 'Yosemite NP',
-  '42–43': 'Redwood NP',
-  '49':    'Bend',
-  '55':    'Glacier NP',
-  '57+':   'Boston',
+  '10':    'Rapid City',
+  '13–15': 'Yellowstone NP',
+  '17–18': 'Grand Teton NP',
+  '21–22': 'Rocky Mountain NP',
+  '24–25': 'Ouray',
+  '37–38': 'Sequoia NP',
+  '40–42': 'Yosemite NP',
+  '45–46': 'Redwood NP',
+  '52':    'Bend',
+  '59':    'Glacier NP',
+  '61+':   'Boston',
 }
 
 export function pickZoom(day: Day): number {
