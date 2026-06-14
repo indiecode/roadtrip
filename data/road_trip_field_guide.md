@@ -40,81 +40,81 @@ Each day shows the **drive**, where to **charge**, and the **hotel-or-camp** cal
 ---
 
 ## Stage 1 — Boston to the Black Hills
-*Days 1–8 · ~2,000 mi · Easy charging the whole way — dense Supercharger coverage on I-90/I-80. These are your warm-up miles.*
+*Days 1–10 · ~2,000 mi · Easy charging the whole way — dense Supercharger coverage on I-90/I-80. These are your warm-up miles.*
 
 | Day | Route & drive | Charge | Sleep |
 |---|---|---|---|
-| 1a | **Boston → Watkins Glen, NY** (~5.5–6 hr; I-90 W to Albany, Thruway, then south to Seneca Lake) | Geneva, NY or Horseheads/Big Flats (no Supercharger in Watkins Glen) | Watkins Glen village or Corning, NY hotel |
-| 1b | **Watkins Glen → Cleveland, OH** (~5–5.5 hr; back to I-90 via Geneva/Waterloo, west through Buffalo & Erie) | Dense I-90 Superchargers | Cleveland hotel (cheap, easy) |
-| 2 | **Cuyahoga Valley NP** — free park; Brandywine Falls, Ledges Trail | Cleveland metro — top off | Cleveland, or push toward Toledo |
-| 3 | **Cleveland → Chicago area** — transit day | Frequent along I-90 | Chicago-area hotel (easy) |
-| 4a | **Chicago → Madison, WI** (~2.5 hr, ~150 mi) — arrive ~lunchtime; afternoon + evening in town | Several Superchargers in Madison | Madison hotel — stay on/near the isthmus (Capitol Square / State Street) for easy walking; same-day booking reliable. (Splurge: The Edgewater on Lake Mendota) |
-| 4b | **Madison → Sioux Falls, SD** (~6 hr, ~415 mi; the fuller leg but under the cap) | Dense along I-90 | Sioux Falls hotel — optional evening: Falls Park (Big Sioux River over pink quartzite, lit at night) + downtown Phillips Ave (SculptureWalk, Arc of Dreams, dinner); optional morning: Falls Park in daylight or Palisades State Park (~25 min NE, scenic quartzite) |
-| 5 | **Sioux Falls → Badlands NP** — arrive afternoon, sunset over spires | Rapid City / Wall area | 🏕 Sage Creek (free, bison) |
-| 6 | **Badlands hiking** — Notch, Castle, Door & Window trails | Wall / Rapid City | Rapid City or Custer hotel |
-| 7 | **Black Hills** — Mt. Rushmore, Wind Cave NP (free), Black Elk Peak | Rapid City / Custer | Custer or Rapid City hotel |
-| 8 | **Buffer / explore** — Custer State Park wildlife loop, Needles Hwy | Rapid City / Custer | Hotel |
+| 1 | **Boston → Watkins Glen, NY** (~5.5–6 hr; I-90 W to Albany, Thruway, then south to Seneca Lake) | Geneva, NY or Horseheads/Big Flats (no Supercharger in Watkins Glen) | Watkins Glen village or Corning, NY hotel |
+| 2 | **Watkins Glen → Cleveland, OH** (~5–5.5 hr; back to I-90 via Geneva/Waterloo, west through Buffalo & Erie) | Dense I-90 Superchargers | Cleveland hotel (cheap, easy) |
+| 3 | **Cuyahoga Valley NP** — free park; Brandywine Falls, Ledges Trail | Cleveland metro — top off | Cleveland, or push toward Toledo |
+| 4 | **Cleveland → Chicago area** — transit day | Frequent along I-90 | Chicago-area hotel (easy) |
+| 5 | **Chicago → Madison, WI** (~2.5 hr, ~150 mi) — arrive ~lunchtime; afternoon + evening in town | Several Superchargers in Madison | Madison hotel — stay on/near the isthmus (Capitol Square / State Street) for easy walking; same-day booking reliable. (Splurge: The Edgewater on Lake Mendota) |
+| 6 | **Madison → Sioux Falls, SD** (~6 hr, ~415 mi; the fuller leg but under the cap) | Dense along I-90 | Sioux Falls hotel — optional evening: Falls Park (Big Sioux River over pink quartzite, lit at night) + downtown Phillips Ave (SculptureWalk, Arc of Dreams, dinner); optional morning: Falls Park in daylight or Palisades State Park (~25 min NE, scenic quartzite) |
+| 7 | **Sioux Falls → Badlands NP** — arrive afternoon, sunset over spires | Rapid City / Wall area | 🏕 Sage Creek (free, bison) |
+| 8 | **Badlands hiking** — Notch, Castle, Door & Window trails | Wall / Rapid City | Rapid City or Custer hotel |
+| 9 | **Black Hills** — Mt. Rushmore, Wind Cave NP (free), Black Elk Peak | Rapid City / Custer | Custer or Rapid City hotel |
+| 10 | **Buffer / explore** — Custer State Park wildlife loop, Needles Hwy | Rapid City / Custer | Hotel |
 
-**Notes:** The short 1b arrival (~5–5.5 hr) gives you extra time in Cuyahoga Valley this year — fold the afternoon into Day 2 if you like. Charging here is effortless — just top off in any I-90 town. Sage Creek Campground is free, first-come, and bison wander through; worth the camp night.
+**Notes:** The short 2 arrival (~5–5.5 hr) gives you extra time in Cuyahoga Valley this year — fold the afternoon into Day 3 if you like. Charging here is effortless — just top off in any I-90 town. Sage Creek Campground is free, first-come, and bison wander through; worth the camp night.
 
-**Afternoon on 4a:** Madison is a walkable capital city on an isthmus between Lake Mendota and Lake Monona. Start at the **Memorial Union Terrace** (lakeside, sunset views, outdoor seating), then walk up to the **State Capitol** (free tours) and explore **State Street** (shops, cafés, bookstore). Optional: **Olbrich Gardens** (free, downtown) or **Henry Vilas Zoo** (free, near lake). Note: this is a HOTEL night — camping here undercuts the downtown evening (state-park electric sites are mostly 30A, not the 50A you need).
+**Afternoon on Day 5:** Madison is a walkable capital city on an isthmus between Lake Mendota and Lake Monona. Start at the **Memorial Union Terrace** (lakeside, sunset views, outdoor seating), then walk up to the **State Capitol** (free tours) and explore **State Street** (shops, cafés, bookstore). Optional: **Olbrich Gardens** (free, downtown) or **Henry Vilas Zoo** (free, near lake). Note: this is a HOTEL night — camping here undercuts the downtown evening (state-park electric sites are mostly 30A, not the 50A you need).
 
-**Afternoon on 1a:** Watkins Glen State Park **Gorge Trail** (~1.5 mi, 19 waterfalls, ~800 steps). Seasonal note: typically open mid-May–early Nov (open in the mid-June trip window); Indian Trail/South Rim is the workaround if closed. Fee note: NY state park, NOT covered by America the Beautiful pass — ~$10 vehicle entry.
+**Afternoon on Day 1:** Watkins Glen State Park **Gorge Trail** (~1.5 mi, 19 waterfalls, ~800 steps). Seasonal note: typically open mid-May–early Nov (open in the mid-June trip window); Indian Trail/South Rim is the workaround if closed. Fee note: NY state park, NOT covered by America the Beautiful pass — ~$10 vehicle entry.
 
 ---
 
 ## Stage 2 — Yellowstone & Grand Teton
-*Days 9–16 · Gateway-town Superchargers; Level 2 only inside the parks. Base in a gateway, day-trip in, top off on in-park Level 2 while you hike.*
+*Days 11–19 · Gateway-town Superchargers; Level 2 only inside the parks. Base in a gateway, day-trip in, top off on in-park Level 2 while you hike.*
 
 | Day | Route & drive | Charge | Sleep |
 |---|---|---|---|
-| 9a | **Black Hills → Cody, WY** (~5 hr; Sheridan, WY is the alternative overnight if preferred) — Beartooth / Chief Joseph byway optional | Sheridan / Cody corridor | Cody hotel (primary) / Sheridan hotel (alternative) |
-| 9b | **Cody → West Yellowstone** (~3 hr via **East Entrance over Sylvan Pass**, ~80 mi) — **charge FULL in Cody before the climb** (treat usable range as ~60–70% of rated on Sylvan Pass) | Charge at Cody before departure | West Yellowstone hotel (8-stall Supercharger in town — top off overnight) |
-| 10–12 | **Yellowstone (3 days)** — Mt. Washburn, Fairy Falls, Lamar Valley, geyser basins | Supercharger in West Yellowstone overnight; Level 2 at Canyon/Old Faithful while hiking | West Yellowstone hotel (or grab an in-park site early for 1 camp night) |
-| 13 | **Yellowstone → Grand Teton** — short drive south | Jackson Supercharger | 🏕 Bridger-Teton NF dispersed |
-| 14–15 | **Grand Teton (2 days)** — Cascade Canyon, Jenny Lake, Delta Lake | Jackson Supercharger; Level 2 at Signal Mtn / Colter Bay | 🏕 Bridger-Teton dispersed + 1 Jackson hotel |
-| 16 | **Reposition south** — toward Salt Lake City; resupply, laundry | I-15 corridor / SLC | Salt Lake City hotel (cheap, easy) |
+| 11 | **Black Hills → Cody, WY** (~5 hr; Sheridan, WY is the alternative overnight if preferred) — Beartooth / Chief Joseph byway optional | Sheridan / Cody corridor | Cody hotel (primary) / Sheridan hotel (alternative) |
+| 12 | **Cody → West Yellowstone** (~3 hr via **East Entrance over Sylvan Pass**, ~80 mi) — **charge FULL in Cody before the climb** (treat usable range as ~60–70% of rated on Sylvan Pass) | Charge at Cody before departure | West Yellowstone hotel (8-stall Supercharger in town — top off overnight) |
+| 13–15 | **Yellowstone (3 days)** — Mt. Washburn, Fairy Falls, Lamar Valley, geyser basins | Supercharger in West Yellowstone overnight; Level 2 at Canyon/Old Faithful while hiking | West Yellowstone hotel (or grab an in-park site early for 1 camp night) |
+| 16 | **Yellowstone → Grand Teton** — short drive south | Jackson Supercharger | 🏕 Bridger-Teton NF dispersed |
+| 17–18 | **Grand Teton (2 days)** — Cascade Canyon, Jenny Lake, Delta Lake | Jackson Supercharger; Level 2 at Signal Mtn / Colter Bay | 🏕 Bridger-Teton dispersed + 1 Jackson hotel |
+| 19 | **Reposition south** — toward Salt Lake City; resupply, laundry | I-15 corridor / SLC | Salt Lake City hotel (cheap, easy) |
 
 **Charging strategy:** West Yellowstone (8-stall Supercharger) and Jackson are your fast-charge anchors — charge to full overnight in town. Inside both parks it's Level 2 only (4–5 hrs full); plug in when you park for a hike as free bonus range.
 
-> **Cody → West Yellowstone (9b):** Sylvan Pass is a climb — treat usable range as ~60–70% of rated. Charge FULL in Cody before departure. East Entrance over Sylvan Pass is scenic (~80 mi) but requires planning for the climb.
+> **Cody → West Yellowstone (Day 12):** Sylvan Pass is a climb — treat usable range as ~60–70% of rated. Charge FULL in Cody before departure. East Entrance over Sylvan Pass is scenic (~80 mi) but requires planning for the climb.
 
 > Jackson hotels can blow past $250 and sell out same-day on weekends — that's exactly why the Teton nights default to free dispersed camping, with one hotel splurge.
 
 ---
 
 ## Stage 3 — Colorado Rockies
-*Days 17–22 · High elevation = watch range. Charge full in mountain towns before going high; you get range back on the descents.*
+*Days 20–25 · High elevation = watch range. Charge full in mountain towns before going high; you get range back on the descents.*
 
 | Day | Route & drive | Charge | Sleep |
 |---|---|---|---|
-| 17 | **SLC → Rocky Mountain NP** — drive to Estes Park gateway | Front Range / Estes Park | Estes Park hotel |
-| 18–19 | **Rocky Mountain NP (2 days)** — Bear Lake, Emerald Lake, Sky Pond, Trail Ridge Rd (>12,000 ft) | Estes Park — full before Trail Ridge climb | Estes Park hotel |
-| 20 | **South to the San Juans** — drive toward Durango/Ouray | Denver metro / I-70 / US-50 | Durango or Ouray hotel |
-| 21–22 | **San Juans (2 days)** — Ouray, Silverton, alpine hikes ("Switzerland of America") | Durango / Montrose | Mountain-town hotel + 1 🏕 NF camp |
+| 20 | **SLC → Rocky Mountain NP** — drive to Estes Park gateway | Front Range / Estes Park | Estes Park hotel |
+| 21–22 | **Rocky Mountain NP (2 days)** — Bear Lake, Emerald Lake, Sky Pond, Trail Ridge Rd (>12,000 ft) | Estes Park — full before Trail Ridge climb | Estes Park hotel |
+| 23 | **South to the San Juans** — drive toward Durango/Ouray | Denver metro / I-70 / US-50 | Durango or Ouray hotel |
+| 24–25 | **San Juans (2 days)** — Ouray, Silverton, alpine hikes ("Switzerland of America") | Durango / Montrose | Mountain-town hotel + 1 🏕 NF camp |
 
 **Notes:** Trail Ridge Road and the San Juan passes are big climbs — leave town at 90–100% and let regen recover charge on the way down. This is your most flexible stretch: add or trim a San Juan day if you're running ahead or behind.
 
 ---
 
 ## Stage 4 — Utah's Red Rock
-*Days 23–30 · Superchargers in Moab, Hurricane, Beaver. World-class free BLM/NF camping — several nights here are camp-by-choice.*
+*Days 26–33 · Superchargers in Moab, Hurricane, Beaver. World-class free BLM/NF camping — several nights here are camp-by-choice.*
 
 | Day | Route & drive | Charge | Sleep |
 |---|---|---|---|
-| 23 | **Colorado → Moab** — drive to red-rock country | Moab Supercharger | 🏕 BLM along Hwy 128 / 313 |
-| 24–25 | **Arches & Canyonlands** — Delicate Arch (sunrise), Devils Garden, Mesa Arch, Island in the Sky | Moab Supercharger | 🏕 Moab BLM + 1 Moab hotel |
-| 26 | **Moab → Capitol Reef** — scenic Hwy 24 west | Top off in Moab; plan the gap | Torrey hotel |
-| 27 | **Capitol Reef → Bryce** — uncrowded gem, then Bryce | Hurricane / Beaver area | 🏕 Dixie NF dispersed near Bryce |
-| 28 | **Bryce Canyon** — Navajo / Queens Garden combo loop | Beaver / Hurricane | 🏕 Dixie NF dispersed |
-| 29–30 | **Zion (2 days)** — The Narrows, Angels Landing (lottery!), Observation Pt | Hurricane Supercharger; Level 2 in Springdale | Springdale hotel (or 1 NF camp) |
+| 26 | **Colorado → Moab** — drive to red-rock country | Moab Supercharger | 🏕 BLM along Hwy 128 / 313 |
+| 27–28 | **Arches & Canyonlands** — Delicate Arch (sunrise), Devils Garden, Mesa Arch, Island in the Sky | Moab Supercharger | 🏕 Moab BLM + 1 Moab hotel |
+| 29 | **Moab → Capitol Reef** — scenic Hwy 24 west | Top off in Moab; plan the gap | Torrey hotel |
+| 30 | **Capitol Reef → Bryce** — uncrowded gem, then Bryce | Hurricane / Beaver area | 🏕 Dixie NF dispersed near Bryce |
+| 31 | **Bryce Canyon** — Navajo / Queens Garden combo loop | Beaver / Hurricane | 🏕 Dixie NF dispersed |
+| 32–33 | **Zion (2 days)** — The Narrows, Angels Landing (lottery!), Observation Pt | Hurricane Supercharger; Level 2 in Springdale | Springdale hotel (or 1 NF camp) |
 
 > **Don't forget the Angels Landing lottery.** Two days before you want the summit, set a phone reminder. Apply on Recreation.gov between 12:01 am and 3 pm MT the *day before* your hike; you'll hear by 4 pm. No permit? The West Rim Trail up to Scout Lookout (most of the climb + views) needs no permit at all. Screenshot the permit before Zion — cell service in the canyon is poor.
 
 ---
 
 ## Stage 5 — Zion to the Sierra (charging leg #1)
-*Days 31–32 · A string of small-town desert Superchargers with no single terrifying gap (now that Bishop exists). Discipline: top off at every stop, never start a climb below ~80%.*
+*Days 34–35 · A string of small-town desert Superchargers with no single terrifying gap (now that Bishop exists). Discipline: top off at every stop, never start a climb below ~80%.*
 
 | Day | Route & drive | Charge | Sleep |
 |---|---|---|---|
@@ -137,14 +137,14 @@ Each day shows the **drive**, where to **charge**, and the **hotel-or-camp** cal
 ---
 
 ## Stage 6 — Sequoia, Kings Canyon & Yosemite
-*Days 33–39 · The region that rewards the most time. Superchargers in Visalia, Fresno, Mariposa, Groveland. No park-entry reservation needed in 2026.*
+*Days 36–42 · The region that rewards the most time. Superchargers in Visalia, Fresno, Mariposa, Groveland. No park-entry reservation needed in 2026.*
 
 | Day | Route & drive | Charge | Sleep |
 |---|---|---|---|
-| 33 | **Sierra → Sequoia/Kings Canyon** — drive in to the big trees | Visalia / Fresno | Three Rivers or Fresno hotel |
-| 34–35 | **Sequoia & Kings Canyon (2 days)** — General Sherman, Moro Rock, Cedar Grove | Visalia / Fresno | Hotel + 1 🏕 NF camp |
-| 36 | **→ Yosemite** — north; plan to arrive before 8 am tomorrow | Fresno / Mariposa / Groveland | Mariposa or Groveland hotel |
-| 37–39 | **Yosemite (3 days)** — Mist Trail, Yosemite Falls, Cathedral Lakes; Half Dome if lottery hits | Mariposa / Groveland — charge in gateway, day-trip in | Gateway-town hotel (skip pricey in-Valley lodging) |
+| 34 | **Sierra → Sequoia/Kings Canyon** — drive in to the big trees | Visalia / Fresno | Three Rivers or Fresno hotel |
+| 35–36 | **Sequoia & Kings Canyon (2 days)** — General Sherman, Moro Rock, Cedar Grove | Visalia / Fresno | Hotel + 1 🏕 NF camp |
+| 37 | **→ Yosemite** — north; plan to arrive before 8 am tomorrow | Fresno / Mariposa / Groveland | Mariposa or Groveland hotel |
+| 38–40 | **Yosemite (3 days)** — Mist Trail, Yosemite Falls, Cathedral Lakes; Half Dome if lottery hits | Mariposa / Groveland — charge in gateway, day-trip in | Gateway-town hotel (skip pricey in-Valley lodging) |
 
 > **Half Dome — enter the daily lottery here.** Two days before your intended summit, apply on Recreation.gov between midnight and 4 pm PT ($10). Pick a *midweek* date for better odds. Cables expected up ~May 22–Oct 13, 2026. Backup if you miss: Clouds Rest or Mist Trail → Nevada Fall.
 
@@ -153,46 +153,46 @@ Each day shows the **drive**, where to **charge**, and the **hotel-or-camp** cal
 ---
 
 ## Stage 7 — California Coast & Oregon
-*Days 40–49 · Decompress. Very EV-friendly — Superchargers all along the coast and throughout Oregon.*
+*Days 43–52 · Decompress. Very EV-friendly — Superchargers all along the coast and throughout Oregon.*
 
 | Day | Route & drive | Charge | Sleep |
 |---|---|---|---|
-| 40–41 | **Yosemite → SF → Big Sur** — Hwy 1, the coast, redwoods begin | Dense all along the coast | Bay Area / coast hotel |
-| 42–43 | **North to Redwood NP** — coast redwoods, tide pools, sea stacks | US-101 corridor | Coastal hotel + 1 🏕 redwoods camp |
-| 44 | **→ Crater Lake NP, OR** — deep-blue caldera, rim drive | Medford / Roseburg area | Nearby hotel |
-| 45–46 | **Bend, OR (Cascades base)** — Smith Rock, Three Sisters, lava country | Bend Supercharger | Bend hotel (easy, often under budget) |
-| 47–48 | **Columbia Gorge & Mt. Hood** — Multnomah Falls, gorge waterfalls | Portland metro / Hood River | Hood River or Portland hotel |
-| 49 | **Stage into eastern Oregon** — begin the long haul east; charge full | Bend / Ontario — fill before the gap (charge to 100% — jump-off for the remote crossing) | Bend hotel/camp (charge to 100%) |
+| 41–42 | **Yosemite → SF → Big Sur** — Hwy 1, the coast, redwoods begin | Dense all along the coast | Bay Area / coast hotel |
+| 43–44 | **North to Redwood NP** — coast redwoods, tide pools, sea stacks | US-101 corridor | Coastal hotel + 1 🏕 redwoods camp |
+| 45 | **→ Crater Lake NP, OR** — deep-blue caldera, rim drive | Medford / Roseburg area | Nearby hotel |
+| 46–47 | **Bend, OR (Cascades base)** — Smith Rock, Three Sisters, lava country | Bend Supercharger | Bend hotel (easy, often under budget) |
+| 48–49 | **Columbia Gorge & Mt. Hood** — Multnomah Falls, gorge waterfalls | Portland metro / Hood River | Hood River or Portland hotel |
+| 50 | **Stage into eastern Oregon** — begin the long haul east; charge full | Bend / Ontario — fill before the gap (charge to 100% — jump-off for the remote crossing) | Bend hotel/camp (charge to 100%) |
 
 **Notes:** Your easiest charging stretch — enjoy it before the long eastward haul. Use a buffer night here if you're behind; the coast and Bend both reward an extra day.
 
 ---
 
 ## Stage 8 — Oregon to Glacier (charging leg #2)
-*Days 50–55 · Your longest, most remote leg (~700+ mi). The remote part is now the Bend → Pendleton morning (50a); overnight in Pendleton ends it. Once on I-84/I-90, it's a well-charged interstate the rest of the way.*
+*Days 51–56 · Your longest, most remote leg (~700+ mi). The remote part is now the Bend → Pendleton morning (Day 51); overnight in Pendleton ends it. Once on I-84/I-90, it's a well-charged interstate the rest of the way.*
 
 | Day | Route & drive | Charge | Sleep |
 |---|---|---|---|
-| 50a | **Bend → Pendleton, OR** (~3.5 hr; US-26 through the John Day high desert) — this IS the remote stretch — sparse charging; leave Bend at 100%, ABRP carefully, treat usable range conservatively | **Pendleton/Hermiston Supercharger (I-84 corridor)** at the end — this is the move that de-fangs the gap | Pendleton hotel |
-| 50b | **Pendleton → Coeur d'Alene, ID** (~3.5–4 hr; I-84 → Spokane → I-90) | Well-charged on the interstate spine from here | Coeur d'Alene hotel |
-| 51 | **→ Missoula, MT** — comfortable interstate driving | Missoula Supercharger | Missoula hotel (easy) |
-| 52 | **Missoula → Kalispell** — ~114 mi, one easy hop | Kalispell Supercharger (8 V4 stalls) | Kalispell or Whitefish hotel |
-| 53–54 | **Glacier NP (2 days)** — Going-to-the-Sun Rd, Highline, Grinnell Glacier, Avalanche Lake | Charge FULL in Kalispell; day-trip in — no fast charging in park | Kalispell hotel; or 🏕 east-side camp |
-| 55 | **Buffer / Two Medicine / Many Glacier** — hold loose for weather or a place you love | Kalispell | 🏕 Hotel or camp |
+| 51 | **Bend → Pendleton, OR** (~3.5 hr; US-26 through the John Day high desert) — this IS the remote stretch — sparse charging; leave Bend at 100%, ABRP carefully, treat usable range conservatively | **Pendleton/Hermiston Supercharger (I-84 corridor)** at the end — this is the move that de-fangs the gap | Pendleton hotel |
+| 52 | **Pendleton → Coeur d'Alene, ID** (~3.5–4 hr; I-84 → Spokane → I-90) | Well-charged on the interstate spine from here | Coeur d'Alene hotel |
+| 53 | **→ Missoula, MT** — comfortable interstate driving | Missoula Supercharger | Missoula hotel (easy) |
+| 54 | **Missoula → Kalispell** — ~114 mi, one easy hop | Kalispell Supercharger (8 V4 stalls) | Kalispell or Whitefish hotel |
+| 55–56 | **Glacier NP (2 days)** — Going-to-the-Sun Rd, Highline, Grinnell Glacier, Avalanche Lake | Charge FULL in Kalispell; day-trip in — no fast charging in park | Kalispell hotel; or 🏕 east-side camp |
+| 57 | **Buffer / Two Medicine / Many Glacier** — hold loose for weather or a place you love | Kalispell | 🏕 Hotel or camp |
 
 > **Glacier charging — the key move.** Kalispell now has an 8-stall V4 Supercharger (new since 2024) — this is what makes Glacier doable. Charge to **full** there. Kalispell→St. Mary is under 85 mi but climbs ~3,500 ft over Going-to-the-Sun Rd. Day-trip the road and return; do *not* rely on the slow east-side chargers. To stay on the east side, pick a hotel with a destination/J1772 charger and plug in overnight. After Jul 1, Logan Pass parking is capped at 3 hrs (enough for Hidden Lake Overlook); for a longer hike, reserve the shuttle the night before.
 
 ---
 
 ## Stage 9 — The Long Haul Home
-*Day 56+ · Across the northern plains back to Boston. Easy charging the entire way on I-90/I-94.*
+*Day 58+ · Across the northern plains back to Boston. Easy charging the entire way on I-90/I-94.*
 
 | Day | Route & drive | Charge | Sleep |
 |---|---|---|---|
-| 56 | **Glacier → east across MT** — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck) | I-90/I-94 — dense, easy | Billings hotel (Bozeman if you prefer the mountains) |
-| 57+ | **ND → MN → … → Boston** — ~6 legs, each ≤7 hr: Billings → Bismarck (~5.5 hr) → Twin Cities, MN (~6.5 hr) → Chicago area (~6.5 hr) → Cleveland, OH (~5.5 hr) → Syracuse, NY (~5 hr) → Boston (~5 hr). The Syracuse (or Buffalo) overnight is required — Cleveland→Boston direct is ~10 hr. Keep it loose (no-prebook interstate stretch). | Frequent along I-90/I-94 | Interstate hotels (cheap, easy same-day) |
+| 58 | **Glacier → east across MT** — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck) | I-90/I-94 — dense, easy | Billings hotel (Bozeman if you prefer the mountains) |
+| 59+ | **ND → MN → … → Boston** — ~6 legs, each ≤7 hr: Billings → Bismarck (~5.5 hr) → Twin Cities, MN (~6.5 hr) → Chicago area (~6.5 hr) → Cleveland, OH (~5.5 hr) → Syracuse, NY (~5 hr) → Boston (~5 hr). The Syracuse (or Buffalo) overnight is required — Cleveland→Boston direct is ~10 hr. Keep it loose (no-prebook interstate stretch). | Frequent along I-90/I-94 | Interstate hotels (cheap, easy same-day) |
 
-**Heads up on the buffer:** if you used buffer days earlier, the drive home compresses (you finish a few days early); if not, you finish around Day 60. The return is the opposite scenery from the way out (alpine and northern plains rather than red rock) — the reward for the long Montana miles.
+**Heads up on the buffer:** if you used buffer days earlier, the drive home compresses (you finish a few days early); if not, you finish around Day 62. The return is the opposite scenery from the way out (alpine and northern plains rather than red rock) — the reward for the long Montana miles.
 
 ---
 
