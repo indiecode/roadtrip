@@ -1,7 +1,7 @@
 # Boston → The West → Boston
 ### A Tesla Model Y National-Parks Field Guide
 
-*~56 days · ~7,800 miles · 2 people · hotels most nights, strategic camping, nothing pre-booked*
+*~60 days · ~7,900 miles · 2 people · hotels most nights, strategic camping, nothing pre-booked*
 
 ---
 
@@ -22,8 +22,8 @@ Each day shows the **drive**, where to **charge**, and the **hotel-or-camp** cal
 | Vehicle | Tesla Model Y — carry mobile connector + NEMA 14-50 adapter |
 | Park pass | Buy America the Beautiful pass ($80) — covers all park entry |
 | Apps to load | ABRP (route + charge), iOverlander & Campendium (free camps), Recreation.gov (permits) |
-| Est. total cost | ~$11,400–11,900 (hotels most nights) incl. buffer fund |
-| Lodging mix | ~43 hotel nights (booked same-day) + ~13 strategic camp nights |
+| Est. total cost | ~$12,150–12,650 (hotels most nights) incl. buffer fund |
+| Lodging mix | ~47 hotel nights (booked same-day) + ~13 strategic camp nights |
 
 ### The only things you must act on (all day-of, none pre-booked)
 
@@ -189,7 +189,7 @@ Each day shows the **drive**, where to **charge**, and the **hotel-or-camp** cal
 
 | Day | Route & drive | Charge | Sleep |
 |---|---|---|---|
-| 56 | **Glacier → east across MT** — optional: Theodore Roosevelt NP, ND (uncrowded, but pushes the day long — better as next-day stop) | I-90/I-94 — dense, easy | Billings hotel (Bozeman if you prefer the mountains) |
+| 56 | **Glacier → east across MT** — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck) | I-90/I-94 — dense, easy | Billings hotel (Bozeman if you prefer the mountains) |
 | 57+ | **ND → MN → … → Boston** — ~6 legs, each ≤7 hr: Billings → Bismarck (~5.5 hr) → Twin Cities, MN (~6.5 hr) → Chicago area (~6.5 hr) → Cleveland, OH (~5.5 hr) → Syracuse, NY (~5 hr) → Boston (~5 hr). The Syracuse (or Buffalo) overnight is required — Cleveland→Boston direct is ~10 hr. Keep it loose (no-prebook interstate stretch). | Frequent along I-90/I-94 | Interstate hotels (cheap, easy same-day) |
 
 **Heads up on the buffer:** if you used buffer days earlier, the drive home compresses (you finish a few days early); if not, you finish around Day 60. The return is the opposite scenery from the way out (alpine and northern plains rather than red rock) — the reward for the long Montana miles.
@@ -202,14 +202,14 @@ Each day shows the **drive**, where to **charge**, and the **hotel-or-camp** cal
 
 | Category | Estimate |
 |---|---|
-| Hotels (~43 nights @ ~$190 avg) | ~$8,170 |
+| Hotels (~47 nights @ ~$190 avg) | ~$8,930 |
 | Camping (~13 nights, lots free) | ~$155 |
-| Charging (~7,800 mi) | $660 |
+| Charging (~7,900 mi) | $660 |
 | America the Beautiful pass | $80 |
 | Food (cooler + groceries; dinners out) | $1,600–2,000 |
 | Misc (laundry, permits, showers, parking) | $400 |
 | Buffer fund (a couple of pricey same-day rooms) | $300–400 |
-| **TOTAL** | **~$11,400–11,900** |
+| **TOTAL** | **~$12,150–12,650** |
 
 *Why the hotel average is ~$190, not $215: you're camping the expensive towns (Jackson, Springdale-adjacent, Glacier east side), so the remaining hotel nights skew toward cheaper gateway towns where you'll often beat budget. Camping your priciest would-be hotel nights pulls the whole average down.*
 
