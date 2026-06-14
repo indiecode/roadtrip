@@ -12,19 +12,31 @@
       "name": "Boston to the Black Hills",
       "days": "Days 1–8",
       "miles": "~2,000 mi",
-      "notes": "Charging here is effortless — just top off in any I-90 town. Sage Creek Campground is free, first-come, and bison wander through; worth the camp night.",
+      "notes": "The short 1b arrival (~5–5.5 hr) gives you extra time in Cuyahoga Valley this year — fold the afternoon into Day 2 if you like. Charging here is effortless — just top off in any I-90 town. Sage Creek Campground is free, first-come, and bison wander through; worth the camp night.",
       "days_list": [
         {
-          "day": "1",
-          "route": "Boston → Cleveland, OH — long highway day, pure transit",
-          "charge": "I-90 Superchargers all along",
+          "day": "1a",
+          "route": "Boston → Watkins Glen, NY (~5.5–6 hr; I-90 W to Albany, Thruway, then south to Seneca Lake)",
+          "charge": "Geneva, NY or Horseheads/Big Flats (no Supercharger in Watkins Glen)",
+          "sleep": "Watkins Glen village or Corning, NY hotel",
+          "sleep_type": "hotel",
+          "mapCenter": [
+            42.37065,
+            -73.96664999999999
+          ],
+          "mapZoom": 6
+        },
+        {
+          "day": "1b",
+          "route": "Watkins Glen → Cleveland, OH (~5–5.5 hr; back to I-90 via Geneva/Waterloo, west through Buffalo & Erie)",
+          "charge": "Dense I-90 Superchargers",
           "sleep": "Cleveland hotel (cheap, easy)",
           "sleep_type": "hotel",
           "mapCenter": [
-            41.9297,
-            -76.37665
+            41.4993,
+            -81.6944
           ],
-          "mapZoom": 5
+          "mapZoom": 6
         },
         {
           "day": "2",
@@ -51,10 +63,22 @@
           "mapZoom": 6
         },
         {
-          "day": "4",
-          "route": "Chicago → Sioux Falls, SD — big drive, break the plains",
+          "day": "4a",
+          "route": "Chicago → Madison, WI (~2.5 hr, ~150 mi) — arrive ~lunchtime; afternoon + evening in town",
+          "charge": "Several Superchargers in Madison",
+          "sleep": "Madison hotel — stay on/near the isthmus (Capitol Square / State Street) for easy walking; same-day booking reliable. (Splurge: The Edgewater on Lake Mendota)",
+          "sleep_type": "hotel",
+          "mapCenter": [
+            43.0731,
+            -89.4012
+          ],
+          "mapZoom": 6
+        },
+        {
+          "day": "4b",
+          "route": "Madison → Sioux Falls, SD (~6 hr, ~415 mi; the fuller leg but under the cap)",
           "charge": "Dense along I-90",
-          "sleep": "Sioux Falls hotel (cheap, easy)",
+          "sleep": "Sioux Falls hotel — optional evening: Falls Park (Big Sioux River over pink quartzite, lit at night) + downtown Phillips Ave (SculptureWalk, Arc of Dreams, dinner); optional morning: Falls Park in daylight or Palisades State Park (~25 min NE, scenic quartzite)",
           "sleep_type": "hotel",
           "mapCenter": [
             43.5446,
@@ -120,16 +144,28 @@
       "notes": "",
       "days_list": [
         {
-          "day": "9",
-          "route": "Black Hills → West Yellowstone — long scenic drive west",
+          "day": "9a",
+          "route": "Black Hills → Cody, WY (~5 hr; Sheridan, WY is the alternative overnight if preferred) — Beartooth / Chief Joseph byway optional",
           "charge": "Sheridan / Cody corridor",
-          "sleep": "West Yellowstone hotel",
+          "sleep": "Cody hotel (primary) / Sheridan hotel (alternative)",
+          "sleep_type": "hotel",
+          "mapCenter": [
+            44.5263,
+            -109.0565
+          ],
+          "mapZoom": 6
+        },
+        {
+          "day": "9b",
+          "route": "Cody → West Yellowstone (~3 hr via East Entrance over Sylvan Pass, ~80 mi) — charge FULL in Cody before the climb (treat usable range as ~60–70% of rated on Sylvan Pass)",
+          "charge": "Charge at Cody before departure",
+          "sleep": "West Yellowstone hotel (8-stall Supercharger in town — top off overnight)",
           "sleep_type": "hotel",
           "mapCenter": [
             44.5441,
             -110.8434
           ],
-          "mapZoom": 5
+          "mapZoom": 6
         },
         {
           "day": "10–12",
@@ -479,9 +515,9 @@
         {
           "day": "49",
           "route": "Stage into eastern Oregon — begin the long haul east; charge full",
-          "charge": "Bend / Ontario — fill before the gap",
-          "sleep": "🏕 Eastern OR hotel or camp",
-          "sleep_type": "camp",
+          "charge": "Bend / Ontario — fill before the gap (charge to 100% — jump-off for the remote crossing)",
+          "sleep": "Bend hotel/camp (charge to 100%)",
+          "sleep_type": "hotel",
           "mapCenter": [
             44.0582,
             -121.3153
@@ -498,16 +534,28 @@
       "notes": "",
       "days_list": [
         {
-          "day": "50",
-          "route": "Eastern OR → I-90 (Coeur d'Alene, ID) — cross the remote part, then hit the interstate spine",
-          "charge": "Plan the eastern-OR gap in ABRP → Coeur d'Alene",
+          "day": "50a",
+          "route": "Bend → Pendleton, OR (~3.5 hr; US-26 through the John Day high desert) — this IS the remote stretch — sparse charging; leave Bend at 100%, ABRP carefully, treat usable range conservatively",
+          "charge": "Pendleton/Hermiston Supercharger (I-84 corridor) at the end — this is the move that de-fangs the gap",
+          "sleep": "Pendleton hotel",
+          "sleep_type": "hotel",
+          "mapCenter": [
+            45.6721,
+            -118.7886
+          ],
+          "mapZoom": 6
+        },
+        {
+          "day": "50b",
+          "route": "Pendleton → Coeur d'Alene, ID (~3.5–4 hr; I-84 → Spokane → I-90)",
+          "charge": "Well-charged on the interstate spine from here",
           "sleep": "Coeur d'Alene hotel",
           "sleep_type": "hotel",
           "mapCenter": [
             47.6777,
             -116.7805
           ],
-          "mapZoom": 5
+          "mapZoom": 6
         },
         {
           "day": "51",
@@ -568,19 +616,19 @@
       "days_list": [
         {
           "day": "56",
-          "route": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND (uncrowded)",
+          "route": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck)",
           "charge": "I-90/I-94 — dense, easy",
-          "sleep": "Billings / Bismarck hotel",
+          "sleep": "Billings hotel (Bozeman if you prefer the mountains)",
           "sleep_type": "hotel",
           "mapCenter": [
             46.52353333333334,
             -104.27436666666667
           ],
-          "mapZoom": 6
+          "mapZoom": 5
         },
         {
           "day": "57+",
-          "route": "ND → MN → … → Boston — multi-day interstate run home",
+          "route": "ND → MN → … → Boston — ~6 legs, each ≤7 hr: Billings → Bismarck (~5.5 hr) → Twin Cities, MN (~6.5 hr) → Chicago area (~6.5 hr) → Cleveland, OH (~5.5 hr) → Syracuse, NY (~5 hr) → Boston (~5 hr). The Syracuse (or Buffalo) overnight is required — Cleveland→Boston direct is ~10 hr. Keep it loose (no-prebook interstate stretch).",
           "charge": "Frequent along I-90/I-94",
           "sleep": "Interstate hotels (cheap, easy same-day)",
           "sleep_type": "hotel",
@@ -600,8 +648,20 @@
       "lat": 42.3601,
       "lng": -71.0589,
       "type": "city",
-      "day": "Day 1",
-      "notes": "Boston → Cleveland, OH — long highway day, pure transit",
+      "day": "Day 1a",
+      "notes": "Boston → Watkins Glen, NY (~5.5–6 hr; I-90 W to Albany, Thruway, then south to Seneca Lake)",
+      "tags": [
+        "Boston to the Black Hills"
+      ]
+    },
+    {
+      "id": "watkins-glen",
+      "name": "Watkins Glen",
+      "lat": 42.3812,
+      "lng": -76.8744,
+      "type": "hotel",
+      "day": "Day 1a",
+      "notes": "Boston → Watkins Glen, NY (~5.5–6 hr; I-90 W to Albany, Thruway, then south to Seneca Lake)",
       "tags": [
         "Boston to the Black Hills"
       ]
@@ -612,8 +672,8 @@
       "lat": 41.4993,
       "lng": -81.6944,
       "type": "hotel",
-      "day": "Day 1",
-      "notes": "Boston → Cleveland, OH — long highway day, pure transit",
+      "day": "Day 1b",
+      "notes": "Watkins Glen → Cleveland, OH (~5–5.5 hr; back to I-90 via Geneva/Waterloo, west through Buffalo & Erie)",
       "tags": [
         "Boston to the Black Hills"
       ]
@@ -643,13 +703,25 @@
       ]
     },
     {
+      "id": "madison",
+      "name": "Madison",
+      "lat": 43.0731,
+      "lng": -89.4012,
+      "type": "hotel",
+      "day": "Day 4a",
+      "notes": "Chicago → Madison, WI (~2.5 hr, ~150 mi) — arrive ~lunchtime; afternoon + evening in town",
+      "tags": [
+        "Boston to the Black Hills"
+      ]
+    },
+    {
       "id": "sioux-falls",
       "name": "Sioux Falls",
       "lat": 43.5446,
       "lng": -96.7311,
       "type": "hotel",
-      "day": "Day 4",
-      "notes": "Chicago → Sioux Falls, SD — big drive, break the plains",
+      "day": "Day 4b",
+      "notes": "Madison → Sioux Falls, SD (~6 hr, ~415 mi; the fuller leg but under the cap)",
       "tags": [
         "Boston to the Black Hills"
       ]
@@ -715,13 +787,25 @@
       ]
     },
     {
+      "id": "cody",
+      "name": "Cody",
+      "lat": 44.5263,
+      "lng": -109.0565,
+      "type": "hotel",
+      "day": "Day 9a",
+      "notes": "Black Hills → Cody, WY (~5 hr; Sheridan, WY is the alternative overnight if preferred) — Beartooth / Chief Joseph byway optional",
+      "tags": [
+        "Yellowstone & Grand Teton"
+      ]
+    },
+    {
       "id": "west-yellowstone",
       "name": "West Yellowstone",
       "lat": 44.6602,
       "lng": -111.0983,
       "type": "charger",
-      "day": "Day 9",
-      "notes": "Black Hills → West Yellowstone — long scenic drive west",
+      "day": "Day 9b",
+      "notes": "Cody → West Yellowstone (~3 hr via East Entrance over Sylvan Pass, ~80 mi) — charge FULL in Cody before the climb (treat usable range as ~60–70% of rated on Sylvan Pass)",
       "tags": [
         "Yellowstone & Grand Teton"
       ]
@@ -732,8 +816,8 @@
       "lat": 44.428,
       "lng": -110.5885,
       "type": "park",
-      "day": "Day 9",
-      "notes": "Black Hills → West Yellowstone — long scenic drive west",
+      "day": "Day 9b",
+      "notes": "Cody → West Yellowstone (~3 hr via East Entrance over Sylvan Pass, ~80 mi) — charge FULL in Cody before the climb (treat usable range as ~60–70% of rated on Sylvan Pass)",
       "tags": [
         "Yellowstone & Grand Teton"
       ]
@@ -1159,13 +1243,25 @@
       ]
     },
     {
+      "id": "pendleton",
+      "name": "Pendleton",
+      "lat": 45.6721,
+      "lng": -118.7886,
+      "type": "hotel",
+      "day": "Day 50a",
+      "notes": "Bend → Pendleton, OR (~3.5 hr; US-26 through the John Day high desert) — this IS the remote stretch — sparse charging; leave Bend at 100%, ABRP carefully, treat usable range conservatively",
+      "tags": [
+        "Oregon to Glacier (charging leg #2)"
+      ]
+    },
+    {
       "id": "coeur-d-alene",
       "name": "Coeur d'Alene",
       "lat": 47.6777,
       "lng": -116.7805,
       "type": "hotel",
-      "day": "Day 50",
-      "notes": "Eastern OR → I-90 (Coeur d'Alene, ID) — cross the remote part, then hit the interstate spine",
+      "day": "Day 50b",
+      "notes": "Pendleton → Coeur d'Alene, ID (~3.5–4 hr; I-84 → Spokane → I-90)",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
       ]
@@ -1213,7 +1309,7 @@
       "lng": -103.5387,
       "type": "park",
       "day": "Day 56",
-      "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND (uncrowded)",
+      "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck)",
       "tags": [
         "The Long Haul Home"
       ]
@@ -1225,7 +1321,7 @@
       "lng": -108.5007,
       "type": "hotel",
       "day": "Day 56",
-      "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND (uncrowded)",
+      "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck)",
       "tags": [
         "The Long Haul Home"
       ]
@@ -1235,9 +1331,9 @@
       "name": "Bismarck",
       "lat": 46.8083,
       "lng": -100.7837,
-      "type": "hotel",
+      "type": "city",
       "day": "Day 56",
-      "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND (uncrowded)",
+      "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck)",
       "tags": [
         "The Long Haul Home"
       ]
