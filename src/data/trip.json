@@ -2,7 +2,7 @@
   "title": "Boston → The West → Boston",
   "subtitle": "A Tesla Model Y National-Parks Field Guide",
   "stats": {
-    "days": 56,
+    "days": 60,
     "miles": 7800,
     "people": 2
   },
@@ -10,12 +10,12 @@
     {
       "id": 1,
       "name": "Boston to the Black Hills",
-      "days": "Days 1–8",
+      "days": "Days 1–10",
       "miles": "~2,000 mi",
-      "notes": "The short 1b arrival (~5–5.5 hr) gives you extra time in Cuyahoga Valley this year — fold the afternoon into Day 2 if you like. Charging here is effortless — just top off in any I-90 town. Sage Creek Campground is free, first-come, and bison wander through; worth the camp night.",
+      "notes": "The short Day 2 arrival (~5–5.5 hr) gives you extra time in Cuyahoga Valley this year — fold the afternoon into Day 3 if you like. Charging here is effortless — just top off in any I-90 town. Sage Creek Campground is free, first-come, and bison wander through; worth the camp night.",
       "days_list": [
         {
-          "day": "1a",
+          "day": "1",
           "route": "Boston → Watkins Glen, NY (~5.5–6 hr; I-90 W to Albany, Thruway, then south to Seneca Lake)",
           "charge": "Geneva, NY or Horseheads/Big Flats (no Supercharger in Watkins Glen)",
           "sleep": "Watkins Glen village or Corning, NY hotel",
@@ -27,7 +27,7 @@
           "mapZoom": 6
         },
         {
-          "day": "1b",
+          "day": "2",
           "route": "Watkins Glen → Cleveland, OH (~5–5.5 hr; back to I-90 via Geneva/Waterloo, west through Buffalo & Erie)",
           "charge": "Dense I-90 Superchargers",
           "sleep": "Cleveland hotel (cheap, easy)",
@@ -39,7 +39,7 @@
           "mapZoom": 6
         },
         {
-          "day": "2",
+          "day": "3",
           "route": "Cuyahoga Valley NP — free park; Brandywine Falls, Ledges Trail",
           "charge": "Cleveland metro — top off",
           "sleep": "Cleveland, or push toward Toledo",
@@ -51,7 +51,7 @@
           "mapZoom": 6
         },
         {
-          "day": "3",
+          "day": "4",
           "route": "Cleveland → Chicago area — transit day",
           "charge": "Frequent along I-90",
           "sleep": "Chicago-area hotel (easy)",
@@ -63,7 +63,7 @@
           "mapZoom": 6
         },
         {
-          "day": "4a",
+          "day": "5",
           "route": "Chicago → Madison, WI (~2.5 hr, ~150 mi) — arrive ~lunchtime; afternoon + evening in town",
           "charge": "Several Superchargers in Madison",
           "sleep": "Madison hotel — stay on/near the isthmus (Capitol Square / State Street) for easy walking; same-day booking reliable. (Splurge: The Edgewater on Lake Mendota)",
@@ -75,7 +75,7 @@
           "mapZoom": 6
         },
         {
-          "day": "4b",
+          "day": "6",
           "route": "Madison → Sioux Falls, SD (~6 hr, ~415 mi; the fuller leg but under the cap)",
           "charge": "Dense along I-90",
           "sleep": "Sioux Falls hotel — optional evening: Falls Park (Big Sioux River over pink quartzite, lit at night) + downtown Phillips Ave (SculptureWalk, Arc of Dreams, dinner); optional morning: Falls Park in daylight or Palisades State Park (~25 min NE, scenic quartzite)",
@@ -87,7 +87,7 @@
           "mapZoom": 6
         },
         {
-          "day": "5",
+          "day": "7",
           "route": "Sioux Falls → Badlands NP — arrive afternoon, sunset over spires",
           "charge": "Rapid City / Wall area",
           "sleep": "🏕 Sage Creek (free, bison)",
@@ -99,7 +99,7 @@
           "mapZoom": 6
         },
         {
-          "day": "6",
+          "day": "8",
           "route": "Badlands hiking — Notch, Castle, Door & Window trails",
           "charge": "Wall / Rapid City",
           "sleep": "Rapid City or Custer hotel",
@@ -111,7 +111,7 @@
           "mapZoom": 6
         },
         {
-          "day": "7",
+          "day": "9",
           "route": "Black Hills — Mt. Rushmore, Wind Cave NP (free), Black Elk Peak",
           "charge": "Rapid City / Custer",
           "sleep": "Custer or Rapid City hotel",
@@ -123,7 +123,7 @@
           "mapZoom": 6
         },
         {
-          "day": "8",
+          "day": "10",
           "route": "Buffer / explore — Custer State Park wildlife loop, Needles Hwy",
           "charge": "Rapid City / Custer",
           "sleep": "Hotel",
@@ -139,12 +139,12 @@
     {
       "id": 2,
       "name": "Yellowstone & Grand Teton",
-      "days": "Days 9–16",
+      "days": "Days 11–19",
       "miles": "",
       "notes": "",
       "days_list": [
         {
-          "day": "9a",
+          "day": "11",
           "route": "Black Hills → Cody, WY (~5 hr; Sheridan, WY is the alternative overnight if preferred) — Beartooth / Chief Joseph byway optional",
           "charge": "Sheridan / Cody corridor",
           "sleep": "Cody hotel (primary) / Sheridan hotel (alternative)",
@@ -156,7 +156,7 @@
           "mapZoom": 6
         },
         {
-          "day": "9b",
+          "day": "12",
           "route": "Cody → West Yellowstone (~3 hr via East Entrance over Sylvan Pass, ~80 mi) — charge FULL in Cody before the climb (treat usable range as ~60–70% of rated on Sylvan Pass)",
           "charge": "Charge at Cody before departure",
           "sleep": "West Yellowstone hotel (8-stall Supercharger in town — top off overnight)",
@@ -168,7 +168,7 @@
           "mapZoom": 6
         },
         {
-          "day": "10–12",
+          "day": "13–15",
           "route": "Yellowstone (3 days) — Mt. Washburn, Fairy Falls, Lamar Valley, geyser basins",
           "charge": "Supercharger in West Yellowstone overnight; Level 2 at Canyon/Old Faithful while hiking",
           "sleep": "West Yellowstone hotel (or grab an in-park site early for 1 camp night)",
@@ -180,7 +180,7 @@
           "mapZoom": 8
         },
         {
-          "day": "13",
+          "day": "16",
           "route": "Yellowstone → Grand Teton — short drive south",
           "charge": "Jackson Supercharger",
           "sleep": "🏕 Bridger-Teton NF dispersed",
@@ -192,7 +192,7 @@
           "mapZoom": 6
         },
         {
-          "day": "14–15",
+          "day": "17–18",
           "route": "Grand Teton (2 days) — Cascade Canyon, Jenny Lake, Delta Lake",
           "charge": "Jackson Supercharger; Level 2 at Signal Mtn / Colter Bay",
           "sleep": "🏕 Bridger-Teton dispersed + 1 Jackson hotel",
@@ -204,7 +204,7 @@
           "mapZoom": 8
         },
         {
-          "day": "16",
+          "day": "19",
           "route": "Reposition south — toward Salt Lake City; resupply, laundry",
           "charge": "I-15 corridor / SLC",
           "sleep": "Salt Lake City hotel (cheap, easy)",
@@ -220,12 +220,12 @@
     {
       "id": 3,
       "name": "Colorado Rockies",
-      "days": "Days 17–22",
+      "days": "Days 20–25",
       "miles": "",
       "notes": "Trail Ridge Road and the San Juan passes are big climbs — leave town at 90–100% and let regen recover charge on the way down. This is your most flexible stretch: add or trim a San Juan day if you're running ahead or behind.",
       "days_list": [
         {
-          "day": "17",
+          "day": "20",
           "route": "SLC → Rocky Mountain NP — drive to Estes Park gateway",
           "charge": "Front Range / Estes Park",
           "sleep": "Estes Park hotel",
@@ -237,7 +237,7 @@
           "mapZoom": 6
         },
         {
-          "day": "18–19",
+          "day": "21–22",
           "route": "Rocky Mountain NP (2 days) — Bear Lake, Emerald Lake, Sky Pond, Trail Ridge Rd (>12,000 ft)",
           "charge": "Estes Park — full before Trail Ridge climb",
           "sleep": "Estes Park hotel",
@@ -249,7 +249,7 @@
           "mapZoom": 8
         },
         {
-          "day": "20",
+          "day": "23",
           "route": "South to the San Juans — drive toward Durango/Ouray",
           "charge": "Denver metro / I-70 / US-50",
           "sleep": "Durango or Ouray hotel",
@@ -261,7 +261,7 @@
           "mapZoom": 6
         },
         {
-          "day": "21–22",
+          "day": "24–25",
           "route": "San Juans (2 days) — Ouray, Silverton, alpine hikes (\"Switzerland of America\")",
           "charge": "Durango / Montrose",
           "sleep": "Mountain-town hotel + 1 🏕 NF camp",
@@ -277,12 +277,12 @@
     {
       "id": 4,
       "name": "Utah's Red Rock",
-      "days": "Days 23–30",
+      "days": "Days 26–33",
       "miles": "",
       "notes": "",
       "days_list": [
         {
-          "day": "23",
+          "day": "26",
           "route": "Colorado → Moab — drive to red-rock country",
           "charge": "Moab Supercharger",
           "sleep": "🏕 BLM along Hwy 128 / 313",
@@ -294,7 +294,7 @@
           "mapZoom": 6
         },
         {
-          "day": "24–25",
+          "day": "27–28",
           "route": "Arches & Canyonlands — Delicate Arch (sunrise), Devils Garden, Mesa Arch, Island in the Sky",
           "charge": "Moab Supercharger",
           "sleep": "🏕 Moab BLM + 1 Moab hotel",
@@ -306,7 +306,7 @@
           "mapZoom": 8
         },
         {
-          "day": "26",
+          "day": "29",
           "route": "Moab → Capitol Reef — scenic Hwy 24 west",
           "charge": "Top off in Moab; plan the gap",
           "sleep": "Torrey hotel",
@@ -318,7 +318,7 @@
           "mapZoom": 6
         },
         {
-          "day": "27",
+          "day": "30",
           "route": "Capitol Reef → Bryce — uncrowded gem, then Bryce",
           "charge": "Hurricane / Beaver area",
           "sleep": "🏕 Dixie NF dispersed near Bryce",
@@ -330,7 +330,7 @@
           "mapZoom": 6
         },
         {
-          "day": "28",
+          "day": "31",
           "route": "Bryce Canyon — Navajo / Queens Garden combo loop",
           "charge": "Beaver / Hurricane",
           "sleep": "🏕 Dixie NF dispersed",
@@ -342,7 +342,7 @@
           "mapZoom": 6
         },
         {
-          "day": "29–30",
+          "day": "32–33",
           "route": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
           "charge": "Hurricane Supercharger; Level 2 in Springdale",
           "sleep": "Springdale hotel (or 1 NF camp)",
@@ -358,12 +358,12 @@
     {
       "id": 5,
       "name": "Zion to the Sierra (charging leg #1)",
-      "days": "Days 31–32",
+      "days": "Days 34–35",
       "miles": "",
       "notes": "",
       "days_list": [
         {
-          "day": "31",
+          "day": "34",
           "route": "Zion → Las Vegas → Nevada interior — I-15 to Vegas (last dense hub), then US-95 north",
           "charge": "Hurricane (full) → Las Vegas → Beatty (8 stalls)",
           "sleep": "Las Vegas or Beatty hotel",
@@ -375,7 +375,7 @@
           "mapZoom": 6
         },
         {
-          "day": "32",
+          "day": "35",
           "route": "Nevada → Eastern Sierra (US-395) — up through Tonopah, cut to 395 toward Bishop/Mammoth",
           "charge": "Tonopah (8 stalls) → Bishop → Mammoth Lakes",
           "sleep": "Bishop or Mammoth hotel (or 🏕 NF camp)",
@@ -391,12 +391,12 @@
     {
       "id": 6,
       "name": "Sequoia, Kings Canyon & Yosemite",
-      "days": "Days 33–39",
+      "days": "Days 36–42",
       "miles": "",
       "notes": "",
       "days_list": [
         {
-          "day": "33",
+          "day": "36",
           "route": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
           "charge": "Visalia / Fresno",
           "sleep": "Three Rivers or Fresno hotel",
@@ -408,7 +408,7 @@
           "mapZoom": 6
         },
         {
-          "day": "34–35",
+          "day": "37–38",
           "route": "Sequoia & Kings Canyon (2 days) — General Sherman, Moro Rock, Cedar Grove",
           "charge": "Visalia / Fresno",
           "sleep": "Hotel + 1 🏕 NF camp",
@@ -420,7 +420,7 @@
           "mapZoom": 8
         },
         {
-          "day": "36",
+          "day": "39",
           "route": "→ Yosemite — north; plan to arrive before 8 am tomorrow",
           "charge": "Fresno / Mariposa / Groveland",
           "sleep": "Mariposa or Groveland hotel",
@@ -432,7 +432,7 @@
           "mapZoom": 6
         },
         {
-          "day": "37–39",
+          "day": "40–42",
           "route": "Yosemite (3 days) — Mist Trail, Yosemite Falls, Cathedral Lakes; Half Dome if lottery hits",
           "charge": "Mariposa / Groveland — charge in gateway, day-trip in",
           "sleep": "Gateway-town hotel (skip pricey in-Valley lodging)",
@@ -448,12 +448,12 @@
     {
       "id": 7,
       "name": "California Coast & Oregon",
-      "days": "Days 40–49",
+      "days": "Days 43–52",
       "miles": "",
       "notes": "Your easiest charging stretch — enjoy it before the long eastward haul. Use a buffer night here if you're behind; the coast and Bend both reward an extra day.",
       "days_list": [
         {
-          "day": "40–41",
+          "day": "43–44",
           "route": "Yosemite → SF → Big Sur — Hwy 1, the coast, redwoods begin",
           "charge": "Dense all along the coast",
           "sleep": "Bay Area / coast hotel",
@@ -465,7 +465,7 @@
           "mapZoom": 8
         },
         {
-          "day": "42–43",
+          "day": "45–46",
           "route": "North to Redwood NP — coast redwoods, tide pools, sea stacks",
           "charge": "US-101 corridor",
           "sleep": "Coastal hotel + 1 🏕 redwoods camp",
@@ -477,7 +477,7 @@
           "mapZoom": 8
         },
         {
-          "day": "44",
+          "day": "47",
           "route": "→ Crater Lake NP, OR — deep-blue caldera, rim drive",
           "charge": "Medford / Roseburg area",
           "sleep": "Nearby hotel",
@@ -489,7 +489,7 @@
           "mapZoom": 6
         },
         {
-          "day": "45–46",
+          "day": "48–49",
           "route": "Bend, OR (Cascades base) — Smith Rock, Three Sisters, lava country",
           "charge": "Bend Supercharger",
           "sleep": "Bend hotel (easy, often under budget)",
@@ -501,7 +501,7 @@
           "mapZoom": 8
         },
         {
-          "day": "47–48",
+          "day": "50–51",
           "route": "Columbia Gorge & Mt. Hood — Multnomah Falls, gorge waterfalls",
           "charge": "Portland metro / Hood River",
           "sleep": "Hood River or Portland hotel",
@@ -513,7 +513,7 @@
           "mapZoom": 8
         },
         {
-          "day": "49",
+          "day": "52",
           "route": "Stage into eastern Oregon — begin the long haul east; charge full",
           "charge": "Bend / Ontario — fill before the gap (charge to 100% — jump-off for the remote crossing)",
           "sleep": "Bend hotel/camp (charge to 100%)",
@@ -529,12 +529,12 @@
     {
       "id": 8,
       "name": "Oregon to Glacier (charging leg #2)",
-      "days": "Days 50–55",
+      "days": "Days 53–59",
       "miles": "",
       "notes": "",
       "days_list": [
         {
-          "day": "50a",
+          "day": "53",
           "route": "Bend → Pendleton, OR (~3.5 hr; US-26 through the John Day high desert) — this IS the remote stretch — sparse charging; leave Bend at 100%, ABRP carefully, treat usable range conservatively",
           "charge": "Pendleton/Hermiston Supercharger (I-84 corridor) at the end — this is the move that de-fangs the gap",
           "sleep": "Pendleton hotel",
@@ -546,7 +546,7 @@
           "mapZoom": 6
         },
         {
-          "day": "50b",
+          "day": "54",
           "route": "Pendleton → Coeur d'Alene, ID (~3.5–4 hr; I-84 → Spokane → I-90)",
           "charge": "Well-charged on the interstate spine from here",
           "sleep": "Coeur d'Alene hotel",
@@ -558,7 +558,7 @@
           "mapZoom": 6
         },
         {
-          "day": "51",
+          "day": "55",
           "route": "→ Missoula, MT — comfortable interstate driving",
           "charge": "Missoula Supercharger",
           "sleep": "Missoula hotel (easy)",
@@ -570,7 +570,7 @@
           "mapZoom": 5
         },
         {
-          "day": "52",
+          "day": "56",
           "route": "Missoula → Kalispell — ~114 mi, one easy hop",
           "charge": "Kalispell Supercharger (8 V4 stalls)",
           "sleep": "Kalispell or Whitefish hotel",
@@ -582,7 +582,7 @@
           "mapZoom": 6
         },
         {
-          "day": "53–54",
+          "day": "57–58",
           "route": "Glacier NP (2 days) — Going-to-the-Sun Rd, Highline, Grinnell Glacier, Avalanche Lake",
           "charge": "Charge FULL in Kalispell; day-trip in — no fast charging in park",
           "sleep": "Kalispell hotel; or 🏕 east-side camp",
@@ -594,7 +594,7 @@
           "mapZoom": 8
         },
         {
-          "day": "55",
+          "day": "59",
           "route": "Buffer / Two Medicine / Many Glacier — hold loose for weather or a place you love",
           "charge": "Kalispell",
           "sleep": "🏕 Hotel or camp",
@@ -610,12 +610,12 @@
     {
       "id": 9,
       "name": "The Long Haul Home",
-      "days": "Days 56+",
+      "days": "Days 60+",
       "miles": "",
       "notes": "",
       "days_list": [
         {
-          "day": "56",
+          "day": "60",
           "route": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck)",
           "charge": "I-90/I-94 — dense, easy",
           "sleep": "Billings hotel (Bozeman if you prefer the mountains)",
@@ -627,7 +627,7 @@
           "mapZoom": 5
         },
         {
-          "day": "57+",
+          "day": "61+",
           "route": "ND → MN → … → Boston — ~6 legs, each ≤7 hr: Billings → Bismarck (~5.5 hr) → Twin Cities, MN (~6.5 hr) → Chicago area (~6.5 hr) → Cleveland, OH (~5.5 hr) → Syracuse, NY (~5 hr) → Boston (~5 hr). The Syracuse (or Buffalo) overnight is required — Cleveland→Boston direct is ~10 hr. Keep it loose (no-prebook interstate stretch).",
           "charge": "Frequent along I-90/I-94",
           "sleep": "Interstate hotels (cheap, easy same-day)",
@@ -648,7 +648,7 @@
       "lat": 42.3601,
       "lng": -71.0589,
       "type": "city",
-      "day": "Day 1a",
+      "day": "Day 1",
       "notes": "Boston → Watkins Glen, NY (~5.5–6 hr; I-90 W to Albany, Thruway, then south to Seneca Lake)",
       "tags": [
         "Boston to the Black Hills"
@@ -660,7 +660,7 @@
       "lat": 42.3812,
       "lng": -76.8744,
       "type": "hotel",
-      "day": "Day 1a",
+      "day": "Day 1",
       "notes": "Boston → Watkins Glen, NY (~5.5–6 hr; I-90 W to Albany, Thruway, then south to Seneca Lake)",
       "tags": [
         "Boston to the Black Hills"
@@ -672,7 +672,7 @@
       "lat": 41.4993,
       "lng": -81.6944,
       "type": "hotel",
-      "day": "Day 1b",
+      "day": "Day 2",
       "notes": "Watkins Glen → Cleveland, OH (~5–5.5 hr; back to I-90 via Geneva/Waterloo, west through Buffalo & Erie)",
       "tags": [
         "Boston to the Black Hills"
@@ -684,7 +684,7 @@
       "lat": 41.2431,
       "lng": -81.5488,
       "type": "park",
-      "day": "Day 2",
+      "day": "Day 3",
       "notes": "Cuyahoga Valley NP — free park; Brandywine Falls, Ledges Trail",
       "tags": [
         "Boston to the Black Hills"
@@ -696,7 +696,7 @@
       "lat": 41.8781,
       "lng": -87.6298,
       "type": "hotel",
-      "day": "Day 3",
+      "day": "Day 4",
       "notes": "Cleveland → Chicago area — transit day",
       "tags": [
         "Boston to the Black Hills"
@@ -708,7 +708,7 @@
       "lat": 43.0731,
       "lng": -89.4012,
       "type": "hotel",
-      "day": "Day 4a",
+      "day": "Day 5",
       "notes": "Chicago → Madison, WI (~2.5 hr, ~150 mi) — arrive ~lunchtime; afternoon + evening in town",
       "tags": [
         "Boston to the Black Hills"
@@ -720,7 +720,7 @@
       "lat": 43.5446,
       "lng": -96.7311,
       "type": "hotel",
-      "day": "Day 4b",
+      "day": "Day 6",
       "notes": "Madison → Sioux Falls, SD (~6 hr, ~415 mi; the fuller leg but under the cap)",
       "tags": [
         "Boston to the Black Hills"
@@ -732,7 +732,7 @@
       "lat": 43.8554,
       "lng": -102.3397,
       "type": "park",
-      "day": "Day 5",
+      "day": "Day 7",
       "notes": "Sioux Falls → Badlands NP — arrive afternoon, sunset over spires",
       "tags": [
         "Boston to the Black Hills"
@@ -744,7 +744,7 @@
       "lat": 44.0805,
       "lng": -103.231,
       "type": "city",
-      "day": "Day 5",
+      "day": "Day 7",
       "notes": "Sioux Falls → Badlands NP — arrive afternoon, sunset over spires",
       "tags": [
         "Boston to the Black Hills"
@@ -756,7 +756,7 @@
       "lat": 43.9554,
       "lng": -102.5397,
       "type": "camp",
-      "day": "Day 5",
+      "day": "Day 7",
       "notes": "Sioux Falls → Badlands NP — arrive afternoon, sunset over spires",
       "tags": [
         "Boston to the Black Hills"
@@ -768,7 +768,7 @@
       "lat": 43.7666,
       "lng": -103.5991,
       "type": "hotel",
-      "day": "Day 6",
+      "day": "Day 8",
       "notes": "Badlands hiking — Notch, Castle, Door & Window trails",
       "tags": [
         "Boston to the Black Hills"
@@ -780,7 +780,7 @@
       "lat": 43.5561,
       "lng": -103.4789,
       "type": "park",
-      "day": "Day 7",
+      "day": "Day 9",
       "notes": "Black Hills — Mt. Rushmore, Wind Cave NP (free), Black Elk Peak",
       "tags": [
         "Boston to the Black Hills"
@@ -792,7 +792,7 @@
       "lat": 44.5263,
       "lng": -109.0565,
       "type": "hotel",
-      "day": "Day 9a",
+      "day": "Day 11",
       "notes": "Black Hills → Cody, WY (~5 hr; Sheridan, WY is the alternative overnight if preferred) — Beartooth / Chief Joseph byway optional",
       "tags": [
         "Yellowstone & Grand Teton"
@@ -804,7 +804,7 @@
       "lat": 44.6602,
       "lng": -111.0983,
       "type": "charger",
-      "day": "Day 9b",
+      "day": "Day 12",
       "notes": "Cody → West Yellowstone (~3 hr via East Entrance over Sylvan Pass, ~80 mi) — charge FULL in Cody before the climb (treat usable range as ~60–70% of rated on Sylvan Pass)",
       "tags": [
         "Yellowstone & Grand Teton"
@@ -816,7 +816,7 @@
       "lat": 44.428,
       "lng": -110.5885,
       "type": "park",
-      "day": "Day 9b",
+      "day": "Day 12",
       "notes": "Cody → West Yellowstone (~3 hr via East Entrance over Sylvan Pass, ~80 mi) — charge FULL in Cody before the climb (treat usable range as ~60–70% of rated on Sylvan Pass)",
       "tags": [
         "Yellowstone & Grand Teton"
@@ -828,7 +828,7 @@
       "lat": 43.7904,
       "lng": -110.6818,
       "type": "park",
-      "day": "Day 13",
+      "day": "Day 16",
       "notes": "Yellowstone → Grand Teton — short drive south",
       "tags": [
         "Yellowstone & Grand Teton"
@@ -840,7 +840,7 @@
       "lat": 43.4799,
       "lng": -110.7624,
       "type": "charger",
-      "day": "Day 13",
+      "day": "Day 16",
       "notes": "Yellowstone → Grand Teton — short drive south",
       "tags": [
         "Yellowstone & Grand Teton"
@@ -852,7 +852,7 @@
       "lat": 43.5,
       "lng": -110.5,
       "type": "camp",
-      "day": "Day 13",
+      "day": "Day 16",
       "notes": "Yellowstone → Grand Teton — short drive south",
       "tags": [
         "Yellowstone & Grand Teton"
@@ -864,7 +864,7 @@
       "lat": 40.7608,
       "lng": -111.891,
       "type": "hotel",
-      "day": "Day 16",
+      "day": "Day 19",
       "notes": "Reposition south — toward Salt Lake City; resupply, laundry",
       "tags": [
         "Yellowstone & Grand Teton"
@@ -876,7 +876,7 @@
       "lat": 40.3772,
       "lng": -105.5217,
       "type": "hotel",
-      "day": "Day 17",
+      "day": "Day 20",
       "notes": "SLC → Rocky Mountain NP — drive to Estes Park gateway",
       "tags": [
         "Colorado Rockies"
@@ -888,7 +888,7 @@
       "lat": 40.3428,
       "lng": -105.6836,
       "type": "park",
-      "day": "Day 17",
+      "day": "Day 20",
       "notes": "SLC → Rocky Mountain NP — drive to Estes Park gateway",
       "tags": [
         "Colorado Rockies"
@@ -900,7 +900,7 @@
       "lat": 37.2753,
       "lng": -107.8801,
       "type": "hotel",
-      "day": "Day 20",
+      "day": "Day 23",
       "notes": "South to the San Juans — drive toward Durango/Ouray",
       "tags": [
         "Colorado Rockies"
@@ -912,7 +912,7 @@
       "lat": 38.0228,
       "lng": -107.6713,
       "type": "hotel",
-      "day": "Day 20",
+      "day": "Day 23",
       "notes": "South to the San Juans — drive toward Durango/Ouray",
       "tags": [
         "Colorado Rockies"
@@ -924,7 +924,7 @@
       "lat": 38.5733,
       "lng": -109.5498,
       "type": "charger",
-      "day": "Day 23",
+      "day": "Day 26",
       "notes": "Colorado → Moab — drive to red-rock country",
       "tags": [
         "Utah's Red Rock"
@@ -936,7 +936,7 @@
       "lat": 38.7331,
       "lng": -109.5925,
       "type": "park",
-      "day": "Day 24–25",
+      "day": "Day 27–28",
       "notes": "Arches & Canyonlands — Delicate Arch (sunrise), Devils Garden, Mesa Arch, Island in the Sky",
       "tags": [
         "Utah's Red Rock"
@@ -948,7 +948,7 @@
       "lat": 38.3269,
       "lng": -109.8783,
       "type": "park",
-      "day": "Day 24–25",
+      "day": "Day 27–28",
       "notes": "Arches & Canyonlands — Delicate Arch (sunrise), Devils Garden, Mesa Arch, Island in the Sky",
       "tags": [
         "Utah's Red Rock"
@@ -960,7 +960,7 @@
       "lat": 38.0877,
       "lng": -111.1478,
       "type": "park",
-      "day": "Day 26",
+      "day": "Day 29",
       "notes": "Moab → Capitol Reef — scenic Hwy 24 west",
       "tags": [
         "Utah's Red Rock"
@@ -972,7 +972,7 @@
       "lat": 37.1753,
       "lng": -113.2899,
       "type": "charger",
-      "day": "Day 27",
+      "day": "Day 30",
       "notes": "Capitol Reef → Bryce — uncrowded gem, then Bryce",
       "tags": [
         "Utah's Red Rock"
@@ -984,7 +984,7 @@
       "lat": 37.593,
       "lng": -112.1871,
       "type": "park",
-      "day": "Day 28",
+      "day": "Day 31",
       "notes": "Bryce Canyon — Navajo / Queens Garden combo loop",
       "tags": [
         "Utah's Red Rock"
@@ -996,7 +996,7 @@
       "lat": 37.2982,
       "lng": -113.0263,
       "type": "park",
-      "day": "Day 29–30",
+      "day": "Day 32–33",
       "notes": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
       "tags": [
         "Utah's Red Rock"
@@ -1008,7 +1008,7 @@
       "lat": 37.1886,
       "lng": -112.998,
       "type": "hotel",
-      "day": "Day 29–30",
+      "day": "Day 32–33",
       "notes": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
       "tags": [
         "Utah's Red Rock"
@@ -1020,7 +1020,7 @@
       "lat": 36.1699,
       "lng": -115.1398,
       "type": "charger",
-      "day": "Day 31",
+      "day": "Day 34",
       "notes": "Zion → Las Vegas → Nevada interior — I-15 to Vegas (last dense hub), then US-95 north",
       "tags": [
         "Zion to the Sierra (charging leg #1)"
@@ -1032,7 +1032,7 @@
       "lat": 36.9077,
       "lng": -116.7594,
       "type": "charger",
-      "day": "Day 31",
+      "day": "Day 34",
       "notes": "Zion → Las Vegas → Nevada interior — I-15 to Vegas (last dense hub), then US-95 north",
       "tags": [
         "Zion to the Sierra (charging leg #1)"
@@ -1044,7 +1044,7 @@
       "lat": 38.0673,
       "lng": -117.2306,
       "type": "charger",
-      "day": "Day 32",
+      "day": "Day 35",
       "notes": "Nevada → Eastern Sierra (US-395) — up through Tonopah, cut to 395 toward Bishop/Mammoth",
       "tags": [
         "Zion to the Sierra (charging leg #1)"
@@ -1056,7 +1056,7 @@
       "lat": 37.3635,
       "lng": -118.3953,
       "type": "charger",
-      "day": "Day 32",
+      "day": "Day 35",
       "notes": "Nevada → Eastern Sierra (US-395) — up through Tonopah, cut to 395 toward Bishop/Mammoth",
       "tags": [
         "Zion to the Sierra (charging leg #1)"
@@ -1068,7 +1068,7 @@
       "lat": 37.6485,
       "lng": -118.9721,
       "type": "charger",
-      "day": "Day 32",
+      "day": "Day 35",
       "notes": "Nevada → Eastern Sierra (US-395) — up through Tonopah, cut to 395 toward Bishop/Mammoth",
       "tags": [
         "Zion to the Sierra (charging leg #1)"
@@ -1080,7 +1080,7 @@
       "lat": 36.3302,
       "lng": -119.2921,
       "type": "charger",
-      "day": "Day 33",
+      "day": "Day 36",
       "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
@@ -1092,7 +1092,7 @@
       "lat": 36.4864,
       "lng": -118.5658,
       "type": "park",
-      "day": "Day 33",
+      "day": "Day 36",
       "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
@@ -1104,7 +1104,7 @@
       "lat": 36.8879,
       "lng": -118.5551,
       "type": "park",
-      "day": "Day 33",
+      "day": "Day 36",
       "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
@@ -1116,7 +1116,7 @@
       "lat": 36.7378,
       "lng": -119.7871,
       "type": "hotel",
-      "day": "Day 33",
+      "day": "Day 36",
       "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
@@ -1128,7 +1128,7 @@
       "lat": 37.4852,
       "lng": -119.9663,
       "type": "hotel",
-      "day": "Day 36",
+      "day": "Day 39",
       "notes": "→ Yosemite — north; plan to arrive before 8 am tomorrow",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
@@ -1140,7 +1140,7 @@
       "lat": 37.8494,
       "lng": -120.2313,
       "type": "hotel",
-      "day": "Day 36",
+      "day": "Day 39",
       "notes": "→ Yosemite — north; plan to arrive before 8 am tomorrow",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
@@ -1152,7 +1152,7 @@
       "lat": 37.8651,
       "lng": -119.5383,
       "type": "park",
-      "day": "Day 36",
+      "day": "Day 39",
       "notes": "→ Yosemite — north; plan to arrive before 8 am tomorrow",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
@@ -1164,7 +1164,7 @@
       "lat": 36.2704,
       "lng": -121.8081,
       "type": "park",
-      "day": "Day 40–41",
+      "day": "Day 43–44",
       "notes": "Yosemite → SF → Big Sur — Hwy 1, the coast, redwoods begin",
       "tags": [
         "California Coast & Oregon"
@@ -1176,7 +1176,7 @@
       "lat": 41.2132,
       "lng": -124.0046,
       "type": "park",
-      "day": "Day 40–41",
+      "day": "Day 43–44",
       "notes": "Yosemite → SF → Big Sur — Hwy 1, the coast, redwoods begin",
       "tags": [
         "California Coast & Oregon"
@@ -1188,7 +1188,7 @@
       "lat": 42.9446,
       "lng": -122.109,
       "type": "park",
-      "day": "Day 44",
+      "day": "Day 47",
       "notes": "→ Crater Lake NP, OR — deep-blue caldera, rim drive",
       "tags": [
         "California Coast & Oregon"
@@ -1200,7 +1200,7 @@
       "lat": 44.0582,
       "lng": -121.3153,
       "type": "hotel",
-      "day": "Day 45–46",
+      "day": "Day 48–49",
       "notes": "Bend, OR (Cascades base) — Smith Rock, Three Sisters, lava country",
       "tags": [
         "California Coast & Oregon"
@@ -1212,7 +1212,7 @@
       "lat": 45.6996,
       "lng": -121.4,
       "type": "park",
-      "day": "Day 47–48",
+      "day": "Day 50–51",
       "notes": "Columbia Gorge & Mt. Hood — Multnomah Falls, gorge waterfalls",
       "tags": [
         "California Coast & Oregon"
@@ -1224,7 +1224,7 @@
       "lat": 45.7054,
       "lng": -121.5218,
       "type": "hotel",
-      "day": "Day 47–48",
+      "day": "Day 50–51",
       "notes": "Columbia Gorge & Mt. Hood — Multnomah Falls, gorge waterfalls",
       "tags": [
         "California Coast & Oregon"
@@ -1236,7 +1236,7 @@
       "lat": 45.5051,
       "lng": -122.675,
       "type": "hotel",
-      "day": "Day 47–48",
+      "day": "Day 50–51",
       "notes": "Columbia Gorge & Mt. Hood — Multnomah Falls, gorge waterfalls",
       "tags": [
         "California Coast & Oregon"
@@ -1248,7 +1248,7 @@
       "lat": 45.6721,
       "lng": -118.7886,
       "type": "hotel",
-      "day": "Day 50a",
+      "day": "Day 53",
       "notes": "Bend → Pendleton, OR (~3.5 hr; US-26 through the John Day high desert) — this IS the remote stretch — sparse charging; leave Bend at 100%, ABRP carefully, treat usable range conservatively",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
@@ -1260,7 +1260,7 @@
       "lat": 47.6777,
       "lng": -116.7805,
       "type": "hotel",
-      "day": "Day 50b",
+      "day": "Day 54",
       "notes": "Pendleton → Coeur d'Alene, ID (~3.5–4 hr; I-84 → Spokane → I-90)",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
@@ -1272,7 +1272,7 @@
       "lat": 46.8721,
       "lng": -113.994,
       "type": "hotel",
-      "day": "Day 51",
+      "day": "Day 55",
       "notes": "→ Missoula, MT — comfortable interstate driving",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
@@ -1284,7 +1284,7 @@
       "lat": 48.196,
       "lng": -114.3115,
       "type": "charger",
-      "day": "Day 52",
+      "day": "Day 56",
       "notes": "Missoula → Kalispell — ~114 mi, one easy hop",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
@@ -1296,7 +1296,7 @@
       "lat": 48.6961,
       "lng": -113.7178,
       "type": "park",
-      "day": "Day 53–54",
+      "day": "Day 57–58",
       "notes": "Glacier NP (2 days) — Going-to-the-Sun Rd, Highline, Grinnell Glacier, Avalanche Lake",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
@@ -1308,7 +1308,7 @@
       "lat": 46.979,
       "lng": -103.5387,
       "type": "park",
-      "day": "Day 56",
+      "day": "Day 60",
       "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck)",
       "tags": [
         "The Long Haul Home"
@@ -1320,7 +1320,7 @@
       "lat": 45.7833,
       "lng": -108.5007,
       "type": "hotel",
-      "day": "Day 56",
+      "day": "Day 60",
       "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck)",
       "tags": [
         "The Long Haul Home"
@@ -1332,7 +1332,7 @@
       "lat": 46.8083,
       "lng": -100.7837,
       "type": "city",
-      "day": "Day 56",
+      "day": "Day 60",
       "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck)",
       "tags": [
         "The Long Haul Home"

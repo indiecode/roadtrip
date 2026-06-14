@@ -42,7 +42,7 @@ if (isEntryPoint) {
   const tripData: TripData = {
     title: 'Boston → The West → Boston',
     subtitle: 'A Tesla Model Y National-Parks Field Guide',
-    stats: { days: 56, miles: 7800, people: 2 },
+    stats: { days: 60, miles: 7800, people: 2 },
     stages,
     markers,
     route,
