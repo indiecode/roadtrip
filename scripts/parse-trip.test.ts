@@ -228,3 +228,36 @@ describe('new split-stop markers', () => {
     expect(PendletonIdx).toBeLessThan(coeursdAleneIdx)
   })
 })
+
+describe('fills_fast feature', () => {
+  const SAMPLE_FILL_FAST = `## Stage 1 — Boston to the Black Hills
+*Days 1–10 · ~2,000 mi · Easy charging*
+
+| Day | Route & drive | Charge | Sleep |
+|---|---|---|---|
+| 1 | **Boston → Watkins Glen** | Geneva | Watkins Glen hotel |
+| 7 | **Sioux Falls → Badlands NP** | Rapid City | 🏕 Badlands/White River KOA ⏳ (High-demand, books out fast) |
+| 10 | **Buffer / explore** | Rapid City | Hotel |
+
+**Notes:** Buffer day.`
+  
+  it('marks day with ⏳ as fills_fast=true', () => {
+    const stage = parseStageBlock(SAMPLE_FILL_FAST)
+    const dayWithFillFast = stage.days_list.find(d => d.sleep.includes('Badlands/White River'))
+    expect(dayWithFillFast).toBeDefined()
+    expect(dayWithFillFast?.fills_fast).toBe(true)
+  })
+  
+  it('strips ⏳ token from displayed sleep string', () => {
+    const stage = parseStageBlock(SAMPLE_FILL_FAST)
+    const dayWithFillFast = stage.days_list.find(d => d.sleep.includes('Badlands/White River'))
+    expect(dayWithFillFast?.sleep).not.toContain('⏳')
+    expect(dayWithFillFast?.sleep).toContain('Badlands/White River KOA')
+  })
+  
+  it('normal camp days have fills_fast=undefined', () => {
+    const stage = parseStageBlock(SAMPLE_FILL_FAST)
+    const normalCamp = stage.days_list.find(d => d.sleep_type === 'camp' && !d.sleep.includes('Badlands'))
+    expect(normalCamp?.fills_fast).toBeUndefined()
+  })
+})

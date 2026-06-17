@@ -150,8 +150,11 @@ html, body, #root {
   flex-shrink: 0;
 }
 
+.sleep-badge-wrapper { display: flex; gap: 4px; }
+
 .sleep-badge--hotel { color: var(--text-muted); background: var(--bg-pill); }
 .sleep-badge--camp  { color: var(--camp); background: var(--bg-camp-badge); }
+.sleep-badge--fill-fast { color: var(--accent); background: rgba(226, 185, 111, 0.15); border: 1px solid var(--accent); }
 
 /* Map view */
 .map-view { flex: 1; display: flex; flex-direction: column; overflow: hidden; }

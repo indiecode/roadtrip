@@ -8,6 +8,8 @@ const hotelDay: Day = {
   charge: 'I-90 Superchargers all along',
   sleep: 'Cleveland hotel (cheap, easy)',
   sleep_type: 'hotel',
+  mapCenter: [41.5, -81.6],
+  mapZoom: 6,
 }
 
 const campDay: Day = {
@@ -16,6 +18,8 @@ const campDay: Day = {
   charge: 'Rapid City / Wall area',
   sleep: '🏕 Sage Creek (free, bison)',
   sleep_type: 'camp',
+  mapCenter: [41.5, -81.6],
+  mapZoom: 6,
 }
 
 const rangeDay: Day = {
@@ -24,6 +28,19 @@ const rangeDay: Day = {
   charge: 'West Yellowstone overnight',
   sleep: 'West Yellowstone hotel',
   sleep_type: 'hotel',
+  mapCenter: [41.5, -81.6],
+  mapZoom: 6,
+}
+
+const campDayFillsFast: Day = {
+  day: '16',
+  route: 'Yellowstone → Grand Teton',
+  charge: 'Jackson Supercharger',
+  sleep: 'Colter Bay RV Park or Snake River KOA, Jackson',
+  sleep_type: 'camp',
+  fills_fast: true,
+  mapCenter: [41.5, -81.6],
+  mapZoom: 6,
 }
 
 describe('DayCard', () => {
@@ -65,5 +82,20 @@ describe('DayCard', () => {
   it('applies camp CSS class for camp nights', () => {
     const { container } = render(<DayCard day={campDay} />)
     expect(container.firstChild).toHaveClass('day-card--camp')
+  })
+
+  it('shows Fast badge for fills-fast camp nights', () => {
+    render(<DayCard day={campDayFillsFast} />)
+    expect(screen.getByText('⚠️ Fast')).toBeInTheDocument()
+  })
+
+  it('applies fills-fast CSS class when fills_fast=true', () => {
+    const { container } = render(<DayCard day={campDayFillsFast} />)
+    expect(container.firstChild).toHaveClass('day-card--fills-fast')
+  })
+
+  it('does not show Fast badge for normal camp nights', () => {
+    render(<DayCard day={campDay} />)
+    expect(screen.queryByText('⚠️ Fast')).not.toBeInTheDocument()
   })
 })

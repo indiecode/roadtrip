@@ -43,6 +43,10 @@ export function MapView({ markers, route, routeSplitIndex }: Props) {
           <span className="route-legend-line route-legend-out" /> Outbound
           <span className="route-legend-line route-legend-back" /> Return
         </span>
+        <span className="filterDivider" />
+        <span className="route-legend">
+          <span className="route-legend-line" style={{ border: '1px solid var(--accent)' }} /> Fast-filling camps
+        </span>
         <span className="filter-divider" />
         {filters.map(({ key, label }) => (
           <button

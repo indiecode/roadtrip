@@ -20,7 +20,7 @@ export function buildMarkers(stages: Stage[]): MapMarker[] {
           if (nameInSleep && day.sleep_type === 'camp') finalType = 'camp'
           else if (nameInSleep && day.sleep_type === 'hotel') finalType = 'hotel'
         }
-        markers.push({
+        const marker: MapMarker = {
           id: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
           name,
           lat: coords[0],
@@ -29,7 +29,9 @@ export function buildMarkers(stages: Stage[]): MapMarker[] {
           day: `Day ${day.day}`,
           notes: day.route.replace(/\*\*/g, ''),
           tags: [stage.name],
-        })
+          fillsFast: day.sleep_type === 'camp' && day.fills_fast === true,
+        }
+        markers.push(marker)
       }
     }
   }

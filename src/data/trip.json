@@ -20,6 +20,7 @@
           "charge": "Geneva, NY or Horseheads/Big Flats (no Supercharger in Watkins Glen)",
           "sleep": "Watkins Glen village or Corning, NY hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             42.37065,
             -73.96664999999999
@@ -32,6 +33,7 @@
           "charge": "Dense I-90 Superchargers",
           "sleep": "Cleveland hotel — suburban chain (Independence/Beachwood) or near I-90/I-271, not downtown budget",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             41.4993,
             -81.6944
@@ -44,6 +46,7 @@
           "charge": "Cleveland metro — top off",
           "sleep": "Cleveland, or push toward Toledo",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             41.2431,
             -81.5488
@@ -56,6 +59,7 @@
           "charge": "Frequent along I-90",
           "sleep": "Chicago-area hotel — suburban (Schaumburg/Naperville/near I-90), not city budget",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             41.8781,
             -87.6298
@@ -68,6 +72,7 @@
           "charge": "Several Superchargers in Madison",
           "sleep": "Madison hotel — stay on/near the isthmus (Capitol Square / State Street) for easy walking; same-day booking reliable. (Splurge: The Edgewater on Lake Mendota)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             43.0731,
             -89.4012
@@ -80,6 +85,7 @@
           "charge": "Dense along I-90",
           "sleep": "Sioux Falls hotel — optional evening: Falls Park (Big Sioux River over pink quartzite, lit at night) + downtown Phillips Ave (SculptureWalk, Arc of Dreams, dinner); optional morning: Falls Park in daylight or Palisades State Park (~25 min NE, scenic quartzite)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             43.5446,
             -96.7311
@@ -92,6 +98,7 @@
           "charge": "Rapid City / Wall area",
           "sleep": "🏕 Badlands/White River KOA (Interior — full hookups, showers; 50-amp site charges overnight)",
           "sleep_type": "camp",
+          "fills_fast": false,
           "mapCenter": [
             43.96795,
             -102.78535
@@ -104,6 +111,7 @@
           "charge": "Wall / Rapid City",
           "sleep": "Rapid City or Custer hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             43.7666,
             -103.5991
@@ -116,6 +124,7 @@
           "charge": "Rapid City / Custer",
           "sleep": "Custer or Rapid City hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             43.5561,
             -103.4789
@@ -128,6 +137,7 @@
           "charge": "Rapid City / Custer",
           "sleep": "Hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             44.0805,
             -103.231
@@ -149,6 +159,7 @@
           "charge": "Sheridan / Cody corridor",
           "sleep": "Cody hotel (primary) / Sheridan hotel (alternative)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             44.5263,
             -109.0565
@@ -161,6 +172,7 @@
           "charge": "Charge at Cody before departure",
           "sleep": "West Yellowstone hotel (8-stall Supercharger in town — top off overnight)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             44.5441,
             -110.8434
@@ -173,6 +185,7 @@
           "charge": "Supercharger in West Yellowstone overnight; Level 2 at Canyon/Old Faithful while hiking",
           "sleep": "West Yellowstone hotel (or grab an in-park site early for 1 camp night)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             44.428,
             -110.5885
@@ -185,6 +198,7 @@
           "charge": "Jackson Supercharger",
           "sleep": "🏕 Colter Bay RV Park or Snake River KOA, Jackson (full hookups; 50-amp overnight charge)",
           "sleep_type": "camp",
+          "fills_fast": true,
           "mapCenter": [
             43.635149999999996,
             -110.7221
@@ -197,6 +211,7 @@
           "charge": "Jackson Supercharger; Level 2 at Signal Mtn / Colter Bay",
           "sleep": "🏕 Colter Bay RV Park / Snake River KOA, Jackson (full hookups, 50-amp) + 1 Jackson hotel",
           "sleep_type": "camp",
+          "fills_fast": true,
           "mapCenter": [
             43.7904,
             -110.6818
@@ -209,6 +224,7 @@
           "charge": "I-15 corridor / SLC",
           "sleep": "Salt Lake City hotel (cheap, easy)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             40.7608,
             -111.891
@@ -230,6 +246,7 @@
           "charge": "Front Range / Estes Park",
           "sleep": "Estes Park hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             40.36,
             -105.60265
@@ -242,6 +259,7 @@
           "charge": "Estes Park — full before Trail Ridge climb",
           "sleep": "Estes Park hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             40.3428,
             -105.6836
@@ -254,6 +272,7 @@
           "charge": "Denver metro / I-70 / US-50",
           "sleep": "Durango or Ouray hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             37.64905,
             -107.7757
@@ -266,6 +285,7 @@
           "charge": "Durango / Montrose",
           "sleep": "Mountain-town hotel + 1 🏕 Ouray Riverside Resort & RV Park (full hookups, 50-amp)",
           "sleep_type": "camp",
+          "fills_fast": false,
           "mapCenter": [
             38.0228,
             -107.6713
@@ -287,6 +307,7 @@
           "charge": "Moab Supercharger",
           "sleep": "🏕 Moab KOA or Sun Outdoors Moab (full hookups; 50-amp overnight charge)",
           "sleep_type": "camp",
+          "fills_fast": false,
           "mapCenter": [
             38.5733,
             -109.5498
@@ -299,6 +320,7 @@
           "charge": "Moab Supercharger",
           "sleep": "🏕 Moab KOA / Portal RV Resort (full hookups, 50-amp) + 1 Moab hotel",
           "sleep_type": "camp",
+          "fills_fast": false,
           "mapCenter": [
             38.53,
             -109.7354
@@ -311,6 +333,7 @@
           "charge": "Top off in Moab; plan the gap",
           "sleep": "Torrey hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             38.0877,
             -111.1478
@@ -323,6 +346,7 @@
           "charge": "Hurricane / Beaver area",
           "sleep": "🏕 Ruby's Inn RV Park, Bryce (full hookups, showers, store; 50-amp overnight charge)",
           "sleep_type": "camp",
+          "fills_fast": true,
           "mapCenter": [
             37.1753,
             -113.2899
@@ -335,6 +359,7 @@
           "charge": "Beaver / Hurricane",
           "sleep": "🏕 Ruby's Inn RV Park, Bryce (full hookups, 50-amp)",
           "sleep_type": "camp",
+          "fills_fast": true,
           "mapCenter": [
             37.593,
             -112.1871
@@ -347,6 +372,7 @@
           "charge": "Hurricane Supercharger; Level 2 in Springdale",
           "sleep": "Springdale hotel (or 1 🏕 Ouray Riverside Resort & RV Park or Sequoia RV Ranch — full hookups, 50-amp)",
           "sleep_type": "camp",
+          "fills_fast": false,
           "mapCenter": [
             36.99106666666667,
             -114.86336666666666
@@ -368,6 +394,7 @@
           "charge": "Hurricane (full) → Las Vegas → Beatty (8 stalls)",
           "sleep": "Las Vegas (chain on/near the Strip or off I-15 — avoid cheap off-Strip motels) or Beatty hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             36.538799999999995,
             -115.9496
@@ -380,6 +407,7 @@
           "charge": "Tonopah (8 stalls) → Bishop → Mammoth Lakes",
           "sleep": "Bishop or Mammoth hotel (or 🏕 Mammoth Mountain RV Park / Highlands RV Park Bishop — full hookups, 50-amp)",
           "sleep_type": "camp",
+          "fills_fast": true,
           "mapCenter": [
             37.6931,
             -118.19933333333334
@@ -401,6 +429,7 @@
           "charge": "Visalia / Fresno",
           "sleep": "Three Rivers or Fresno hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             36.65196666666666,
             -119.21143333333333
@@ -413,6 +442,7 @@
           "charge": "Visalia / Fresno",
           "sleep": "Hotel + 1 🏕 Sequoia RV Ranch, Three Rivers (full hookups, 50-amp)",
           "sleep_type": "camp",
+          "fills_fast": false,
           "mapCenter": [
             36.4864,
             -118.5658
@@ -425,6 +455,7 @@
           "charge": "Fresno / Mariposa / Groveland",
           "sleep": "Mariposa or Groveland hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             37.73323333333333,
             -119.91196666666667
@@ -437,6 +468,7 @@
           "charge": "Mariposa / Groveland — charge in gateway, day-trip in",
           "sleep": "Gateway-town hotel (skip pricey in-Valley lodging)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             37.8651,
             -119.5383
@@ -458,6 +490,7 @@
           "charge": "Dense all along the coast",
           "sleep": "Bay Area / coast hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             38.7418,
             -122.90635
@@ -470,6 +503,7 @@
           "charge": "US-101 corridor",
           "sleep": "Coastal hotel + 1 🏕 Klamath/Redwoods KOA (full hookups, 50-amp)",
           "sleep_type": "camp",
+          "fills_fast": false,
           "mapCenter": [
             41.2132,
             -124.0046
@@ -482,6 +516,7 @@
           "charge": "Medford / Roseburg area",
           "sleep": "Nearby hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             42.9446,
             -122.109
@@ -494,6 +529,7 @@
           "charge": "Bend Supercharger",
           "sleep": "Bend hotel (easy, often under budget)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             44.0582,
             -121.3153
@@ -506,6 +542,7 @@
           "charge": "Portland metro / Hood River",
           "sleep": "Hood River or Portland hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             45.6367,
             -121.86560000000001
@@ -518,6 +555,7 @@
           "charge": "Bend / Ontario — fill before the gap (charge to 100% — jump-off for the remote crossing)",
           "sleep": "Bend hotel/camp (charge to 100%)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             44.0582,
             -121.3153
@@ -539,6 +577,7 @@
           "charge": "Pendleton/Hermiston Supercharger (I-84 corridor) at the end — this is the move that de-fangs the gap",
           "sleep": "Pendleton hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             45.6721,
             -118.7886
@@ -551,6 +590,7 @@
           "charge": "Well-charged on the interstate spine from here",
           "sleep": "Coeur d'Alene hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             47.6777,
             -116.7805
@@ -563,6 +603,7 @@
           "charge": "Missoula Supercharger",
           "sleep": "Missoula hotel (easy)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             46.8721,
             -113.994
@@ -575,6 +616,7 @@
           "charge": "Kalispell Supercharger (8 V4 stalls)",
           "sleep": "Kalispell or Whitefish hotel",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             48.196,
             -114.3115
@@ -587,6 +629,7 @@
           "charge": "Charge FULL in Kalispell; day-trip in — no fast charging in park",
           "sleep": "Kalispell hotel; or 🏕 West Glacier KOA (west) / St. Mary KOA (east — 50-amp solves the east-side charging gap)",
           "sleep_type": "camp",
+          "fills_fast": true,
           "mapCenter": [
             48.6961,
             -113.7178
@@ -599,6 +642,7 @@
           "charge": "Kalispell",
           "sleep": "🏕 West Glacier KOA or Johnson's of St. Mary RV (full hookups, 50-amp)",
           "sleep_type": "camp",
+          "fills_fast": true,
           "mapCenter": [
             48.6961,
             -113.7178
@@ -620,6 +664,7 @@
           "charge": "I-90/I-94 — dense, easy",
           "sleep": "Billings hotel (Bozeman if you prefer the mountains)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             46.52353333333334,
             -104.27436666666667
@@ -632,6 +677,7 @@
           "charge": "Frequent along I-90/I-94",
           "sleep": "Interstate hotels (cheap, easy same-day)",
           "sleep_type": "hotel",
+          "fills_fast": false,
           "mapCenter": [
             42.3601,
             -71.0589
@@ -652,7 +698,8 @@
       "notes": "Boston → Watkins Glen, NY (~5.5–6 hr; I-90 W to Albany, Thruway, then south to Seneca Lake)",
       "tags": [
         "Boston to the Black Hills"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "watkins-glen",
@@ -664,7 +711,8 @@
       "notes": "Boston → Watkins Glen, NY (~5.5–6 hr; I-90 W to Albany, Thruway, then south to Seneca Lake)",
       "tags": [
         "Boston to the Black Hills"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "cleveland",
@@ -676,7 +724,8 @@
       "notes": "Watkins Glen → Cleveland, OH (~5–5.5 hr; back to I-90 via Geneva/Waterloo, west through Buffalo & Erie)",
       "tags": [
         "Boston to the Black Hills"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "cuyahoga-valley-np",
@@ -688,7 +737,8 @@
       "notes": "Cuyahoga Valley NP — free park; Brandywine Falls, Ledges Trail",
       "tags": [
         "Boston to the Black Hills"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "chicago",
@@ -700,7 +750,8 @@
       "notes": "Cleveland → Chicago area — transit day",
       "tags": [
         "Boston to the Black Hills"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "madison",
@@ -712,7 +763,8 @@
       "notes": "Chicago → Madison, WI (~2.5 hr, ~150 mi) — arrive ~lunchtime; afternoon + evening in town",
       "tags": [
         "Boston to the Black Hills"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "sioux-falls",
@@ -724,7 +776,8 @@
       "notes": "Madison → Sioux Falls, SD (~6 hr, ~415 mi; the fuller leg but under the cap)",
       "tags": [
         "Boston to the Black Hills"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "badlands-np",
@@ -736,7 +789,8 @@
       "notes": "Sioux Falls → Badlands NP — arrive afternoon, sunset over spires",
       "tags": [
         "Boston to the Black Hills"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "rapid-city",
@@ -748,7 +802,8 @@
       "notes": "Sioux Falls → Badlands NP — arrive afternoon, sunset over spires",
       "tags": [
         "Boston to the Black Hills"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "custer",
@@ -760,7 +815,8 @@
       "notes": "Badlands hiking — Notch, Castle, Door & Window trails",
       "tags": [
         "Boston to the Black Hills"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "wind-cave-np",
@@ -772,7 +828,8 @@
       "notes": "Black Hills — Mt. Rushmore, Wind Cave NP (free), Black Elk Peak",
       "tags": [
         "Boston to the Black Hills"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "cody",
@@ -784,7 +841,8 @@
       "notes": "Black Hills → Cody, WY (~5 hr; Sheridan, WY is the alternative overnight if preferred) — Beartooth / Chief Joseph byway optional",
       "tags": [
         "Yellowstone & Grand Teton"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "west-yellowstone",
@@ -796,7 +854,8 @@
       "notes": "Cody → West Yellowstone (~3 hr via East Entrance over Sylvan Pass, ~80 mi) — charge FULL in Cody before the climb (treat usable range as ~60–70% of rated on Sylvan Pass)",
       "tags": [
         "Yellowstone & Grand Teton"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "yellowstone-np",
@@ -808,7 +867,8 @@
       "notes": "Cody → West Yellowstone (~3 hr via East Entrance over Sylvan Pass, ~80 mi) — charge FULL in Cody before the climb (treat usable range as ~60–70% of rated on Sylvan Pass)",
       "tags": [
         "Yellowstone & Grand Teton"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "grand-teton-np",
@@ -820,7 +880,8 @@
       "notes": "Yellowstone → Grand Teton — short drive south",
       "tags": [
         "Yellowstone & Grand Teton"
-      ]
+      ],
+      "fillsFast": true
     },
     {
       "id": "jackson",
@@ -832,7 +893,8 @@
       "notes": "Yellowstone → Grand Teton — short drive south",
       "tags": [
         "Yellowstone & Grand Teton"
-      ]
+      ],
+      "fillsFast": true
     },
     {
       "id": "salt-lake-city",
@@ -844,7 +906,8 @@
       "notes": "Reposition south — toward Salt Lake City; resupply, laundry",
       "tags": [
         "Yellowstone & Grand Teton"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "estes-park",
@@ -856,7 +919,8 @@
       "notes": "SLC → Rocky Mountain NP — drive to Estes Park gateway",
       "tags": [
         "Colorado Rockies"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "rocky-mountain-np",
@@ -868,7 +932,8 @@
       "notes": "SLC → Rocky Mountain NP — drive to Estes Park gateway",
       "tags": [
         "Colorado Rockies"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "durango",
@@ -880,7 +945,8 @@
       "notes": "South to the San Juans — drive toward Durango/Ouray",
       "tags": [
         "Colorado Rockies"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "ouray",
@@ -892,7 +958,8 @@
       "notes": "South to the San Juans — drive toward Durango/Ouray",
       "tags": [
         "Colorado Rockies"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "moab",
@@ -904,7 +971,8 @@
       "notes": "Colorado → Moab — drive to red-rock country",
       "tags": [
         "Utah's Red Rock"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "arches-np",
@@ -916,7 +984,8 @@
       "notes": "Arches & Canyonlands — Delicate Arch (sunrise), Devils Garden, Mesa Arch, Island in the Sky",
       "tags": [
         "Utah's Red Rock"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "canyonlands-np",
@@ -928,7 +997,8 @@
       "notes": "Arches & Canyonlands — Delicate Arch (sunrise), Devils Garden, Mesa Arch, Island in the Sky",
       "tags": [
         "Utah's Red Rock"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "capitol-reef-np",
@@ -940,7 +1010,8 @@
       "notes": "Moab → Capitol Reef — scenic Hwy 24 west",
       "tags": [
         "Utah's Red Rock"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "hurricane",
@@ -952,7 +1023,8 @@
       "notes": "Capitol Reef → Bryce — uncrowded gem, then Bryce",
       "tags": [
         "Utah's Red Rock"
-      ]
+      ],
+      "fillsFast": true
     },
     {
       "id": "bryce-canyon-np",
@@ -964,7 +1036,8 @@
       "notes": "Bryce Canyon — Navajo / Queens Garden combo loop",
       "tags": [
         "Utah's Red Rock"
-      ]
+      ],
+      "fillsFast": true
     },
     {
       "id": "zion-np",
@@ -976,7 +1049,8 @@
       "notes": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
       "tags": [
         "Utah's Red Rock"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "springdale",
@@ -988,7 +1062,8 @@
       "notes": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
       "tags": [
         "Utah's Red Rock"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "sequoia-np",
@@ -1000,7 +1075,8 @@
       "notes": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
       "tags": [
         "Utah's Red Rock"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "las-vegas",
@@ -1012,7 +1088,8 @@
       "notes": "Zion → Las Vegas → Nevada interior — I-15 to Vegas (last dense hub), then US-95 north",
       "tags": [
         "Zion to the Sierra (charging leg #1)"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "beatty",
@@ -1024,7 +1101,8 @@
       "notes": "Zion → Las Vegas → Nevada interior — I-15 to Vegas (last dense hub), then US-95 north",
       "tags": [
         "Zion to the Sierra (charging leg #1)"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "tonopah",
@@ -1036,7 +1114,8 @@
       "notes": "Nevada → Eastern Sierra (US-395) — up through Tonopah, cut to 395 toward Bishop/Mammoth",
       "tags": [
         "Zion to the Sierra (charging leg #1)"
-      ]
+      ],
+      "fillsFast": true
     },
     {
       "id": "bishop",
@@ -1048,7 +1127,8 @@
       "notes": "Nevada → Eastern Sierra (US-395) — up through Tonopah, cut to 395 toward Bishop/Mammoth",
       "tags": [
         "Zion to the Sierra (charging leg #1)"
-      ]
+      ],
+      "fillsFast": true
     },
     {
       "id": "mammoth-lakes",
@@ -1060,7 +1140,8 @@
       "notes": "Nevada → Eastern Sierra (US-395) — up through Tonopah, cut to 395 toward Bishop/Mammoth",
       "tags": [
         "Zion to the Sierra (charging leg #1)"
-      ]
+      ],
+      "fillsFast": true
     },
     {
       "id": "visalia",
@@ -1072,7 +1153,8 @@
       "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "kings-canyon-np",
@@ -1084,7 +1166,8 @@
       "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "fresno",
@@ -1096,7 +1179,8 @@
       "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "mariposa",
@@ -1108,7 +1192,8 @@
       "notes": "→ Yosemite — north; plan to arrive before 8 am tomorrow",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "groveland",
@@ -1120,7 +1205,8 @@
       "notes": "→ Yosemite — north; plan to arrive before 8 am tomorrow",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "yosemite-np",
@@ -1132,7 +1218,8 @@
       "notes": "→ Yosemite — north; plan to arrive before 8 am tomorrow",
       "tags": [
         "Sequoia, Kings Canyon & Yosemite"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "big-sur",
@@ -1144,7 +1231,8 @@
       "notes": "Yosemite → SF → Big Sur — Hwy 1, the coast, redwoods begin",
       "tags": [
         "California Coast & Oregon"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "redwood-np",
@@ -1156,7 +1244,8 @@
       "notes": "Yosemite → SF → Big Sur — Hwy 1, the coast, redwoods begin",
       "tags": [
         "California Coast & Oregon"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "crater-lake-np",
@@ -1168,7 +1257,8 @@
       "notes": "→ Crater Lake NP, OR — deep-blue caldera, rim drive",
       "tags": [
         "California Coast & Oregon"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "bend",
@@ -1180,7 +1270,8 @@
       "notes": "Bend, OR (Cascades base) — Smith Rock, Three Sisters, lava country",
       "tags": [
         "California Coast & Oregon"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "columbia-gorge",
@@ -1192,7 +1283,8 @@
       "notes": "Columbia Gorge & Mt. Hood — Multnomah Falls, gorge waterfalls",
       "tags": [
         "California Coast & Oregon"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "hood-river",
@@ -1204,7 +1296,8 @@
       "notes": "Columbia Gorge & Mt. Hood — Multnomah Falls, gorge waterfalls",
       "tags": [
         "California Coast & Oregon"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "portland",
@@ -1216,7 +1309,8 @@
       "notes": "Columbia Gorge & Mt. Hood — Multnomah Falls, gorge waterfalls",
       "tags": [
         "California Coast & Oregon"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "pendleton",
@@ -1228,7 +1322,8 @@
       "notes": "Bend → Pendleton, OR (~3.5 hr; US-26 through the John Day high desert) — this IS the remote stretch — sparse charging; leave Bend at 100%, ABRP carefully, treat usable range conservatively",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "coeur-d-alene",
@@ -1240,7 +1335,8 @@
       "notes": "Pendleton → Coeur d'Alene, ID (~3.5–4 hr; I-84 → Spokane → I-90)",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "missoula",
@@ -1252,7 +1348,8 @@
       "notes": "→ Missoula, MT — comfortable interstate driving",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "kalispell",
@@ -1264,7 +1361,8 @@
       "notes": "Missoula → Kalispell — ~114 mi, one easy hop",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "glacier-np",
@@ -1276,7 +1374,8 @@
       "notes": "Glacier NP (2 days) — Going-to-the-Sun Rd, Highline, Grinnell Glacier, Avalanche Lake",
       "tags": [
         "Oregon to Glacier (charging leg #2)"
-      ]
+      ],
+      "fillsFast": true
     },
     {
       "id": "theodore-roosevelt-np",
@@ -1288,7 +1387,8 @@
       "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck)",
       "tags": [
         "The Long Haul Home"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "billings",
@@ -1300,7 +1400,8 @@
       "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck)",
       "tags": [
         "The Long Haul Home"
-      ]
+      ],
+      "fillsFast": false
     },
     {
       "id": "bismarck",
@@ -1312,7 +1413,8 @@
       "notes": "Glacier → east across MT — optional: Theodore Roosevelt NP, ND near Bismarck (uncrowded, but pushes the day long — better as a next-day stop on the run toward Bismarck)",
       "tags": [
         "The Long Haul Home"
-      ]
+      ],
+      "fillsFast": false
     }
   ],
   "route": [

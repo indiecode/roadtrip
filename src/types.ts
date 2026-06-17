@@ -4,6 +4,7 @@ export interface Day {
   charge: string        // e.g. "I-90 Superchargers all along"
   sleep: string         // e.g. "Cleveland hotel" or "🏕 Sage Creek (free, bison)"
   sleep_type: 'hotel' | 'camp'
+  fills_fast?: boolean  // camp nights that book out fast (high demand)
   mapCenter: [number, number]
   mapZoom: number
 }
@@ -24,6 +25,7 @@ export interface MapMarker {
   lng: number
   type: 'park' | 'charger' | 'camp' | 'city' | 'hotel'
   day?: string          // e.g. "Day 5"
+  fillsFast?: boolean   // camp nights that book out fast
   notes?: string
   tags?: string[]
 }

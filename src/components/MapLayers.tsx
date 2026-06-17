@@ -11,6 +11,9 @@ export const MARKER_COLOR: Record<MapMarker['type'], string> = {
   city:    '#aaaaaa',
 }
 
+// Amber color for fills-fast camps
+const FILL_FAST_COLOR = '#e2b96f'
+
 interface Props {
   markers: MapMarker[]
   route: [number, number][]
@@ -37,14 +40,15 @@ export function MapLayers({ markers, route, routeSplitIndex, filter }: Props) {
           />
         </>
       )}
-      {markers.filter(m => m.type !== 'city').filter(m => filter ? filter(m) : true).map(marker => (
-        <CircleMarker
+      {markers.filter(m => m.type !== 'city').filter(m => filter ? filter(m) : true).map(marker => {
+        const markerColor = marker.fillsFast ? FILL_FAST_COLOR : MARKER_COLOR[marker.type]
+        return <CircleMarker
           key={marker.id}
           center={[marker.lat, marker.lng]}
           radius={8}
           pathOptions={{
-            color: MARKER_COLOR[marker.type],
-            fillColor: MARKER_COLOR[marker.type],
+            color: markerColor,
+            fillColor: markerColor,
             fillOpacity: 0.9,
             weight: 1.5,
           }}
@@ -53,7 +57,7 @@ export function MapLayers({ markers, route, routeSplitIndex, filter }: Props) {
             <MarkerPopup marker={marker} />
           </Popup>
         </CircleMarker>
-      ))}
+      })}
     </>
   )
 }

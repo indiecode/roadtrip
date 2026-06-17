@@ -5,24 +5,33 @@ export function parseDayTable(block: string): Day[] {
   const tableLines = lines.filter(
     l => l.startsWith('|') && !l.match(/^\|[-\s|]+$/)
   )
-  return tableLines
-    .slice(1)
-    .map(line => {
-      const cells = line.split('|').slice(1, -1).map(c => c.trim())
-      if (cells.length < 4) return null
-      const [day, route, charge, sleep] = cells
-      const cleanDay = day.replace(/\*\*/g, '').trim()
-      if (!cleanDay || cleanDay === 'Day') return null
-      const cleanSleep = sleep.replace(/\*\*/g, '').trim()
-      return {
-        day: cleanDay,
-        route: route.replace(/\*\*/g, '').trim(),
-        charge: charge.replace(/\*\*/g, '').trim(),
-        sleep: cleanSleep,
-        sleep_type: sleep.includes('🏕') ? 'camp' : 'hotel',
-      } satisfies Day
-    })
-    .filter((d): d is Day => d !== null)
+  const parsed: Day[] = []
+  for (const line of tableLines.slice(1)) {
+    const cells = line.split('|').slice(1, -1).map(c => c.trim())
+    if (cells.length < 4) continue
+    const [day, route, charge, sleep] = cells
+    const cleanDay = day.replace(/\*\*/g, '').trim()
+    if (!cleanDay || cleanDay === 'Day') continue
+    const cleanSleep = sleep.replace(/\*\*/g, '').trim()
+    const fillsFast = sleep.includes('⏳')
+    const finalSleep = fillsFast ? cleanSleep.replace('⏳', '').trim() : cleanSleep
+    // Detect camp nights by either the 🏕 emoji or the word "Camping" in the sleep text
+    // Use String.fromCodePoint to ensure the correct emoji character
+    const campsiteEmoji = String.fromCodePoint(0x1f3d5)
+    const isCamp = sleep.includes(campsiteEmoji) || sleep.includes("Camping") || sleep.includes("camping")
+    const parsedDay: Day = {
+      day: cleanDay,
+      route: route.replace(/\*\*/g, '').trim(),
+      charge: charge.replace(/\*\*/g, '').trim(),
+      sleep: finalSleep,
+      sleep_type: isCamp ? 'camp' : 'hotel',
+      fills_fast: fillsFast,
+      mapCenter: [0, 0],  // will be filled by computeDayGeometry
+      mapZoom: 6,          // default zoom level
+    }
+    parsed.push(parsedDay)
+  }
+  return parsed
 }
 
 export function parseStageBlock(block: string): Stage {
