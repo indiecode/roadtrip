@@ -30,7 +30,7 @@
           "day": "2",
           "route": "Watkins Glen → Cleveland, OH (~5–5.5 hr; back to I-90 via Geneva/Waterloo, west through Buffalo & Erie)",
           "charge": "Dense I-90 Superchargers",
-          "sleep": "Cleveland hotel (cheap, easy)",
+          "sleep": "Cleveland hotel — suburban chain (Independence/Beachwood) or near I-90/I-271, not downtown budget",
           "sleep_type": "hotel",
           "mapCenter": [
             41.4993,
@@ -54,7 +54,7 @@
           "day": "4",
           "route": "Cleveland → Chicago area — transit day",
           "charge": "Frequent along I-90",
-          "sleep": "Chicago-area hotel (easy)",
+          "sleep": "Chicago-area hotel — suburban (Schaumburg/Naperville/near I-90), not city budget",
           "sleep_type": "hotel",
           "mapCenter": [
             41.8781,
@@ -90,11 +90,11 @@
           "day": "7",
           "route": "Sioux Falls → Badlands NP — arrive afternoon, sunset over spires",
           "charge": "Rapid City / Wall area",
-          "sleep": "🏕 Sage Creek (free, bison)",
+          "sleep": "🏕 Badlands/White River KOA (Interior — full hookups, showers; 50-amp site charges overnight)",
           "sleep_type": "camp",
           "mapCenter": [
-            43.963766666666665,
-            -102.70346666666666
+            43.96795,
+            -102.78535
           ],
           "mapZoom": 6
         },
@@ -183,11 +183,11 @@
           "day": "16",
           "route": "Yellowstone → Grand Teton — short drive south",
           "charge": "Jackson Supercharger",
-          "sleep": "🏕 Bridger-Teton NF dispersed",
+          "sleep": "🏕 Colter Bay RV Park or Snake River KOA, Jackson (full hookups; 50-amp overnight charge)",
           "sleep_type": "camp",
           "mapCenter": [
-            43.5901,
-            -110.64806666666668
+            43.635149999999996,
+            -110.7221
           ],
           "mapZoom": 6
         },
@@ -195,7 +195,7 @@
           "day": "17–18",
           "route": "Grand Teton (2 days) — Cascade Canyon, Jenny Lake, Delta Lake",
           "charge": "Jackson Supercharger; Level 2 at Signal Mtn / Colter Bay",
-          "sleep": "🏕 Bridger-Teton dispersed + 1 Jackson hotel",
+          "sleep": "🏕 Colter Bay RV Park / Snake River KOA, Jackson (full hookups, 50-amp) + 1 Jackson hotel",
           "sleep_type": "camp",
           "mapCenter": [
             43.7904,
@@ -264,7 +264,7 @@
           "day": "24–25",
           "route": "San Juans (2 days) — Ouray, Silverton, alpine hikes (\"Switzerland of America\")",
           "charge": "Durango / Montrose",
-          "sleep": "Mountain-town hotel + 1 🏕 NF camp",
+          "sleep": "Mountain-town hotel + 1 🏕 Ouray Riverside Resort & RV Park (full hookups, 50-amp)",
           "sleep_type": "camp",
           "mapCenter": [
             38.0228,
@@ -285,7 +285,7 @@
           "day": "26",
           "route": "Colorado → Moab — drive to red-rock country",
           "charge": "Moab Supercharger",
-          "sleep": "🏕 BLM along Hwy 128 / 313",
+          "sleep": "🏕 Moab KOA or Sun Outdoors Moab (full hookups; 50-amp overnight charge)",
           "sleep_type": "camp",
           "mapCenter": [
             38.5733,
@@ -297,7 +297,7 @@
           "day": "27–28",
           "route": "Arches & Canyonlands — Delicate Arch (sunrise), Devils Garden, Mesa Arch, Island in the Sky",
           "charge": "Moab Supercharger",
-          "sleep": "🏕 Moab BLM + 1 Moab hotel",
+          "sleep": "🏕 Moab KOA / Portal RV Resort (full hookups, 50-amp) + 1 Moab hotel",
           "sleep_type": "camp",
           "mapCenter": [
             38.53,
@@ -321,7 +321,7 @@
           "day": "30",
           "route": "Capitol Reef → Bryce — uncrowded gem, then Bryce",
           "charge": "Hurricane / Beaver area",
-          "sleep": "🏕 Dixie NF dispersed near Bryce",
+          "sleep": "🏕 Ruby's Inn RV Park, Bryce (full hookups, showers, store; 50-amp overnight charge)",
           "sleep_type": "camp",
           "mapCenter": [
             37.1753,
@@ -333,7 +333,7 @@
           "day": "31",
           "route": "Bryce Canyon — Navajo / Queens Garden combo loop",
           "charge": "Beaver / Hurricane",
-          "sleep": "🏕 Dixie NF dispersed",
+          "sleep": "🏕 Ruby's Inn RV Park, Bryce (full hookups, 50-amp)",
           "sleep_type": "camp",
           "mapCenter": [
             37.593,
@@ -345,11 +345,11 @@
           "day": "32–33",
           "route": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
           "charge": "Hurricane Supercharger; Level 2 in Springdale",
-          "sleep": "Springdale hotel (or 1 NF camp)",
-          "sleep_type": "hotel",
+          "sleep": "Springdale hotel (or 1 🏕 Ouray Riverside Resort & RV Park or Sequoia RV Ranch — full hookups, 50-amp)",
+          "sleep_type": "camp",
           "mapCenter": [
-            37.2434,
-            -113.01215
+            36.99106666666667,
+            -114.86336666666666
           ],
           "mapZoom": 8
         }
@@ -366,7 +366,7 @@
           "day": "34",
           "route": "Zion → Las Vegas → Nevada interior — I-15 to Vegas (last dense hub), then US-95 north",
           "charge": "Hurricane (full) → Las Vegas → Beatty (8 stalls)",
-          "sleep": "Las Vegas or Beatty hotel",
+          "sleep": "Las Vegas (chain on/near the Strip or off I-15 — avoid cheap off-Strip motels) or Beatty hotel",
           "sleep_type": "hotel",
           "mapCenter": [
             36.538799999999995,
@@ -378,7 +378,7 @@
           "day": "35",
           "route": "Nevada → Eastern Sierra (US-395) — up through Tonopah, cut to 395 toward Bishop/Mammoth",
           "charge": "Tonopah (8 stalls) → Bishop → Mammoth Lakes",
-          "sleep": "Bishop or Mammoth hotel (or 🏕 NF camp)",
+          "sleep": "Bishop or Mammoth hotel (or 🏕 Mammoth Mountain RV Park / Highlands RV Park Bishop — full hookups, 50-amp)",
           "sleep_type": "camp",
           "mapCenter": [
             37.6931,
@@ -402,8 +402,8 @@
           "sleep": "Three Rivers or Fresno hotel",
           "sleep_type": "hotel",
           "mapCenter": [
-            36.610575,
-            -119.050025
+            36.65196666666666,
+            -119.21143333333333
           ],
           "mapZoom": 6
         },
@@ -411,7 +411,7 @@
           "day": "37–38",
           "route": "Sequoia & Kings Canyon (2 days) — General Sherman, Moro Rock, Cedar Grove",
           "charge": "Visalia / Fresno",
-          "sleep": "Hotel + 1 🏕 NF camp",
+          "sleep": "Hotel + 1 🏕 Sequoia RV Ranch, Three Rivers (full hookups, 50-amp)",
           "sleep_type": "camp",
           "mapCenter": [
             36.4864,
@@ -468,7 +468,7 @@
           "day": "45–46",
           "route": "North to Redwood NP — coast redwoods, tide pools, sea stacks",
           "charge": "US-101 corridor",
-          "sleep": "Coastal hotel + 1 🏕 redwoods camp",
+          "sleep": "Coastal hotel + 1 🏕 Klamath/Redwoods KOA (full hookups, 50-amp)",
           "sleep_type": "camp",
           "mapCenter": [
             41.2132,
@@ -585,7 +585,7 @@
           "day": "57–58",
           "route": "Glacier NP (2 days) — Going-to-the-Sun Rd, Highline, Grinnell Glacier, Avalanche Lake",
           "charge": "Charge FULL in Kalispell; day-trip in — no fast charging in park",
-          "sleep": "Kalispell hotel; or 🏕 east-side camp",
+          "sleep": "Kalispell hotel; or 🏕 West Glacier KOA (west) / St. Mary KOA (east — 50-amp solves the east-side charging gap)",
           "sleep_type": "camp",
           "mapCenter": [
             48.6961,
@@ -597,7 +597,7 @@
           "day": "59",
           "route": "Buffer / Two Medicine / Many Glacier — hold loose for weather or a place you love",
           "charge": "Kalispell",
-          "sleep": "🏕 Hotel or camp",
+          "sleep": "🏕 West Glacier KOA or Johnson's of St. Mary RV (full hookups, 50-amp)",
           "sleep_type": "camp",
           "mapCenter": [
             48.6961,
@@ -751,18 +751,6 @@
       ]
     },
     {
-      "id": "sage-creek",
-      "name": "Sage Creek",
-      "lat": 43.9554,
-      "lng": -102.5397,
-      "type": "camp",
-      "day": "Day 7",
-      "notes": "Sioux Falls → Badlands NP — arrive afternoon, sunset over spires",
-      "tags": [
-        "Boston to the Black Hills"
-      ]
-    },
-    {
       "id": "custer",
       "name": "Custer",
       "lat": 43.7666,
@@ -840,18 +828,6 @@
       "lat": 43.4799,
       "lng": -110.7624,
       "type": "charger",
-      "day": "Day 16",
-      "notes": "Yellowstone → Grand Teton — short drive south",
-      "tags": [
-        "Yellowstone & Grand Teton"
-      ]
-    },
-    {
-      "id": "bridger-teton",
-      "name": "Bridger-Teton",
-      "lat": 43.5,
-      "lng": -110.5,
-      "type": "camp",
       "day": "Day 16",
       "notes": "Yellowstone → Grand Teton — short drive south",
       "tags": [
@@ -1007,7 +983,19 @@
       "name": "Springdale",
       "lat": 37.1886,
       "lng": -112.998,
-      "type": "hotel",
+      "type": "camp",
+      "day": "Day 32–33",
+      "notes": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
+      "tags": [
+        "Utah's Red Rock"
+      ]
+    },
+    {
+      "id": "sequoia-np",
+      "name": "Sequoia NP",
+      "lat": 36.4864,
+      "lng": -118.5658,
+      "type": "park",
       "day": "Day 32–33",
       "notes": "Zion (2 days) — The Narrows, Angels Landing (lottery!), Observation Pt",
       "tags": [
@@ -1080,18 +1068,6 @@
       "lat": 36.3302,
       "lng": -119.2921,
       "type": "charger",
-      "day": "Day 36",
-      "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
-      "tags": [
-        "Sequoia, Kings Canyon & Yosemite"
-      ]
-    },
-    {
-      "id": "sequoia-np",
-      "name": "Sequoia NP",
-      "lat": 36.4864,
-      "lng": -118.5658,
-      "type": "park",
       "day": "Day 36",
       "notes": "Sierra → Sequoia/Kings Canyon — drive in to the big trees",
       "tags": [
